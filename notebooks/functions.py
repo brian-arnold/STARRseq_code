@@ -10,6 +10,13 @@ from collections import defaultdict
 import pandas as pd
 import pyranges as pr
 import itertools
+import glob
+
+def get_files(dir, regex):
+    files = glob.glob(f'{dir}/{regex}')
+    files = [f.split('/')[-1] for f in files]
+    # files = [f.split('__')[-1] for f in files]
+    return [f'{dir}/{f}' for f in files]
 
 def load_genrich_pileup_files(genrich_pileup_files, chr1_test=False):
   pileup_dfs = [] # list of pileup dataframes
@@ -20,6 +27,8 @@ def load_genrich_pileup_files(genrich_pileup_files, chr1_test=False):
       df[['Start', 'End', 'experimental', 'control', '-log(p)']] = df[['Start', 'End', 'experimental', 'control', '-log(p)']].apply(pd.to_numeric)
       df['fold_diff'] = df['experimental']/df['control']
       df['midpoint'] = (df['End'] - df['Start'])/2 + df['Start']
+      df['bases'] = df['End'] - df['Start']
+      df = df[['Chromosome', 'Start', 'End', 'bases', 'midpoint', 'experimental', 'control', 'fold_diff', '-log(p)']]
       if chr1_test:
           df = df[df['Chromosome'] == "NMEL_chr_1"]
       pileup_dfs.append(df)
