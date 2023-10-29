@@ -1,0 +1,6 @@
+SAMPLES
+['2597__Aaur-F3-input', '2597__Aaur-F1-RNA', '2597__Aaur-F2-RNA', '2597__Aaur-F3-RNA', '2597__Aaur-F2-input', '2597__Aaur-F1-input']
+POPLS
+('2597__Aaur', '2597__Aaur', '2597__Aaur')
+FLASKS
+('F3', 'F1', 'F2')

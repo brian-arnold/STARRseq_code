@@ -1,0 +1,326 @@
+# snakefiles are "marked up" python code
+
+# 1) import any extra scripts or libraries
+# this loads the config yaml and generates a dictionary, config
+#configfile: 'config.yaml'
+# I like to set this as a separate variable because I use it a lot
+paths = config['paths']
+# set working directory from config 
+workdir: paths['working_dir']
+
+# 2) find all input files:
+wc = glob_wildcards(paths['raw_fastq'])
+samples = {sample for sample in wc.sample if 'unmatched' not in sample}
+samples = list(samples)
+print("SAMPLES")
+print(samples)
+
+# since peak callers use both the RNA and the DNA control file ("input"), we need to
+# isolate labels to give the correct file pair to the peak callers 
+paths['rna'] = paths['sorted_bam'].replace("{sample}", "{popl}-{flask}-RNA")
+paths['dna'] = paths['sorted_bam'].replace("{sample}", "{popl}-{flask}-input")
+
+paths['rna_nsort'] = paths['name_sorted_bam'].replace("{sample}", "{popl}-{flask}-RNA")
+paths['dna_nsort'] = paths['name_sorted_bam'].replace("{sample}", "{popl}-{flask}-input")
+
+wc = glob_wildcards(paths['raw_fastq'].replace("{sample}", "{popl}-{flask}-RNA"))
+poplflaskrep = {(popl, fl) for popl, fl in zip(wc.popl, wc.flask)}
+popls, flasks = zip(*poplflaskrep)
+
+print("POPLS")
+print(popls)
+print("FLASKS")
+print(flasks)
+
+# 3) build final output
+
+localrules:
+    all,
+
+# 4) create rule "all" for default (final) outputs
+rule all:
+    input:
+        expand([paths['MACS2'] + '_peaks.narrowPeak'],
+	        zip, popl=popls, flask=flasks),
+        expand([paths['genrich_single'] + '_peaks.narrowPeak'],
+	        zip, popl=popls, flask=flasks),   
+        expand([paths['genrich_single'] + '_pileups.txt'],
+	        zip, popl=popls, flask=flasks),                       
+        expand([paths['genrich_multi'] + '_peaks.narrowPeak'],
+	        popl=popls),  
+        # expand([paths['genrich_single_dedup'] + '_peaks.narrowPeak'],
+	    #     zip, popl=popls, flask=flasks),   
+        # expand([paths['genrich_single_dedup'] + '_pileups.txt'],
+	    #     zip, popl=popls, flask=flasks),                       
+        # expand([paths['genrich_multi_dedup'] + '_peaks.narrowPeak'],
+	    #     popl=popls),
+        expand(paths['name_sorted_bam'],
+            sample=samples),
+        expand(paths['indexed_bam'],
+            sample=samples),
+        'deeptools/coverage.png',
+        'deeptools/multiBamSummary.npz',
+        'deeptools/corr_plot.png',
+        'deeptools/pca.png',
+        'deeptools/pca_rowCenter.png'
+
+# 5) build rules following pipeline with input functions above as needed
+
+# parital format of wildcards
+def pformat(string, **args):
+    return expand(string, **args, allow_missing=True)
+
+rule trim:
+     input:
+         in1=expand(paths['raw_fastq'], read=1, allow_missing=True),
+         in2=expand(paths['raw_fastq'], read=3, allow_missing=True)
+         # settings allow_missing will keep other wildcards unformatted
+
+     output:
+         out1=pformat(paths['trimmed_fastq'], read=1),
+         out2=pformat(paths['trimmed_fastq'], read=3),
+         html=paths['html_out'],
+         json=paths['json_out']
+
+     singularity: config['containers']['fastp']
+
+     threads:20
+
+     resources:
+         mem=8000,   # MB
+         time=90,    # minutes
+
+     shell:
+         'fastp '
+             '-i {input.in1} '
+             '-I {input.in2} '
+             '-o {output.out1} '
+             '-O {output.out2} '
+             '-h {output.html} '
+             '-j {output.json} '
+             '--thread {threads}'
+
+rule bwa:
+    input:
+        reference=paths['reference_fna'],
+        index=f'{paths["reference_fna"]}.bwt',
+        fastq1=pformat(paths['trimmed_fastq'], read=1),
+        fastq2=pformat(paths['trimmed_fastq'], read=3),
+
+    output:
+        paths['aligned_sam']
+
+    singularity: config['containers']['bwa']
+
+    threads: 20
+
+    resources:
+        mem=12000,  # MB
+        time=1440,  # minutes
+
+    shell:
+        'bwa mem '
+            '-M -t {threads} '
+            '{input.reference} '
+            '{input.fastq1} '
+            '{input.fastq2} '
+            '> {output}'
+
+rule sort_bam:
+    input:
+        paths['aligned_sam']
+
+    output:
+        sort=paths['sorted_bam'],
+        index=paths['indexed_bam']
+
+    singularity: config['containers']['samtools']
+
+    threads: 1
+
+    resources:
+        mem=2000,  # MB
+        time=560,  # minutes
+
+    shell:
+        'samtools sort {input} > {output.sort} \n'
+        'samtools index {output.sort} > {output.index}'
+
+rule name_sort_bam:
+   input:
+       paths['sorted_bam']
+
+   output:
+       paths['name_sorted_bam']
+
+   singularity: config['containers']['samtools']
+
+   threads: 1
+
+   resources:
+       mem=8000,  # MB
+       time=560,  # minutes
+
+   shell:
+       'samtools sort -n {input} > {output}'
+
+rule deeptools:
+    input:
+        expand(paths['sorted_bam'], sample=samples)
+
+    output:
+        cov='deeptools/coverage.png',
+        sum='deeptools/multiBamSummary.npz',
+        cor='deeptools/corr_plot.png',
+        pca='deeptools/pca.png',
+        pca2='deeptools/pca_rowCenter.png'
+
+    singularity: config['containers']['deeptools']
+
+    threads: 20
+
+    resources:
+        mem=8000,  # MB
+        time=560,  # minutes
+
+    shell:
+        'plotCoverage -b {input} --plotFile {output.cov} --skipZeros -p 4 --extendReads \n'
+        'multiBamSummary bins --bamfiles {input} -o {output.sum} -p 4 --extendReads \n'
+        'plotCorrelation --corData {output.sum} --corMethod spearman --whatToPlot heatmap -o {output.cor} --skipZeros \n'
+        'plotPCA --corData {output.sum} -o {output.pca} \n'
+        'plotPCA --corData {output.sum} -o {output.pca2} --rowCenter'
+
+#rule coverage:
+#    input:
+#        BAMs=paths['sorted_bam'],
+#	windows=paths['windows_file']
+#
+#    output:
+#        paths['bam_cov']
+#
+#    singularity: config['containers']['bedtools']
+#    
+#    resources:
+#        mem=16000,
+#        time=120
+#
+#    shell:
+#        'bedtools coverage -sorted -a {input.windows} -b {input.BAMs} > {output}'
+
+rule MACS2:
+    input:
+        rna=paths['rna'],
+        dna=paths['dna']
+
+    output:
+        paths['MACS2'] + '_peaks.narrowPeak'
+
+    singularity: config['containers']['macs2']
+
+    params:
+        flaskrep=paths['MACS2'],
+        gsize=config['genome_size']
+
+    resources:
+        mem=16000,
+        time=560
+
+    shell:
+        'macs2 callpeak -t {input.rna} -c {input.dna} '
+            '-f BAMPE -g {params.gsize} -n {params.flaskrep} --keep-dup all -q 1 --min-length 100'
+
+
+rule genrich_single:
+    input:
+        rna=paths['rna_nsort'],
+        dna=paths['dna_nsort']
+
+    output:
+        peaks=paths['genrich_single'] + '_peaks.narrowPeak',
+        pileups=paths['genrich_single'] + '_pileups.txt',
+
+    singularity: config['containers']['genrich']
+
+    params:
+        flaskrep=paths['genrich_single'],
+        # repeat_bed=paths['repeat_regions']
+
+    resources:
+        mem=16000,
+        time=560
+
+    shell:
+        # -q is q value threshold, -a is area under curve threshold, -l is minimum length of peak, -m is MQ threshold
+        # 'Genrich -t {input.rna} -c {input.dna} -o {output.peaks} -k {output.pileups} -m 20 -q 1 -a 0 -l 100 -E {params.repeat_bed}'    
+        'Genrich -t {input.rna} -c {input.dna} -o {output.peaks} -k {output.pileups} -m 20 -q 1 -a 0 -l 100'    
+
+rule genrich_multi:
+    input:
+        rna=expand(paths['rna_nsort'], zip, popl=popls, flask=flasks),
+        dna=expand(paths['dna_nsort'], zip, popl=popls, flask=flasks)
+
+    output:
+        paths['genrich_multi'] + '_peaks.narrowPeak'
+
+    singularity: config['containers']['genrich']
+
+    params:
+        rna=",".join(expand(paths['rna_nsort'], zip, popl=popls, flask=flasks)),
+        dna=",".join(expand(paths['dna_nsort'], zip, popl=popls, flask=flasks)),
+        flaskrep=paths['genrich_multi'],
+        # repeat_bed=paths['repeat_regions']
+
+    resources:
+        mem=16000,
+        time=560
+
+    shell:
+        # 'Genrich -t {params.rna} -c {params.dna} -o {output} -m 20 -q 1 -a 0 -l 100 -E {params.repeat_bed}'
+        'Genrich -t {params.rna} -c {params.dna} -o {output} -m 20 -q 1 -a 0 -l 100'
+
+
+# rule genrich_single_dedup:
+#     input:
+#         rna=paths['rna_nsort'],
+#         dna=paths['dna_nsort']
+
+#     output:
+#         peaks=paths['genrich_single_dedup'] + '_peaks.narrowPeak',
+#         pileups=paths['genrich_single_dedup'] + '_pileups.txt',
+
+#     singularity: config['containers']['genrich']
+
+#     params:
+#         flaskrep=paths['genrich_single_dedup'],
+#         gsize=config['genome_size']
+
+#     resources:
+#         mem=16000,
+#         time=560
+
+#     shell:
+#         # -q is q value threshold, -a is area under curve threshold, -l is minimum length of peak, -m is MQ threshold
+#         'Genrich -t {input.rna} -c {input.dna} -o {output.peaks} -k {output.pileups} -m 20 -q 1 -a 0 -l 100 -r'    
+
+# rule genrich_multi_dedup:
+#     input:
+#         rna=expand(paths['rna_nsort'], zip, popl=popls, flask=flasks),
+#         dna=expand(paths['dna_nsort'], zip, popl=popls, flask=flasks)
+
+#     output:
+#         paths['genrich_multi_dedup'] + '_peaks.narrowPeak'
+
+#     singularity: config['containers']['genrich']
+
+#     params:
+#         rna=",".join(expand(paths['rna_nsort'], zip, popl=popls, flask=flasks)),
+#         dna=",".join(expand(paths['dna_nsort'], zip, popl=popls, flask=flasks)),
+#         flaskrep=paths['genrich_multi_dedup'],
+#         gsize=config['genome_size']
+
+#     resources:
+#         mem=16000,
+#         time=560
+
+#     shell:
+#         'Genrich -t {params.rna} -c {params.dna} -o {output} -m 20 -q 1 -a 0 -l 100 -r'

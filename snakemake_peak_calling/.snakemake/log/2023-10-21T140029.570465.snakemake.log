@@ -1,0 +1,3 @@
+KeyError in file /Genomics/kocherlab/bjarnold/snakemake/Snakefile, line 7:
+'paths'
+  File "/Genomics/kocherlab/bjarnold/snakemake/Snakefile", line 7, in <module>

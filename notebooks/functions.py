@@ -19,20 +19,25 @@ def get_files(dir, regex):
     return [f'{dir}/{f}' for f in files]
 
 def load_genrich_pileup_files(genrich_pileup_files, chr1_test=False):
-  pileup_dfs = [] # list of pileup dataframes
-  for f in genrich_pileup_files:
-      df = pd.read_csv(f, sep="\t", header=1)
-      df.columns = ["Chromosome", "Start", "End", "experimental", "control", "-log(p)"]
-      # change experimental, control, and -log(p) columns to numeric
-      df[['Start', 'End', 'experimental', 'control', '-log(p)']] = df[['Start', 'End', 'experimental', 'control', '-log(p)']].apply(pd.to_numeric)
-      df['fold_diff'] = df['experimental']/df['control']
-      df['midpoint'] = (df['End'] - df['Start'])/2 + df['Start']
-      df['bases'] = df['End'] - df['Start']
-      df = df[['Chromosome', 'Start', 'End', 'bases', 'midpoint', 'experimental', 'control', 'fold_diff', '-log(p)']]
-      if chr1_test:
-          df = df[df['Chromosome'] == "NMEL_chr_1"]
-      pileup_dfs.append(df)
-  return pileup_dfs
+    pileup_dfs = [] # list of pileup dataframes
+    for f in genrich_pileup_files:
+        df = pd.read_csv(f, sep="\t", header=1)
+        df.columns = ["Chromosome", "Start", "End", "experimental", "control", "-log(p)"]
+        # change experimental, control, and -log(p) columns to numeric
+        df[['Start', 'End', 'experimental', 'control', '-log(p)']] = df[['Start', 'End', 'experimental', 'control', '-log(p)']].apply(pd.to_numeric)
+        df['fold_diff'] = df['experimental']/df['control']
+        df['midpoint'] = (df['End'] - df['Start'])/2 + df['Start']
+        df['bases'] = df['End'] - df['Start']
+        df = df[['Chromosome', 'Start', 'End', 'bases', 'midpoint', 'experimental', 'control', 'fold_diff', '-log(p)']]
+        if chr1_test:
+            df = df[df['Chromosome'] == "NMEL_chr_1"]
+        # For any region/interval in the exclude list, 0's will be reported in experiment and control columns (making fold_diff NA), and
+        # NA will be reported in in the -log(p) column
+        # exclude NA values in -log(p) column
+        df = df[df['-log(p)'].notna()]
+        df = df[df['fold_diff'].notna()]
+        pileup_dfs.append(df)
+    return pileup_dfs
 
 def load_peak_caller_results(files, chr1_test=False):
     df_list = []
@@ -45,6 +50,19 @@ def load_peak_caller_results(files, chr1_test=False):
             df = df[df['Chromosome'] == "NMEL_chr_1"]
         df_list.append(df)
     return df_list
+
+def load_repeat_modeler_intervals(repeat_file):
+    lines=[]
+    with open(repeat_file) as f:
+        lines = f.readlines()
+        [l.strip() for l in lines]
+    # convert lines to data frame
+    repeat_df = pd.DataFrame([l.split('\t') for l in lines])
+    # merge overlapping interval into one superinterval
+    repeat_pr = pr.PyRanges(chromosomes=repeat_df[0],
+                    starts=repeat_df[1],
+                    ends=repeat_df[2])
+    return repeat_pr.merge()
 
 def filter_by_sig_effect_size(dfs, qval_threshold, effect_size_threshold):
     for i,m in enumerate(dfs):
@@ -127,3 +145,21 @@ def get_peak_overlaps_within_method_between_reps(df_list, bioreps, frac_overlap)
         results.append((len(pr1), len(pr2), len(cov)))  
     return results 
 
+
+def overlaps_per_replicate(dfs):
+    # use pyranges 'count_overlaps' to get intervals supported by one, two, or all three biological replicates
+    p1 = pr.PyRanges(chromosomes=dfs[0].Chromosome,
+                    starts=dfs[0].Start,
+                    ends=dfs[0].End)
+    p2 = pr.PyRanges(chromosomes=dfs[1].Chromosome,
+                    starts=dfs[1].Start,
+                    ends=dfs[1].End)
+    p3 = pr.PyRanges(chromosomes=dfs[2].Chromosome,
+                    starts=dfs[2].Start,
+                    ends=dfs[2].End)
+
+    gr = {"p1":p1, "p2":p2, "p3":p3}
+    overlaps_per_rep = pr.count_overlaps(gr)
+    overlaps_per_rep = overlaps_per_rep.df
+    overlaps_per_rep['combined'] = overlaps_per_rep['p1'].astype(str) + overlaps_per_rep['p2'].astype(str) + overlaps_per_rep['p3'].astype(str)
+    return overlaps_per_rep

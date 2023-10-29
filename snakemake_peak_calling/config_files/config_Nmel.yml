@@ -1,0 +1,65 @@
+---
+# this yaml contains all paths and urls specific to a run
+# the product of these will be generated
+#samples:
+#  - "S2"
+
+#Sinv
+#genome_size:"3.8e8"
+#Amel
+#species: "Amel"
+#genome_size: "2.5e8"
+genome_size: 2.99e8
+
+# I suggest you either use full paths for all files or specify the
+# working directory here
+paths:
+  working_dir: "/Genomics/kocherlab/bjarnold/Nmel/"
+  reference_fna: "/Genomics/kocherlab/bmjones/genomes/NMEL/NMEL_genome_v2.1.0.fasta"
+  reference_chrom_sizes: "/Genomics/kocherlab/bmjones/genomes/NMEL/chrom.sizes.txt"
+  repeat_regions: "/Genomics/kocherlab/bjarnold/data/repeat_modeler_intervals/NMEL_repeat_elements.bed"
+
+  windows_file: "windows/genome_windows_200bp.bed"
+
+  raw_fastq: "/Genomics/kocherlab/bmjones/STARRseq/Nmel/FASTQ/{sample}-read-{read}.fastq.gz"
+
+  trimmed_fastq: "FASTQ_trimmed/{sample}_{read}.TRIMMED.fastq.gz"
+  html_out: "fastp_output/{sample}.html"
+  json_out: "fastp_output/{sample}.json"
+
+  aligned_sam: "SAMs/{sample}.sam"
+  sorted_bam: "BAMs_sorted/{sample}_csorted.bam"
+  indexed_bam: "BAMs_sorted/{sample}_csorted.bam.bai"
+  name_sorted_bam: "BAMs_nsorted/{sample}_nsorted.bam"
+
+  bam_cov: "windows/{sample}.cov"
+
+  MACS2: "MACS2/{popl}-{flask}"
+  genrich_single: "genrich_single/{popl}-{flask}"
+  genrich_multi: "genrich_multi/{popl}"
+  genrich_single_dedup: "genrich_single_dedup/{popl}-{flask}"
+  genrich_multi_dedup: "genrich_multi_dedup/{popl}"  
+
+# placing containers here makes it easy to change versions if needed
+# if you want multiple versions just specify in the variable name as well
+containers:
+  # see here for containers: https://hub.docker.com/, https://biocontainers.pro/registry
+  fastp: "docker://biocontainers/fastp:v0.20.1_cv1"
+  bwa: "docker://biocontainers/bwa:v0.7.17_cv1"
+  samtools: "docker://mgibio/samtools-cwl:1.16.1"
+  picardtools: "docker://broadinstitute/picard:3.1.0"
+  bedtools: "docker://staphb/bedtools:2.31.0"
+  bedgraphtobigwig: "docker://quay.io/biocontainers/ucsc-bedgraphtobigwig:357--h35c10e6_3"
+  macs2: "docker://quay.io/biocontainers/macs2:2.2.9.1--py38he5da3d1_0"
+  deeptools: "docker://quay.io/biocontainers/deeptools:3.5.4--pyhdfd78af_0"
+  genrich: "docker://quay.io/biocontainers/genrich:0.6.1--he4a0461_4"
+
+# fastp, paired end using default minimum quality of 15,
+# auto detect adapters, cut right with window size of
+# 4 and mean quality of 15
+# the '>-' will concatenate lines with spaces between
+fastp_options: >-
+  --detect_adapter_for_pe
+  --cut_right
+  --cut_right_window_size 4
+  --cut_right_mean_quality 15
