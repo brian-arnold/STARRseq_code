@@ -1,6 +1,13 @@
+sample	mean	std	min	25%	50%	75%	max
+Avir-F2-RNA_csorted.bam	75.06	3159.02	0	22.0	42.0	72.0	1429871	
+Avir-F3-RNA_csorted.bam	83.00	3570.97	0	25.0	46.0	78.0	1608360	
+Avir-F1-RNA_csorted.bam	74.44	3240.10	0	22.0	42.0	70.0	1441364	
+Avir-F2-input_csorted.bam	78.65	2427.69	0	40.0	59.0	83.0	1175415	
+Avir-F3-input_csorted.bam	75.14	2321.31	0	38.0	56.0	80.0	1122590	
+Avir-F1-input_csorted.bam	87.31	2721.07	0	44.0	66.0	92.0	1308484	
 SAMPLES
-['Avir-F1-input', 'Avir-F3-input', 'Avir-F2-RNA', 'Avir-F2-input', 'Avir-F3-RNA', 'Avir-F1-RNA']
+['Avir-F2-RNA', 'Avir-F3-RNA', 'Avir-F1-RNA', 'Avir-F2-input', 'Avir-F3-input', 'Avir-F1-input']
 POPLS
 ('Avir', 'Avir', 'Avir')
 FLASKS
-('F3', 'F2', 'F1')
+('F1', 'F2', 'F3')

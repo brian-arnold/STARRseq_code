@@ -11,26 +11,20 @@
 ######
 # CHANGE OUT/ERR FILES TOO
 ######
+SPECIES=Nmel
 
-DIR=/Genomics/kocherlab/bjarnold/Nmel
-CONFIGFILE=${PWD}/config_files/config_Nmel.yml
-
-# DIR=/Genomics/kocherlab/bjarnold/Aaur
-# CONFIGFILE=${PWD}/config_files/config_Aaur.yml
-
-# DIR=/Genomics/kocherlab/bjarnold/Apur
-# CONFIGFILE=${PWD}/config_files/config_Apur.yml
-
-# DIR=/Genomics/kocherlab/bjarnold/Avir
-# CONFIGFILE=${PWD}/config_files/config_Avir.yml
+CONFIGFILE=${PWD}/config_files/config_${SPECIES}.yml
+BASEDIR=/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling
+DIR=${BASEDIR}/${SPECIES}
+mkdir -p ${DIR}
 
 cd ${DIR}
 source /Genomics/argo/users/bjarnold/miniforge3/etc/profile.d/conda.sh
 conda activate snakemake
 # for --singularity-args, list all parent directories containing subdirectories that have data or files the snakemake workflow needs to access
-snakemake --snakefile /Genomics/kocherlab/bjarnold/snakemake/Snakefile \
+snakemake --snakefile /Genomics/kocherlab/bjarnold/STARRseq/code/snakemake_peak_calling/Snakefile \
 --configfile ${CONFIGFILE} \
 -p --use-singularity \
---singularity-args "--bind /Genomics/kocherlab/bjarnold --bind /Genomics/kocherlab/bmjones --bind /Genomics/kocherlab/lab/data/GenomeReleases/official_release_v3.1" \
+--singularity-args "--bind /Genomics/kocherlab/bjarnold --bind /Genomics/kocherlab/lab/data/GenomeReleases/official_release_v2.1.1 --bind /Genomics/kocherlab/lab/data/GenomeReleases/official_release_v3.1" \
 --cores 20 \
---rerun-triggers mtime 
+--rerun-triggers mtime

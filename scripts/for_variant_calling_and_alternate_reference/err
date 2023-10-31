@@ -1,0 +1,160 @@
+Using GATK jar /Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar FastaAlternateReferenceMaker -R /Genomics/kocherlab/bjarnold/STARRseq/code/snakemake_snparcher/results/Nmel/data/genome/Nmel.fna -O /Genomics/kocherlab/bjarnold/STARRseq/data/alternate_references/Nmel.fasta -V /Genomics/kocherlab/bjarnold/STARRseq/data/VCFs/alternate_reference/01_filtered_within_sample_allele_frequency/Nmel.vcf.gz
+22:25:21.653 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+22:25:21.724 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:25:21.726 INFO  FastaAlternateReferenceMaker - The Genome Analysis Toolkit (GATK) v4.4.0.0
+22:25:21.726 INFO  FastaAlternateReferenceMaker - For support and documentation go to https://software.broadinstitute.org/gatk/
+22:25:21.726 INFO  FastaAlternateReferenceMaker - Executing as bjarnold@argo-2 on Linux v4.18.0-305.12.1.el8_4.x86_64 amd64
+22:25:21.726 INFO  FastaAlternateReferenceMaker - Java runtime: OpenJDK 64-Bit Server VM v17.0.9-internal+0-adhoc..src
+22:25:21.727 INFO  FastaAlternateReferenceMaker - Start Date/Time: October 30, 2023 at 10:25:21 PM EDT
+22:25:21.727 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:25:21.727 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:25:21.727 INFO  FastaAlternateReferenceMaker - HTSJDK Version: 3.0.5
+22:25:21.728 INFO  FastaAlternateReferenceMaker - Picard Version: 3.0.0
+22:25:21.728 INFO  FastaAlternateReferenceMaker - Built for Spark Version: 3.3.1
+22:25:21.728 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+22:25:21.728 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+22:25:21.728 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+22:25:21.728 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+22:25:21.728 INFO  FastaAlternateReferenceMaker - Deflater: IntelDeflater
+22:25:21.729 INFO  FastaAlternateReferenceMaker - Inflater: IntelInflater
+22:25:21.729 INFO  FastaAlternateReferenceMaker - GCS max retries/reopens: 20
+22:25:21.729 INFO  FastaAlternateReferenceMaker - Requester pays: disabled
+22:25:21.729 INFO  FastaAlternateReferenceMaker - Initializing engine
+22:25:22.114 INFO  FeatureManager - Using codec VCFCodec to read file file:///Genomics/kocherlab/bjarnold/STARRseq/data/VCFs/alternate_reference/01_filtered_within_sample_allele_frequency/Nmel.vcf.gz
+22:25:22.383 INFO  FastaAlternateReferenceMaker - Done initializing engine
+22:25:22.420 INFO  ProgressMeter - Starting traversal
+22:25:22.421 INFO  ProgressMeter -        Current Locus  Elapsed Minutes       Bases Processed     Bases/Minute
+22:25:32.462 INFO  ProgressMeter -      NMEL_chr_13:410              0.2              36391000      217519426.2
+22:25:42.459 INFO  ProgressMeter - NMEL_chr_11:11592551              0.3              86876000      260133745.9
+22:25:52.459 INFO  ProgressMeter -  NMEL_chr_8:12900431              0.5             144843000      289319528.6
+22:26:02.459 INFO  ProgressMeter -   NMEL_chr_5:1509012              0.7             201836000      302466656.7
+22:26:12.459 INFO  ProgressMeter -  NMEL_chr_3:24032894              0.8             260269000      312085614.9
+22:26:19.511 INFO  ProgressMeter - NMEL_unplaced_223:2710              1.0             298732867      313959923.3
+22:26:19.511 INFO  ProgressMeter - Traversal complete. Processed 298732867 total bases in 1.0 minutes.
+22:26:19.643 INFO  FastaAlternateReferenceMaker - Shutting down engine
+[October 30, 2023 at 10:26:19 PM EDT] org.broadinstitute.hellbender.tools.walkers.fasta.FastaAlternateReferenceMaker done. Elapsed time: 0.97 minutes.
+Runtime.totalMemory()=421085184
+Using GATK jar /Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar FastaAlternateReferenceMaker -R /Genomics/kocherlab/bjarnold/STARRseq/code/snakemake_snparcher/results/Aaur/data/genome/Aaur.fna -O /Genomics/kocherlab/bjarnold/STARRseq/data/alternate_references/Aaur.fasta -V /Genomics/kocherlab/bjarnold/STARRseq/data/VCFs/alternate_reference/01_filtered_within_sample_allele_frequency/Aaur.vcf.gz
+22:26:22.227 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+22:26:22.298 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:26:22.300 INFO  FastaAlternateReferenceMaker - The Genome Analysis Toolkit (GATK) v4.4.0.0
+22:26:22.300 INFO  FastaAlternateReferenceMaker - For support and documentation go to https://software.broadinstitute.org/gatk/
+22:26:22.300 INFO  FastaAlternateReferenceMaker - Executing as bjarnold@argo-2 on Linux v4.18.0-305.12.1.el8_4.x86_64 amd64
+22:26:22.300 INFO  FastaAlternateReferenceMaker - Java runtime: OpenJDK 64-Bit Server VM v17.0.9-internal+0-adhoc..src
+22:26:22.301 INFO  FastaAlternateReferenceMaker - Start Date/Time: October 30, 2023 at 10:26:22 PM EDT
+22:26:22.301 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:26:22.301 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:26:22.301 INFO  FastaAlternateReferenceMaker - HTSJDK Version: 3.0.5
+22:26:22.301 INFO  FastaAlternateReferenceMaker - Picard Version: 3.0.0
+22:26:22.301 INFO  FastaAlternateReferenceMaker - Built for Spark Version: 3.3.1
+22:26:22.302 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+22:26:22.302 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+22:26:22.302 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+22:26:22.302 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+22:26:22.302 INFO  FastaAlternateReferenceMaker - Deflater: IntelDeflater
+22:26:22.302 INFO  FastaAlternateReferenceMaker - Inflater: IntelInflater
+22:26:22.302 INFO  FastaAlternateReferenceMaker - GCS max retries/reopens: 20
+22:26:22.303 INFO  FastaAlternateReferenceMaker - Requester pays: disabled
+22:26:22.303 INFO  FastaAlternateReferenceMaker - Initializing engine
+22:26:22.458 INFO  FeatureManager - Using codec VCFCodec to read file file:///Genomics/kocherlab/bjarnold/STARRseq/data/VCFs/alternate_reference/01_filtered_within_sample_allele_frequency/Aaur.vcf.gz
+22:26:22.528 INFO  FastaAlternateReferenceMaker - Done initializing engine
+22:26:22.536 INFO  ProgressMeter - Starting traversal
+22:26:22.536 INFO  ProgressMeter -        Current Locus  Elapsed Minutes       Bases Processed     Bases/Minute
+22:26:32.562 INFO  ProgressMeter -   AAUR_chr_2:7824709              0.2              34271000      205626000.0
+22:26:42.536 INFO  ProgressMeter -   AAUR_chr_4:4612059              0.3              79641000      238923000.0
+22:26:52.589 INFO  ProgressMeter -       AAUR_chr_7:685              0.5             132249000      264031544.3
+22:27:02.689 INFO  ProgressMeter -      AAUR_chr_10:767              0.7             184520000      275732217.6
+22:27:12.688 INFO  ProgressMeter -  AAUR_chr_13:8154178              0.8             237274000      283865847.8
+22:27:22.688 INFO  ProgressMeter -  AAUR_chr_18:6453740              1.0             290209000      289475661.7
+22:27:28.270 INFO  ProgressMeter -    AAUR_chr_MT:16450              1.1             319489938      291625154.5
+22:27:28.270 INFO  ProgressMeter - Traversal complete. Processed 319489938 total bases in 1.1 minutes.
+22:27:28.524 INFO  FastaAlternateReferenceMaker - Shutting down engine
+[October 30, 2023 at 10:27:28 PM EDT] org.broadinstitute.hellbender.tools.walkers.fasta.FastaAlternateReferenceMaker done. Elapsed time: 1.11 minutes.
+Runtime.totalMemory()=368525312
+Using GATK jar /Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar FastaAlternateReferenceMaker -R /Genomics/kocherlab/bjarnold/STARRseq/code/snakemake_snparcher/results/Apur/data/genome/Apur.fna -O /Genomics/kocherlab/bjarnold/STARRseq/data/alternate_references/Apur.fasta -V /Genomics/kocherlab/bjarnold/STARRseq/data/VCFs/alternate_reference/01_filtered_within_sample_allele_frequency/Apur.vcf.gz
+22:27:31.153 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+22:27:31.215 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:27:31.217 INFO  FastaAlternateReferenceMaker - The Genome Analysis Toolkit (GATK) v4.4.0.0
+22:27:31.217 INFO  FastaAlternateReferenceMaker - For support and documentation go to https://software.broadinstitute.org/gatk/
+22:27:31.217 INFO  FastaAlternateReferenceMaker - Executing as bjarnold@argo-2 on Linux v4.18.0-305.12.1.el8_4.x86_64 amd64
+22:27:31.217 INFO  FastaAlternateReferenceMaker - Java runtime: OpenJDK 64-Bit Server VM v17.0.9-internal+0-adhoc..src
+22:27:31.218 INFO  FastaAlternateReferenceMaker - Start Date/Time: October 30, 2023 at 10:27:31 PM EDT
+22:27:31.218 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:27:31.218 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:27:31.218 INFO  FastaAlternateReferenceMaker - HTSJDK Version: 3.0.5
+22:27:31.218 INFO  FastaAlternateReferenceMaker - Picard Version: 3.0.0
+22:27:31.218 INFO  FastaAlternateReferenceMaker - Built for Spark Version: 3.3.1
+22:27:31.219 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+22:27:31.220 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+22:27:31.220 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+22:27:31.220 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+22:27:31.221 INFO  FastaAlternateReferenceMaker - Deflater: IntelDeflater
+22:27:31.221 INFO  FastaAlternateReferenceMaker - Inflater: IntelInflater
+22:27:31.221 INFO  FastaAlternateReferenceMaker - GCS max retries/reopens: 20
+22:27:31.221 INFO  FastaAlternateReferenceMaker - Requester pays: disabled
+22:27:31.221 INFO  FastaAlternateReferenceMaker - Initializing engine
+22:27:31.446 INFO  FeatureManager - Using codec VCFCodec to read file file:///Genomics/kocherlab/bjarnold/STARRseq/data/VCFs/alternate_reference/01_filtered_within_sample_allele_frequency/Apur.vcf.gz
+22:27:31.536 INFO  FastaAlternateReferenceMaker - Done initializing engine
+22:27:31.546 INFO  ProgressMeter - Starting traversal
+22:27:31.547 INFO  ProgressMeter -        Current Locus  Elapsed Minutes       Bases Processed     Bases/Minute
+22:27:41.550 INFO  ProgressMeter -  APUR_chr_1:36140000              0.2              36140000      216840000.0
+22:27:51.547 INFO  ProgressMeter -  APUR_chr_2:33546365              0.3              80673000      242019000.0
+22:28:01.547 INFO  ProgressMeter -   APUR_chr_4:5462220              0.5             127591000      255182000.0
+22:28:11.547 INFO  ProgressMeter -  APUR_chr_5:24203961              0.7             177405000      266107500.0
+22:28:21.547 INFO  ProgressMeter -  APUR_chr_7:13555525              0.8             225481000      270577200.0
+22:28:31.547 INFO  ProgressMeter -  APUR_chr_9:11095503              1.0             275568000      275568000.0
+22:28:41.547 INFO  ProgressMeter - APUR_chr_11:16492226              1.2             324066000      277770857.1
+22:28:41.673 INFO  ProgressMeter -    APUR_chr_MT:14004              1.2             324101639      277302260.8
+22:28:41.673 INFO  ProgressMeter - Traversal complete. Processed 324101639 total bases in 1.2 minutes.
+22:28:41.943 INFO  FastaAlternateReferenceMaker - Shutting down engine
+[October 30, 2023 at 10:28:41 PM EDT] org.broadinstitute.hellbender.tools.walkers.fasta.FastaAlternateReferenceMaker done. Elapsed time: 1.18 minutes.
+Runtime.totalMemory()=622366720
+Using GATK jar /Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar FastaAlternateReferenceMaker -R /Genomics/kocherlab/bjarnold/STARRseq/code/snakemake_snparcher/results/Avir/data/genome/Avir.fna -O /Genomics/kocherlab/bjarnold/STARRseq/data/alternate_references/Avir.fasta -V /Genomics/kocherlab/bjarnold/STARRseq/data/VCFs/alternate_reference/01_filtered_within_sample_allele_frequency/Avir.vcf.gz
+22:28:44.697 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/Genomics/argo/users/bjarnold/miniforge3/envs/bioinformatics/share/gatk4-4.4.0.0-0/gatk-package-4.4.0.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+22:28:44.727 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:28:44.729 INFO  FastaAlternateReferenceMaker - The Genome Analysis Toolkit (GATK) v4.4.0.0
+22:28:44.729 INFO  FastaAlternateReferenceMaker - For support and documentation go to https://software.broadinstitute.org/gatk/
+22:28:44.730 INFO  FastaAlternateReferenceMaker - Executing as bjarnold@argo-2 on Linux v4.18.0-305.12.1.el8_4.x86_64 amd64
+22:28:44.730 INFO  FastaAlternateReferenceMaker - Java runtime: OpenJDK 64-Bit Server VM v17.0.9-internal+0-adhoc..src
+22:28:44.730 INFO  FastaAlternateReferenceMaker - Start Date/Time: October 30, 2023 at 10:28:44 PM EDT
+22:28:44.730 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:28:44.730 INFO  FastaAlternateReferenceMaker - ------------------------------------------------------------
+22:28:44.731 INFO  FastaAlternateReferenceMaker - HTSJDK Version: 3.0.5
+22:28:44.731 INFO  FastaAlternateReferenceMaker - Picard Version: 3.0.0
+22:28:44.731 INFO  FastaAlternateReferenceMaker - Built for Spark Version: 3.3.1
+22:28:44.731 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+22:28:44.731 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+22:28:44.731 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+22:28:44.731 INFO  FastaAlternateReferenceMaker - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+22:28:44.732 INFO  FastaAlternateReferenceMaker - Deflater: IntelDeflater
+22:28:44.732 INFO  FastaAlternateReferenceMaker - Inflater: IntelInflater
+22:28:44.732 INFO  FastaAlternateReferenceMaker - GCS max retries/reopens: 20
+22:28:44.732 INFO  FastaAlternateReferenceMaker - Requester pays: disabled
+22:28:44.732 INFO  FastaAlternateReferenceMaker - Initializing engine
+22:28:44.911 INFO  FeatureManager - Using codec VCFCodec to read file file:///Genomics/kocherlab/bjarnold/STARRseq/data/VCFs/alternate_reference/01_filtered_within_sample_allele_frequency/Avir.vcf.gz
+22:28:44.997 INFO  FastaAlternateReferenceMaker - Done initializing engine
+22:28:45.003 INFO  ProgressMeter - Starting traversal
+22:28:45.004 INFO  ProgressMeter -        Current Locus  Elapsed Minutes       Bases Processed     Bases/Minute
+22:28:55.009 INFO  ProgressMeter -  AVIR_chr_1:41952000              0.2              41952000      251712000.0
+22:29:05.004 INFO  ProgressMeter -   AVIR_chr_3:2344818              0.3              88646000      265938000.0
+22:29:15.004 INFO  ProgressMeter -  AVIR_chr_4:21161381              0.5             147208000      294416000.0
+22:29:25.004 INFO  ProgressMeter -   AVIR_chr_6:1958413              0.7             202702000      304053000.0
+22:29:35.004 INFO  ProgressMeter -  AVIR_chr_7:23437615              0.8             260539000      312646800.0
+22:29:45.004 INFO  ProgressMeter -  AVIR_chr_9:11959732              1.0             317938000      317938000.0
+22:29:55.004 INFO  ProgressMeter -  AVIR_chr_11:5961097              1.2             373550000      320185714.3
+22:30:05.004 INFO  ProgressMeter -  AVIR_chr_13:5146833              1.3             429538000      322153500.0
+22:30:15.004 INFO  ProgressMeter -  AVIR_chr_15:9915871              1.5             486794000      324529333.3
+22:30:25.004 INFO  ProgressMeter -  AVIR_chr_18:4363163              1.7             543751000      326250600.0
+22:30:25.968 INFO  ProgressMeter -    AVIR_chr_MT:11585              1.7             549191957      326378675.1
+22:30:25.968 INFO  ProgressMeter - Traversal complete. Processed 549191957 total bases in 1.7 minutes.
+22:30:26.074 INFO  FastaAlternateReferenceMaker - Shutting down engine
+[October 30, 2023 at 10:30:26 PM EDT] org.broadinstitute.hellbender.tools.walkers.fasta.FastaAlternateReferenceMaker done. Elapsed time: 1.69 minutes.
+Runtime.totalMemory()=642228224

@@ -10,7 +10,15 @@
 
 source /Genomics/argo/users/bjarnold/miniforge3/etc/profile.d/conda.sh
 
+# conda activate bioinformatics
+# python3 compute_depth_per_sample.py
+# python3 filter_vcfs.py
+
+# conda activate cyvcf
+# python3 03_filter_vcfs_within_sample_allele_frequency.py Aaur
+# python3 03_filter_vcfs_within_sample_allele_frequency.py Apur
+# python3 03_filter_vcfs_within_sample_allele_frequency.py Avir
+# python3 03_filter_vcfs_within_sample_allele_frequency.py Nmel
+
 conda activate bioinformatics
-python3 compute_depth_per_sample.py
-
-
+python3 04_make_alternate_reference.py
