@@ -9,7 +9,7 @@ genome_size: 280381469
 # I suggest you either use full paths for all files or specify the
 # working directory here
 paths:
-  working_dir: "/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling/Nmel/"
+  working_dir: "/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Nmel/"
   reference_fna: "/Genomics/kocherlab/lab/data/GenomeReleases/official_release_v2.1.1/NMEL/NMEL_genome_v2.1.0.fasta.gz"
   reference_chrom_sizes: "/Genomics/kocherlab/bmjones/genomes/NMEL/chrom.sizes.txt"
   raw_fastq: "/Genomics/kocherlab/bjarnold/STARRseq/data/FASTQ/Nmel/{sample}-read-{read}.fastq.gz"

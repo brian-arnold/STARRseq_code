@@ -14,7 +14,7 @@
 SPECIES=Nmel
 
 CONFIGFILE=${PWD}/config_files/config_${SPECIES}.yml
-BASEDIR=/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling
+BASEDIR=/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output
 DIR=${BASEDIR}/${SPECIES}
 mkdir -p ${DIR}
 

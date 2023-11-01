@@ -9,7 +9,7 @@ genome_size: 319446138
 # I suggest you either use full paths for all files or specify the
 # working directory here
 paths:
-  working_dir: "/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling/Aaur/"
+  working_dir: "/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Aaur/"
   reference_fna: "/Genomics/kocherlab/lab/data/GenomeReleases/official_release_v3.1/AAUR/AAUR_genome_v3.fasta.gz"
   raw_fastq: "/Genomics/kocherlab/bjarnold/STARRseq/data/FASTQ/Aaur/{sample}-read-{read}.fastq.gz"
 
