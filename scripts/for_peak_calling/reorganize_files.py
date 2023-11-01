@@ -16,9 +16,13 @@ def main():
   out_dir = '/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_final'
   
   for s in species:
-    cmd1 = f'cp -r {base_dir}/{s}/MACS2 {out_dir}/{s}'
-    cmd2 = f'cp -r {base_dir}/{s}/genrich_single {out_dir}/{s}'
+    cmd1 = f'cp -r {base_dir}/{s}/MACS2/* {out_dir}/{s}/MACS2'
+    cmd2 = f'cp -r {base_dir}/{s}/genrich_single/* {out_dir}/{s}/genrich_single'
+    cmd2 = f'cp -r {base_dir}/{s}/genrich_multi/* {out_dir}/{s}/genrich_multi'
 
+    os.makedirs(f'{out_dir}/{s}/MACS2', exist_ok=True)
+    os.makedirs(f'{out_dir}/{s}/genrich_single', exist_ok=True)
+    os.makedirs(f'{out_dir}/{s}/genrich_multi', exist_ok=True)
     os.system(cmd1)
     os.system(cmd2)
 
