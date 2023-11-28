@@ -16,7 +16,7 @@ def get_files(dir, regex):
     files = glob.glob(f'{dir}/{regex}')
     files = [f.split('/')[-1] for f in files]
     # files = [f.split('__')[-1] for f in files]
-    return [f'{dir}/{f}' for f in files]
+    return sorted([f'{dir}/{f}' for f in files])
 
 def load_genrich_pileup_files(genrich_pileup_files, chr1_test=False):
     pileup_dfs = [] # list of pileup dataframes

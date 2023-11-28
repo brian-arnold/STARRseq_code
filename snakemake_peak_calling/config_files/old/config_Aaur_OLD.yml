@@ -4,14 +4,14 @@
 #samples:
 #  - "S2"
 
-genome_size: 324100239
+genome_size: 319446138
 
 # I suggest you either use full paths for all files or specify the
 # working directory here
 paths:
-  working_dir: "/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Apur/"
-  reference_fna: "/Genomics/kocherlab/lab/data/GenomeReleases/official_release_v3.1/APUR/APUR_genome_v3.fasta.gz"
-  raw_fastq: "/Genomics/kocherlab/bjarnold/STARRseq/data/FASTQ/Apur/{sample}-read-{read}.fastq.gz"
+  working_dir: "/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Aaur/"
+  reference_fna: "/Genomics/kocherlab/lab/data/GenomeReleases/official_release_v3.1/AAUR/AAUR_genome_v3.fasta.gz"
+  raw_fastq: "/Genomics/kocherlab/bjarnold/STARRseq/data/FASTQ/Aaur/{sample}-read-{read}.fastq.gz"
 
   trimmed_fastq: "FASTQ_trimmed/{sample}_{read}.TRIMMED.fastq.gz"
   html_out: "fastp_output/{sample}.html"
@@ -20,18 +20,13 @@ paths:
   aligned_sam: "SAMs/{sample}.sam"
   sorted_bam: "BAMs_sorted/{sample}_csorted.bam"
   indexed_bam: "BAMs_sorted/{sample}_csorted.bam.bai"
-  dedup_bam: "BAMs_sorted/{sample}_csorted_dedup.bam"
-  dedup_metrics: "BAMs_sorted/{sample}_dedup.txt"
   name_sorted_bam: "BAMs_nsorted/{sample}_nsorted.bam"
 
-  alignment_stats: "alignment_stats/{sample}.txt"
   bam_cov: "windows/{sample}.cov"
 
   MACS2: "MACS2/{popl}-{flask}"
-  MACS2_dedup: "MACS2_dedup/{popl}-{flask}"
   genrich_single: "genrich_single/{popl}-{flask}"
   genrich_multi: "genrich_multi/{popl}"
-
   genrich_single_dedup: "genrich_single_dedup/{popl}-{flask}"
   genrich_multi_dedup: "genrich_multi_dedup/{popl}"  
 
@@ -48,7 +43,6 @@ containers:
   macs2: "docker://quay.io/biocontainers/macs2:2.2.9.1--py38he5da3d1_0"
   deeptools: "docker://quay.io/biocontainers/deeptools:3.5.4--pyhdfd78af_0"
   genrich: "docker://quay.io/biocontainers/genrich:0.6.1--he4a0461_4"
-  sambamba: "docker://quay.io/biocontainers/sambamba:1.0--h98b6b92_0"
 
 # fastp, paired end using default minimum quality of 15,
 # auto detect adapters, cut right with window size of

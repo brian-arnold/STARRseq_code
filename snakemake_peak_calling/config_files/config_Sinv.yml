@@ -4,14 +4,14 @@
 #samples:
 #  - "S2"
 
-genome_size: 324100239
+genome_size: 374244835
 
 # I suggest you either use full paths for all files or specify the
 # working directory here
 paths:
-  working_dir: "/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Apur/"
-  reference_fna: "/Genomics/kocherlab/lab/data/GenomeReleases/official_release_v3.1/APUR/APUR_genome_v3.fasta.gz"
-  raw_fastq: "/Genomics/kocherlab/bjarnold/STARRseq/data/FASTQ/Apur/{sample}-read-{read}.fastq.gz"
+  working_dir: "/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Sinv/"
+  reference_fna: "/Genomics/kocherlab/bjarnold/STARRseq/data/genomes/SINV/GCF_016802725.1_UNIL_Sinv_3.0_genomic.fna.gz"
+  raw_fastq: "/Genomics/kocherlab/bjarnold/STARRseq/data/FASTQ/Sinv/{sample}-read-{read}.fastq.gz"
 
   trimmed_fastq: "FASTQ_trimmed/{sample}_{read}.TRIMMED.fastq.gz"
   html_out: "fastp_output/{sample}.html"

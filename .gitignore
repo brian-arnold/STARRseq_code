@@ -1,2 +1,4 @@
 snakemake_snparcher/
 notebooks/__pycache__/
+snakemake_peak_calling/err*
+snakemake_peak_calling/out*

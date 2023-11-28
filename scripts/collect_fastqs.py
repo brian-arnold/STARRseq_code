@@ -11,7 +11,9 @@ import glob
 
 def main():
 
-  starter_species = ["Nmel", "Aaur", "Apur", "Avir"]
+  # species_list = ["Nmel", "Aaur", "Apur", "Avir"]
+  species_list = ["Amel", "Lzep", "Sinv", "Lvie", "Hqua", "Hlig", "Bimp", "Lbal"]
+  
   beryl_dir = "/Genomics/kocherlab/bmjones/STARRseq"
   beryl_subdirs = glob.glob(f'{beryl_dir}/*')
 
@@ -30,7 +32,7 @@ def main():
 
 
   for species in beryl_subdirs_starrseq:
-    if species in starter_species:
+    if species in species_list:
       fastq = glob.glob(f'{beryl_subdirs_starrseq[species]}/FASTQ/*.fastq.gz')
       print(species)
       print(f'{beryl_subdirs_starrseq[species]}/FASTQ')

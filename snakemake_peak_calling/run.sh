@@ -1,21 +1,30 @@
 #!/bin/bash
 #SBATCH -J template
-#SBATCH -o out_Nmel
-#SBATCH -e err_Nmel
+#SBATCH -o out
+#SBATCH -e err
 #SBATCH --nodes=1                # node count
 #SBATCH --ntasks=1               # total number of tasks across all nodes
-#SBATCH --cpus-per-task=20        # cpu-cores per task (>1 if multi-threaded tasks)
-#SBATCH --mem-per-cpu=3G         # memory per cpu-core (4G is default)
-#SBATCH --time 1-00:00:00        # DAYS-HOURS:MINUTES:SECONDS
+#SBATCH --cpus-per-task=60        # cpu-cores per task (>1 if multi-threaded tasks)
+#SBATCH --mem=160G         # memory per cpu-core (4G is default)
+#SBATCH --time 3-00:00:00        # DAYS-HOURS:MINUTES:SECONDS
 
 ######
 # CHANGE OUT/ERR FILES TOO
 ######
-SPECIES=Nmel
+# single-pop:
+# DONE: Nmel, Avir, Apur, Aaur
+# TO-DO: Amel, Hlig, Lzep, Hqua, Lbal, Lvie, Bimp
+
+# multi-pop: 
+# TO-DO: Lalb, Sinv
+
+
+SPECIES=Lalb
 
 CONFIGFILE=${PWD}/config_files/config_${SPECIES}.yml
-BASEDIR=/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output
-DIR=${BASEDIR}/${SPECIES}
+RUNDIR=${PWD}
+RESULTSDIR=/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output
+DIR=${RESULTSDIR}/${SPECIES}
 mkdir -p ${DIR}
 
 cd ${DIR}
@@ -27,4 +36,8 @@ snakemake --snakefile /Genomics/kocherlab/bjarnold/STARRseq/code/snakemake_peak_
 -p --use-singularity \
 --singularity-args "--bind /Genomics/kocherlab/bjarnold --bind /Genomics/kocherlab/lab/data/GenomeReleases/official_release_v2.1.1 --bind /Genomics/kocherlab/lab/data/GenomeReleases/official_release_v3.1" \
 --cores 20 \
---rerun-triggers mtime
+--rerun-triggers mtime \
+2> ${RUNDIR}/err_${SPECIES} > ${RUNDIR}/out_${SPECIES}
+
+# --rerun-triggers mtime \
+# --rerun-incomplete \

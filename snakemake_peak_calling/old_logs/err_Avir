@@ -1,0 +1,382 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 20
+Rules claiming more threads will be scaled down.
+Job stats:
+job                count
+---------------  -------
+MACS2_dedup            3
+all                    1
+mark_duplicates        6
+total                 10
+
+Select jobs to execute...
+
+[Tue Nov 21 23:18:58 2023]
+rule mark_duplicates:
+    input: BAMs_sorted/Avir-F3-RNA_csorted.bam
+    output: BAMs_sorted/Avir-F3-RNA_csorted_dedup.bam
+    log: BAMs_sorted/Avir-F3-RNA_dedup.txt
+    jobid: 39
+    reason: Missing output files: BAMs_sorted/Avir-F3-RNA_csorted_dedup.bam
+    wildcards: sample=Avir-F3-RNA
+    threads: 20
+    resources: tmpdir=/tmp, mem=60000, time=560
+
+sambamba markdup -r -t 20 --tmpdir=tmp/ --overflow-list-size 600000 --hash-table-size 600000 --io-buffer-size 3000 BAMs_sorted/Avir-F3-RNA_csorted.bam BAMs_sorted/Avir-F3-RNA_csorted_dedup.bam > BAMs_sorted/Avir-F3-RNA_dedup.txt 2>&1
+Activating singularity image /Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Avir/.snakemake/singularity/f65e30eb605221ecd624aa0d562433cb.simg
+[Tue Nov 21 23:32:12 2023]
+Finished job 39.
+1 of 10 steps (10%) done
+Select jobs to execute...
+
+[Tue Nov 21 23:32:12 2023]
+rule mark_duplicates:
+    input: BAMs_sorted/Avir-F2-input_csorted.bam
+    output: BAMs_sorted/Avir-F2-input_csorted_dedup.bam
+    log: BAMs_sorted/Avir-F2-input_dedup.txt
+    jobid: 37
+    reason: Missing output files: BAMs_sorted/Avir-F2-input_csorted_dedup.bam
+    wildcards: sample=Avir-F2-input
+    threads: 20
+    resources: tmpdir=/tmp, mem=60000, time=560
+
+sambamba markdup -r -t 20 --tmpdir=tmp/ --overflow-list-size 600000 --hash-table-size 600000 --io-buffer-size 3000 BAMs_sorted/Avir-F2-input_csorted.bam BAMs_sorted/Avir-F2-input_csorted_dedup.bam > BAMs_sorted/Avir-F2-input_dedup.txt 2>&1
+Activating singularity image /Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Avir/.snakemake/singularity/f65e30eb605221ecd624aa0d562433cb.simg
+[Tue Nov 21 23:43:27 2023]
+Finished job 37.
+2 of 10 steps (20%) done
+Select jobs to execute...
+
+[Tue Nov 21 23:43:27 2023]
+rule mark_duplicates:
+    input: BAMs_sorted/Avir-F1-input_csorted.bam
+    output: BAMs_sorted/Avir-F1-input_csorted_dedup.bam
+    log: BAMs_sorted/Avir-F1-input_dedup.txt
+    jobid: 34
+    reason: Missing output files: BAMs_sorted/Avir-F1-input_csorted_dedup.bam
+    wildcards: sample=Avir-F1-input
+    threads: 20
+    resources: tmpdir=/tmp, mem=60000, time=560
+
+sambamba markdup -r -t 20 --tmpdir=tmp/ --overflow-list-size 600000 --hash-table-size 600000 --io-buffer-size 3000 BAMs_sorted/Avir-F1-input_csorted.bam BAMs_sorted/Avir-F1-input_csorted_dedup.bam > BAMs_sorted/Avir-F1-input_dedup.txt 2>&1
+Activating singularity image /Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Avir/.snakemake/singularity/f65e30eb605221ecd624aa0d562433cb.simg
+[Tue Nov 21 23:55:57 2023]
+Finished job 34.
+3 of 10 steps (30%) done
+Select jobs to execute...
+
+[Tue Nov 21 23:55:57 2023]
+rule mark_duplicates:
+    input: BAMs_sorted/Avir-F1-RNA_csorted.bam
+    output: BAMs_sorted/Avir-F1-RNA_csorted_dedup.bam
+    log: BAMs_sorted/Avir-F1-RNA_dedup.txt
+    jobid: 33
+    reason: Missing output files: BAMs_sorted/Avir-F1-RNA_csorted_dedup.bam
+    wildcards: sample=Avir-F1-RNA
+    threads: 20
+    resources: tmpdir=/tmp, mem=60000, time=560
+
+sambamba markdup -r -t 20 --tmpdir=tmp/ --overflow-list-size 600000 --hash-table-size 600000 --io-buffer-size 3000 BAMs_sorted/Avir-F1-RNA_csorted.bam BAMs_sorted/Avir-F1-RNA_csorted_dedup.bam > BAMs_sorted/Avir-F1-RNA_dedup.txt 2>&1
+Activating singularity image /Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Avir/.snakemake/singularity/f65e30eb605221ecd624aa0d562433cb.simg
+[Wed Nov 22 00:08:01 2023]
+Finished job 33.
+4 of 10 steps (40%) done
+Select jobs to execute...
+
+[Wed Nov 22 00:08:01 2023]
+rule mark_duplicates:
+    input: BAMs_sorted/Avir-F2-RNA_csorted.bam
+    output: BAMs_sorted/Avir-F2-RNA_csorted_dedup.bam
+    log: BAMs_sorted/Avir-F2-RNA_dedup.txt
+    jobid: 36
+    reason: Missing output files: BAMs_sorted/Avir-F2-RNA_csorted_dedup.bam
+    wildcards: sample=Avir-F2-RNA
+    threads: 20
+    resources: tmpdir=/tmp, mem=60000, time=560
+
+sambamba markdup -r -t 20 --tmpdir=tmp/ --overflow-list-size 600000 --hash-table-size 600000 --io-buffer-size 3000 BAMs_sorted/Avir-F2-RNA_csorted.bam BAMs_sorted/Avir-F2-RNA_csorted_dedup.bam > BAMs_sorted/Avir-F2-RNA_dedup.txt 2>&1
+Activating singularity image /Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Avir/.snakemake/singularity/f65e30eb605221ecd624aa0d562433cb.simg
+[Wed Nov 22 00:19:19 2023]
+Finished job 36.
+5 of 10 steps (50%) done
+Select jobs to execute...
+
+[Wed Nov 22 00:19:19 2023]
+rule mark_duplicates:
+    input: BAMs_sorted/Avir-F3-input_csorted.bam
+    output: BAMs_sorted/Avir-F3-input_csorted_dedup.bam
+    log: BAMs_sorted/Avir-F3-input_dedup.txt
+    jobid: 40
+    reason: Missing output files: BAMs_sorted/Avir-F3-input_csorted_dedup.bam
+    wildcards: sample=Avir-F3-input
+    threads: 20
+    resources: tmpdir=/tmp, mem=60000, time=560
+
+sambamba markdup -r -t 20 --tmpdir=tmp/ --overflow-list-size 600000 --hash-table-size 600000 --io-buffer-size 3000 BAMs_sorted/Avir-F3-input_csorted.bam BAMs_sorted/Avir-F3-input_csorted_dedup.bam > BAMs_sorted/Avir-F3-input_dedup.txt 2>&1
+Activating singularity image /Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Avir/.snakemake/singularity/f65e30eb605221ecd624aa0d562433cb.simg
+[Wed Nov 22 00:29:17 2023]
+Finished job 40.
+6 of 10 steps (60%) done
+Select jobs to execute...
+
+[Wed Nov 22 00:29:17 2023]
+rule MACS2_dedup:
+    input: BAMs_sorted/Avir-F1-RNA_csorted_dedup.bam, BAMs_sorted/Avir-F1-input_csorted_dedup.bam
+    output: MACS2_dedup/Avir-F1_peaks.narrowPeak
+    jobid: 32
+    reason: Missing output files: MACS2_dedup/Avir-F1_peaks.narrowPeak; Input files updated by another job: BAMs_sorted/Avir-F1-input_csorted_dedup.bam, BAMs_sorted/Avir-F1-RNA_csorted_dedup.bam
+    wildcards: popl=Avir, flask=F1
+    resources: tmpdir=/tmp, mem=16000, time=560
+
+macs2 callpeak -t BAMs_sorted/Avir-F1-RNA_csorted_dedup.bam -c BAMs_sorted/Avir-F1-input_csorted_dedup.bam -f BAMPE -g 549187957 -n MACS2_dedup/Avir-F1 -q 1 --min-length 100
+Activating singularity image /Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Avir/.snakemake/singularity/8d238020c64de33af3055a5d31752a9e.simg
+
+[Wed Nov 22 00:29:17 2023]
+rule MACS2_dedup:
+    input: BAMs_sorted/Avir-F3-RNA_csorted_dedup.bam, BAMs_sorted/Avir-F3-input_csorted_dedup.bam
+    output: MACS2_dedup/Avir-F3_peaks.narrowPeak
+    jobid: 38
+    reason: Missing output files: MACS2_dedup/Avir-F3_peaks.narrowPeak; Input files updated by another job: BAMs_sorted/Avir-F3-RNA_csorted_dedup.bam, BAMs_sorted/Avir-F3-input_csorted_dedup.bam
+    wildcards: popl=Avir, flask=F3
+    resources: tmpdir=/tmp, mem=16000, time=560
+
+macs2 callpeak -t BAMs_sorted/Avir-F3-RNA_csorted_dedup.bam -c BAMs_sorted/Avir-F3-input_csorted_dedup.bam -f BAMPE -g 549187957 -n MACS2_dedup/Avir-F3 -q 1 --min-length 100
+Activating singularity image /Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Avir/.snakemake/singularity/8d238020c64de33af3055a5d31752a9e.simg
+
+[Wed Nov 22 00:29:17 2023]
+rule MACS2_dedup:
+    input: BAMs_sorted/Avir-F2-RNA_csorted_dedup.bam, BAMs_sorted/Avir-F2-input_csorted_dedup.bam
+    output: MACS2_dedup/Avir-F2_peaks.narrowPeak
+    jobid: 35
+    reason: Missing output files: MACS2_dedup/Avir-F2_peaks.narrowPeak; Input files updated by another job: BAMs_sorted/Avir-F2-input_csorted_dedup.bam, BAMs_sorted/Avir-F2-RNA_csorted_dedup.bam
+    wildcards: popl=Avir, flask=F2
+    resources: tmpdir=/tmp, mem=16000, time=560
+
+macs2 callpeak -t BAMs_sorted/Avir-F2-RNA_csorted_dedup.bam -c BAMs_sorted/Avir-F2-input_csorted_dedup.bam -f BAMPE -g 549187957 -n MACS2_dedup/Avir-F2 -q 1 --min-length 100
+Activating singularity image /Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/Avir/.snakemake/singularity/8d238020c64de33af3055a5d31752a9e.simg
+INFO  @ Wed, 22 Nov 2023 00:29:21: 
+# Command line: callpeak -t BAMs_sorted/Avir-F1-RNA_csorted_dedup.bam -c BAMs_sorted/Avir-F1-input_csorted_dedup.bam -f BAMPE -g 549187957 -n MACS2_dedup/Avir-F1 -q 1 --min-length 100
+# ARGUMENTS LIST:
+# name = MACS2_dedup/Avir-F1
+# format = BAMPE
+# ChIP-seq file = ['BAMs_sorted/Avir-F1-RNA_csorted_dedup.bam']
+# control file = ['BAMs_sorted/Avir-F1-input_csorted_dedup.bam']
+# effective genome size = 5.49e+08
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 1.00e+00
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks = 100
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Wed, 22 Nov 2023 00:29:21: 
+# Command line: callpeak -t BAMs_sorted/Avir-F2-RNA_csorted_dedup.bam -c BAMs_sorted/Avir-F2-input_csorted_dedup.bam -f BAMPE -g 549187957 -n MACS2_dedup/Avir-F2 -q 1 --min-length 100
+# ARGUMENTS LIST:
+# name = MACS2_dedup/Avir-F2
+# format = BAMPE
+# ChIP-seq file = ['BAMs_sorted/Avir-F2-RNA_csorted_dedup.bam']
+# control file = ['BAMs_sorted/Avir-F2-input_csorted_dedup.bam']
+# effective genome size = 5.49e+08
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 1.00e+00
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks = 100
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Wed, 22 Nov 2023 00:29:21: 
+# Command line: callpeak -t BAMs_sorted/Avir-F3-RNA_csorted_dedup.bam -c BAMs_sorted/Avir-F3-input_csorted_dedup.bam -f BAMPE -g 549187957 -n MACS2_dedup/Avir-F3 -q 1 --min-length 100
+# ARGUMENTS LIST:
+# name = MACS2_dedup/Avir-F3
+# format = BAMPE
+# ChIP-seq file = ['BAMs_sorted/Avir-F3-RNA_csorted_dedup.bam']
+# control file = ['BAMs_sorted/Avir-F3-input_csorted_dedup.bam']
+# effective genome size = 5.49e+08
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 1.00e+00
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks = 100
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+ 
+INFO  @ Wed, 22 Nov 2023 00:29:21: #1 read fragment files... 
+INFO  @ Wed, 22 Nov 2023 00:29:21: #1 read treatment fragments... 
+INFO  @ Wed, 22 Nov 2023 00:29:21: #1 read fragment files... 
+INFO  @ Wed, 22 Nov 2023 00:29:21: #1 read treatment fragments... 
+INFO  @ Wed, 22 Nov 2023 00:29:21: #1 read fragment files... 
+INFO  @ Wed, 22 Nov 2023 00:29:21: #1 read treatment fragments... 
+INFO  @ Wed, 22 Nov 2023 00:29:24:  1000000 
+INFO  @ Wed, 22 Nov 2023 00:29:25:  1000000 
+INFO  @ Wed, 22 Nov 2023 00:29:26:  1000000 
+INFO  @ Wed, 22 Nov 2023 00:29:27:  2000000 
+INFO  @ Wed, 22 Nov 2023 00:29:28:  2000000 
+INFO  @ Wed, 22 Nov 2023 00:29:29:  2000000 
+INFO  @ Wed, 22 Nov 2023 00:29:30:  3000000 
+INFO  @ Wed, 22 Nov 2023 00:29:31:  3000000 
+INFO  @ Wed, 22 Nov 2023 00:29:31:  3000000 
+INFO  @ Wed, 22 Nov 2023 00:29:33:  4000000 
+INFO  @ Wed, 22 Nov 2023 00:29:34:  4000000 
+INFO  @ Wed, 22 Nov 2023 00:29:34:  4000000 
+INFO  @ Wed, 22 Nov 2023 00:29:36:  5000000 
+INFO  @ Wed, 22 Nov 2023 00:29:37:  5000000 
+INFO  @ Wed, 22 Nov 2023 00:29:38:  5000000 
+INFO  @ Wed, 22 Nov 2023 00:29:39:  6000000 
+INFO  @ Wed, 22 Nov 2023 00:29:40:  6000000 
+INFO  @ Wed, 22 Nov 2023 00:29:41:  6000000 
+INFO  @ Wed, 22 Nov 2023 00:29:42:  7000000 
+INFO  @ Wed, 22 Nov 2023 00:29:43:  7000000 
+INFO  @ Wed, 22 Nov 2023 00:29:44:  7000000 
+INFO  @ Wed, 22 Nov 2023 00:29:45:  8000000 
+INFO  @ Wed, 22 Nov 2023 00:29:46:  8000000 
+INFO  @ Wed, 22 Nov 2023 00:29:47:  8000000 
+INFO  @ Wed, 22 Nov 2023 00:29:49:  9000000 
+INFO  @ Wed, 22 Nov 2023 00:29:49: 8400238 fragments have been read. 
+INFO  @ Wed, 22 Nov 2023 00:29:52: 8897523 fragments have been read. 
+INFO  @ Wed, 22 Nov 2023 00:29:52: 9340105 fragments have been read. 
+INFO  @ Wed, 22 Nov 2023 00:29:54: #1.2 read input fragments... 
+INFO  @ Wed, 22 Nov 2023 00:29:57: #1.2 read input fragments... 
+INFO  @ Wed, 22 Nov 2023 00:29:57:  1000000 
+INFO  @ Wed, 22 Nov 2023 00:29:58: #1.2 read input fragments... 
+INFO  @ Wed, 22 Nov 2023 00:29:59:  2000000 
+INFO  @ Wed, 22 Nov 2023 00:30:00:  1000000 
+INFO  @ Wed, 22 Nov 2023 00:30:00:  1000000 
+INFO  @ Wed, 22 Nov 2023 00:30:02:  3000000 
+INFO  @ Wed, 22 Nov 2023 00:30:03:  2000000 
+INFO  @ Wed, 22 Nov 2023 00:30:03:  2000000 
+INFO  @ Wed, 22 Nov 2023 00:30:05:  4000000 
+INFO  @ Wed, 22 Nov 2023 00:30:06:  3000000 
+INFO  @ Wed, 22 Nov 2023 00:30:06:  3000000 
+INFO  @ Wed, 22 Nov 2023 00:30:08:  5000000 
+INFO  @ Wed, 22 Nov 2023 00:30:09:  4000000 
+INFO  @ Wed, 22 Nov 2023 00:30:09:  4000000 
+INFO  @ Wed, 22 Nov 2023 00:30:11:  6000000 
+INFO  @ Wed, 22 Nov 2023 00:30:12:  5000000 
+INFO  @ Wed, 22 Nov 2023 00:30:12:  5000000 
+INFO  @ Wed, 22 Nov 2023 00:30:14:  7000000 
+INFO  @ Wed, 22 Nov 2023 00:30:15:  6000000 
+INFO  @ Wed, 22 Nov 2023 00:30:15:  6000000 
+INFO  @ Wed, 22 Nov 2023 00:30:17:  8000000 
+INFO  @ Wed, 22 Nov 2023 00:30:18:  7000000 
+INFO  @ Wed, 22 Nov 2023 00:30:18:  7000000 
+INFO  @ Wed, 22 Nov 2023 00:30:20:  9000000 
+INFO  @ Wed, 22 Nov 2023 00:30:21:  8000000 
+INFO  @ Wed, 22 Nov 2023 00:30:21:  8000000 
+INFO  @ Wed, 22 Nov 2023 00:30:23:  10000000 
+INFO  @ Wed, 22 Nov 2023 00:30:24:  9000000 
+INFO  @ Wed, 22 Nov 2023 00:30:24:  9000000 
+INFO  @ Wed, 22 Nov 2023 00:30:26:  11000000 
+INFO  @ Wed, 22 Nov 2023 00:30:26:  10000000 
+INFO  @ Wed, 22 Nov 2023 00:30:26:  10000000 
+INFO  @ Wed, 22 Nov 2023 00:30:29:  12000000 
+INFO  @ Wed, 22 Nov 2023 00:30:29:  11000000 
+INFO  @ Wed, 22 Nov 2023 00:30:29:  11000000 
+INFO  @ Wed, 22 Nov 2023 00:30:32:  13000000 
+INFO  @ Wed, 22 Nov 2023 00:30:32:  12000000 
+INFO  @ Wed, 22 Nov 2023 00:30:32:  12000000 
+INFO  @ Wed, 22 Nov 2023 00:30:35:  13000000 
+INFO  @ Wed, 22 Nov 2023 00:30:35:  13000000 
+INFO  @ Wed, 22 Nov 2023 00:30:37: 13669355 fragments have been read. 
+INFO  @ Wed, 22 Nov 2023 00:30:38:  14000000 
+INFO  @ Wed, 22 Nov 2023 00:30:39: 13305334 fragments have been read. 
+INFO  @ Wed, 22 Nov 2023 00:30:42: 14199250 fragments have been read. 
+INFO  @ Wed, 22 Nov 2023 00:30:45: #1 mean fragment size is determined as 444.3 bp from treatment 
+INFO  @ Wed, 22 Nov 2023 00:30:45: #1 note: mean fragment size in control is 453.9 bp -- value ignored 
+INFO  @ Wed, 22 Nov 2023 00:30:45: #1 fragment size = 444.3 
+INFO  @ Wed, 22 Nov 2023 00:30:45: #1  total fragments in treatment: 8400238 
+INFO  @ Wed, 22 Nov 2023 00:30:45: #1 user defined the maximum fragments... 
+INFO  @ Wed, 22 Nov 2023 00:30:45: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Wed, 22 Nov 2023 00:30:46: #1 mean fragment size is determined as 444.5 bp from treatment 
+INFO  @ Wed, 22 Nov 2023 00:30:46: #1 note: mean fragment size in control is 454.3 bp -- value ignored 
+INFO  @ Wed, 22 Nov 2023 00:30:46: #1 fragment size = 444.5 
+INFO  @ Wed, 22 Nov 2023 00:30:46: #1  total fragments in treatment: 9340105 
+INFO  @ Wed, 22 Nov 2023 00:30:46: #1 user defined the maximum fragments... 
+INFO  @ Wed, 22 Nov 2023 00:30:46: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Wed, 22 Nov 2023 00:30:50: #1 mean fragment size is determined as 444.3 bp from treatment 
+INFO  @ Wed, 22 Nov 2023 00:30:50: #1 note: mean fragment size in control is 452.5 bp -- value ignored 
+INFO  @ Wed, 22 Nov 2023 00:30:50: #1 fragment size = 444.3 
+INFO  @ Wed, 22 Nov 2023 00:30:50: #1  total fragments in treatment: 8897523 
+INFO  @ Wed, 22 Nov 2023 00:30:50: #1 user defined the maximum fragments... 
+INFO  @ Wed, 22 Nov 2023 00:30:50: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Wed, 22 Nov 2023 00:30:57: #1  fragments after filtering in treatment: 8227701 
+INFO  @ Wed, 22 Nov 2023 00:30:57: #1  Redundant rate of treatment: 0.02 
+INFO  @ Wed, 22 Nov 2023 00:30:57: #1  total fragments in control: 13669355 
+INFO  @ Wed, 22 Nov 2023 00:30:57: #1 user defined the maximum fragments... 
+INFO  @ Wed, 22 Nov 2023 00:30:57: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Wed, 22 Nov 2023 00:31:00: #1  fragments after filtering in treatment: 9155114 
+INFO  @ Wed, 22 Nov 2023 00:31:00: #1  Redundant rate of treatment: 0.02 
+INFO  @ Wed, 22 Nov 2023 00:31:00: #1  total fragments in control: 13305334 
+INFO  @ Wed, 22 Nov 2023 00:31:00: #1 user defined the maximum fragments... 
+INFO  @ Wed, 22 Nov 2023 00:31:00: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Wed, 22 Nov 2023 00:31:03: #1  fragments after filtering in treatment: 8721203 
+INFO  @ Wed, 22 Nov 2023 00:31:03: #1  Redundant rate of treatment: 0.02 
+INFO  @ Wed, 22 Nov 2023 00:31:03: #1  total fragments in control: 14199250 
+INFO  @ Wed, 22 Nov 2023 00:31:03: #1 user defined the maximum fragments... 
+INFO  @ Wed, 22 Nov 2023 00:31:03: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 
+INFO  @ Wed, 22 Nov 2023 00:31:16: #1  fragments after filtering in control: 13471036 
+INFO  @ Wed, 22 Nov 2023 00:31:16: #1  Redundant rate of control: 0.01 
+INFO  @ Wed, 22 Nov 2023 00:31:16: #1 finished! 
+INFO  @ Wed, 22 Nov 2023 00:31:16: #2 Build Peak Model... 
+INFO  @ Wed, 22 Nov 2023 00:31:16: #2 Skipped... 
+INFO  @ Wed, 22 Nov 2023 00:31:16: #3 Call peaks... 
+INFO  @ Wed, 22 Nov 2023 00:31:16: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 22 Nov 2023 00:31:19: #1  fragments after filtering in control: 13109159 
+INFO  @ Wed, 22 Nov 2023 00:31:19: #1  Redundant rate of control: 0.01 
+INFO  @ Wed, 22 Nov 2023 00:31:19: #1 finished! 
+INFO  @ Wed, 22 Nov 2023 00:31:19: #2 Build Peak Model... 
+INFO  @ Wed, 22 Nov 2023 00:31:19: #2 Skipped... 
+INFO  @ Wed, 22 Nov 2023 00:31:19: #3 Call peaks... 
+INFO  @ Wed, 22 Nov 2023 00:31:19: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 22 Nov 2023 00:31:24: #1  fragments after filtering in control: 13992799 
+INFO  @ Wed, 22 Nov 2023 00:31:24: #1  Redundant rate of control: 0.01 
+INFO  @ Wed, 22 Nov 2023 00:31:24: #1 finished! 
+INFO  @ Wed, 22 Nov 2023 00:31:24: #2 Build Peak Model... 
+INFO  @ Wed, 22 Nov 2023 00:31:24: #2 Skipped... 
+INFO  @ Wed, 22 Nov 2023 00:31:24: #3 Call peaks... 
+INFO  @ Wed, 22 Nov 2023 00:31:24: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 22 Nov 2023 00:33:16: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 22 Nov 2023 00:33:24: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 22 Nov 2023 00:33:28: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 22 Nov 2023 00:33:50: #4 Write output xls file... MACS2_dedup/Avir-F2_peaks.xls 
+INFO  @ Wed, 22 Nov 2023 00:33:50: #4 Write peak in narrowPeak format file... MACS2_dedup/Avir-F2_peaks.narrowPeak 
+INFO  @ Wed, 22 Nov 2023 00:33:50: #4 Write summits bed file... MACS2_dedup/Avir-F2_summits.bed 
+INFO  @ Wed, 22 Nov 2023 00:33:50: Done! 
+[Wed Nov 22 00:33:51 2023]
+Finished job 35.
+7 of 10 steps (70%) done
+INFO  @ Wed, 22 Nov 2023 00:33:58: #4 Write output xls file... MACS2_dedup/Avir-F3_peaks.xls 
+INFO  @ Wed, 22 Nov 2023 00:33:58: #4 Write peak in narrowPeak format file... MACS2_dedup/Avir-F3_peaks.narrowPeak 
+INFO  @ Wed, 22 Nov 2023 00:33:58: #4 Write summits bed file... MACS2_dedup/Avir-F3_summits.bed 
+INFO  @ Wed, 22 Nov 2023 00:33:58: Done! 
+[Wed Nov 22 00:33:58 2023]
+Finished job 38.
+8 of 10 steps (80%) done
+INFO  @ Wed, 22 Nov 2023 00:34:04: #4 Write output xls file... MACS2_dedup/Avir-F1_peaks.xls 
+INFO  @ Wed, 22 Nov 2023 00:34:04: #4 Write peak in narrowPeak format file... MACS2_dedup/Avir-F1_peaks.narrowPeak 
+INFO  @ Wed, 22 Nov 2023 00:34:04: #4 Write summits bed file... MACS2_dedup/Avir-F1_summits.bed 
+INFO  @ Wed, 22 Nov 2023 00:34:04: Done! 
+[Wed Nov 22 00:34:04 2023]
+Finished job 32.
+9 of 10 steps (90%) done
+Select jobs to execute...
+
+[Wed Nov 22 00:34:04 2023]
+localrule all:
+    input: MACS2/Avir-F1_peaks.narrowPeak, MACS2/Avir-F2_peaks.narrowPeak, MACS2/Avir-F3_peaks.narrowPeak, genrich_single/Avir-F1_peaks.narrowPeak, genrich_single/Avir-F2_peaks.narrowPeak, genrich_single/Avir-F3_peaks.narrowPeak, genrich_single/Avir-F1_pileups.txt, genrich_single/Avir-F2_pileups.txt, genrich_single/Avir-F3_pileups.txt, genrich_multi/Avir_peaks.narrowPeak, genrich_multi/Avir_peaks.narrowPeak, genrich_multi/Avir_peaks.narrowPeak, MACS2_dedup/Avir-F1_peaks.narrowPeak, MACS2_dedup/Avir-F2_peaks.narrowPeak, MACS2_dedup/Avir-F3_peaks.narrowPeak, genrich_single_dedup/Avir-F1_peaks.narrowPeak, genrich_single_dedup/Avir-F2_peaks.narrowPeak, genrich_single_dedup/Avir-F3_peaks.narrowPeak, genrich_single_dedup/Avir-F1_pileups.txt, genrich_single_dedup/Avir-F2_pileups.txt, genrich_single_dedup/Avir-F3_pileups.txt, genrich_multi_dedup/Avir_peaks.narrowPeak, genrich_multi_dedup/Avir_peaks.narrowPeak, genrich_multi_dedup/Avir_peaks.narrowPeak, BAMs_nsorted/Avir-F1-RNA_nsorted.bam, BAMs_nsorted/Avir-F3-RNA_nsorted.bam, BAMs_nsorted/Avir-F1-input_nsorted.bam, BAMs_nsorted/Avir-F3-input_nsorted.bam, BAMs_nsorted/Avir-F2-RNA_nsorted.bam, BAMs_nsorted/Avir-F2-input_nsorted.bam, BAMs_sorted/Avir-F1-RNA_csorted.bam.bai, BAMs_sorted/Avir-F3-RNA_csorted.bam.bai, BAMs_sorted/Avir-F1-input_csorted.bam.bai, BAMs_sorted/Avir-F3-input_csorted.bam.bai, BAMs_sorted/Avir-F2-RNA_csorted.bam.bai, BAMs_sorted/Avir-F2-input_csorted.bam.bai, BAMs_sorted/Avir-F1-RNA_csorted_dedup.bam, BAMs_sorted/Avir-F3-RNA_csorted_dedup.bam, BAMs_sorted/Avir-F1-input_csorted_dedup.bam, BAMs_sorted/Avir-F3-input_csorted_dedup.bam, BAMs_sorted/Avir-F2-RNA_csorted_dedup.bam, BAMs_sorted/Avir-F2-input_csorted_dedup.bam, alignment_stats/Avir-F1-RNA.txt, alignment_stats/Avir-F3-RNA.txt, alignment_stats/Avir-F1-input.txt, alignment_stats/Avir-F3-input.txt, alignment_stats/Avir-F2-RNA.txt, alignment_stats/Avir-F2-input.txt
+    jobid: 0
+    reason: Input files updated by another job: BAMs_sorted/Avir-F2-input_csorted_dedup.bam, MACS2_dedup/Avir-F1_peaks.narrowPeak, BAMs_sorted/Avir-F3-RNA_csorted_dedup.bam, BAMs_sorted/Avir-F3-input_csorted_dedup.bam, MACS2_dedup/Avir-F3_peaks.narrowPeak, MACS2_dedup/Avir-F2_peaks.narrowPeak, BAMs_sorted/Avir-F2-RNA_csorted_dedup.bam, BAMs_sorted/Avir-F1-input_csorted_dedup.bam, BAMs_sorted/Avir-F1-RNA_csorted_dedup.bam
+    resources: tmpdir=/tmp
+
+[Wed Nov 22 00:34:04 2023]
+Finished job 0.
+10 of 10 steps (100%) done
+Complete log: .snakemake/log/2023-11-21T231858.044452.snakemake.log
