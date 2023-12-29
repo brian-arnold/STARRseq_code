@@ -1,0 +1,546 @@
+before filtering: 103313
+after filtering: 34129
+before filtering: 101930
+after filtering: 31722
+before filtering: 104845
+after filtering: 36205
+before filtering: 9645
+after filtering: 9146
+before filtering: 13153
+after filtering: 10606
+before filtering: 12217
+after filtering: 9877
+[34129, 31722, 36205]
+[9146, 10606, 9877]
+original df length: 9146
+df length after join: 9147
+[[1.         0.62438398]
+ [0.62438398 1.        ]]
+original df length: 10606
+df length after join: 10606
+[[1.         0.61311275]
+ [0.61311275 1.        ]]
+original df length: 9877
+df length after join: 9877
+[[1.        0.6265373]
+ [0.6265373 1.       ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(34129, 0.05989041577544024), (31722, 0.09271168274383708), (36205, 0.07835934263223311)]
+[(9146, 0.9034550623223268), (10606, 0.8828964736941354), (9877, 0.8987546825959299)]
+MACS2 raw: 34129 peaks, 5.99% overlap with deduplicated peaks
+MACS2 raw: 31722 peaks, 9.27% overlap with deduplicated peaks
+MACS2 raw: 36205 peaks, 7.84% overlap with deduplicated peaks
+MACS2 deduplicated: 9146 peaks, 90.35% overlap with raw peaks
+MACS2 deduplicated: 10606 peaks, 88.29% overlap with raw peaks
+MACS2 deduplicated: 9877 peaks, 89.88% overlap with raw peaks
+[(34129, 31722, 11677), (34129, 36205, 11732), (31722, 36205, 11545)]
+[(9146, 10606, 4542), (9146, 9877, 4330), (10606, 9877, 4500)]
+['010' '110' '000' '001' '011' '111' '100' '101']
+['100' '110' '111' '101' '001' '000' '010' '011']
+2
+0
+before filtering: 60285
+after filtering: 18511
+before filtering: 57610
+after filtering: 17170
+before filtering: 53509
+after filtering: 15653
+before filtering: 10142
+after filtering: 2989
+before filtering: 10283
+after filtering: 2665
+before filtering: 9574
+after filtering: 2685
+[18511, 17170, 15653]
+[2989, 2665, 2685]
+original df length: 2989
+df length after join: 3040
+[[1.         0.24601487]
+ [0.24601487 1.        ]]
+original df length: 2665
+df length after join: 2717
+[[1.         0.22377948]
+ [0.22377948 1.        ]]
+original df length: 2685
+df length after join: 2719
+[[1.         0.26742922]
+ [0.26742922 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(18511, 0.07455026740856788), (17170, 0.07897495631916132), (15653, 0.09193125918354308)]
+[(2989, 0.7266644362663098), (2665, 0.751969981238274), (2685, 0.8361266294227188)]
+MACS2 raw: 18511 peaks, 7.46% overlap with deduplicated peaks
+MACS2 raw: 17170 peaks, 7.90% overlap with deduplicated peaks
+MACS2 raw: 15653 peaks, 9.19% overlap with deduplicated peaks
+MACS2 deduplicated: 2989 peaks, 72.67% overlap with raw peaks
+MACS2 deduplicated: 2665 peaks, 75.20% overlap with raw peaks
+MACS2 deduplicated: 2685 peaks, 83.61% overlap with raw peaks
+[(18511, 17170, 9394), (18511, 15653, 8996), (17170, 15653, 9071)]
+[(2989, 2665, 2036), (2989, 2685, 1968), (2665, 2685, 1879)]
+['010' '000' '101' '111' '001' '100' '110' '011']
+['100' '000' '101' '111' '001' '010' '110' '011']
+0
+0
+before filtering: 140041
+after filtering: 42663
+before filtering: 152051
+after filtering: 47421
+before filtering: 146202
+after filtering: 42082
+before filtering: 15954
+after filtering: 5989
+before filtering: 22717
+after filtering: 8053
+before filtering: 23660
+after filtering: 7746
+[42663, 47421, 42082]
+[5989, 8053, 7746]
+original df length: 5989
+df length after join: 6025
+[[1.         0.16385903]
+ [0.16385903 1.        ]]
+original df length: 8053
+df length after join: 8129
+[[1.         0.18758915]
+ [0.18758915 1.        ]]
+original df length: 7746
+df length after join: 7813
+[[1.        0.1514705]
+ [0.1514705 1.       ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(42663, 0.02519747790825774), (47421, 0.028637101705995233), (42082, 0.026068152654341523)]
+[(5989, 0.5887460343963934), (8053, 0.5088786787532597), (7746, 0.4398399173767106)]
+MACS2 raw: 42663 peaks, 2.52% overlap with deduplicated peaks
+MACS2 raw: 47421 peaks, 2.86% overlap with deduplicated peaks
+MACS2 raw: 42082 peaks, 2.61% overlap with deduplicated peaks
+MACS2 deduplicated: 5989 peaks, 58.87% overlap with raw peaks
+MACS2 deduplicated: 8053 peaks, 50.89% overlap with raw peaks
+MACS2 deduplicated: 7746 peaks, 43.98% overlap with raw peaks
+[(42663, 47421, 22067), (42663, 42082, 21385), (47421, 42082, 21410)]
+[(5989, 8053, 2900), (5989, 7746, 2808), (8053, 7746, 3098)]
+['100' '101' '111' '110' '000' '010' '001' '011']
+['100' '000' '001' '011' '101' '111' '110' '010']
+0
+0
+before filtering: 47505
+after filtering: 13827
+before filtering: 38363
+after filtering: 11482
+before filtering: 35177
+after filtering: 10253
+before filtering: 3941
+after filtering: 1320
+before filtering: 3500
+after filtering: 697
+before filtering: 3224
+after filtering: 696
+[13827, 11482, 10253]
+[1320, 697, 696]
+original df length: 1320
+df length after join: 1334
+[[1.         0.12586042]
+ [0.12586042 1.        ]]
+original df length: 697
+df length after join: 700
+[[1.         0.14521147]
+ [0.14521147 1.        ]]
+original df length: 696
+df length after join: 698
+[[1.         0.13511247]
+ [0.13511247 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(13827, 0.022419903088160845), (11482, 0.02560529524473088), (10253, 0.03130790988003511)]
+[(1320, 0.2446969696969697), (697, 0.4949784791965567), (696, 0.5589080459770115)]
+MACS2 raw: 13827 peaks, 2.24% overlap with deduplicated peaks
+MACS2 raw: 11482 peaks, 2.56% overlap with deduplicated peaks
+MACS2 raw: 10253 peaks, 3.13% overlap with deduplicated peaks
+MACS2 deduplicated: 1320 peaks, 24.47% overlap with raw peaks
+MACS2 deduplicated: 697 peaks, 49.50% overlap with raw peaks
+MACS2 deduplicated: 696 peaks, 55.89% overlap with raw peaks
+[(13827, 11482, 5849), (13827, 10253, 5505), (11482, 10253, 5559)]
+[(1320, 697, 449), (1320, 696, 401), (697, 696, 442)]
+['100' '101' '111' '011' '001' '000' '110' '010']
+['100' '000' '110' '111' '101' '001' '011' '010']
+0
+0
+before filtering: 97840
+after filtering: 23306
+before filtering: 97868
+after filtering: 23720
+before filtering: 97362
+after filtering: 23022
+before filtering: 27943
+after filtering: 2261
+before filtering: 27668
+after filtering: 2268
+before filtering: 26263
+after filtering: 2031
+[23306, 23720, 23022]
+[2261, 2268, 2031]
+original df length: 2261
+df length after join: 2278
+[[1.         0.03687005]
+ [0.03687005 1.        ]]
+original df length: 2268
+df length after join: 2273
+[[1.         0.10341297]
+ [0.10341297 1.        ]]
+original df length: 2031
+df length after join: 2035
+[[1.         0.04136351]
+ [0.04136351 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(23306, 0.047112331588432164), (23720, 0.048482293423271504), (23022, 0.043567022847710885)]
+[(2261, 0.8690844758956214), (2268, 0.9329805996472663), (2031, 0.9084194977843427)]
+MACS2 raw: 23306 peaks, 4.71% overlap with deduplicated peaks
+MACS2 raw: 23720 peaks, 4.85% overlap with deduplicated peaks
+MACS2 raw: 23022 peaks, 4.36% overlap with deduplicated peaks
+MACS2 deduplicated: 2261 peaks, 86.91% overlap with raw peaks
+MACS2 deduplicated: 2268 peaks, 93.30% overlap with raw peaks
+MACS2 deduplicated: 2031 peaks, 90.84% overlap with raw peaks
+[(23306, 23720, 16570), (23306, 23022, 16424), (23720, 23022, 16713)]
+[(2261, 2268, 1336), (2261, 2031, 1296), (2268, 2031, 1320)]
+['001' '011' '111' '110' '000' '010' '100' '101']
+['011' '111' '101' '001' '000' '010' '110' '100']
+0
+0
+before filtering: 74898
+after filtering: 17359
+before filtering: 71494
+after filtering: 16001
+before filtering: 80437
+after filtering: 23183
+before filtering: 6492
+after filtering: 1102
+before filtering: 5431
+after filtering: 840
+before filtering: 13459
+after filtering: 4411
+[17359, 16001, 23183]
+[1102, 840, 4411]
+original df length: 1102
+df length after join: 1102
+[[1.         0.01612914]
+ [0.01612914 1.        ]]
+original df length: 840
+df length after join: 840
+[[1.         0.01747708]
+ [0.01747708 1.        ]]
+original df length: 4411
+df length after join: 4413
+[[1.         0.15394705]
+ [0.15394705 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(17359, 0.02644161530042053), (16001, 0.02387350790575589), (23183, 0.060043997756977094)]
+[(1102, 0.7168784029038112), (840, 0.7047619047619048), (4411, 0.8748583087735208)]
+MACS2 raw: 17359 peaks, 2.64% overlap with deduplicated peaks
+MACS2 raw: 16001 peaks, 2.39% overlap with deduplicated peaks
+MACS2 raw: 23183 peaks, 6.00% overlap with deduplicated peaks
+MACS2 deduplicated: 1102 peaks, 71.69% overlap with raw peaks
+MACS2 deduplicated: 840 peaks, 70.48% overlap with raw peaks
+MACS2 deduplicated: 4411 peaks, 87.49% overlap with raw peaks
+[(17359, 16001, 11140), (17359, 23183, 11851), (16001, 23183, 11511)]
+[(1102, 840, 604), (1102, 4411, 882), (840, 4411, 679)]
+['100' '111' '101' '001' '010' '011' '000' '110']
+['001' '100' '101' '000' '011' '111' '110' '010']
+0
+1
+before filtering: 70087
+after filtering: 18211
+before filtering: 74577
+after filtering: 18733
+before filtering: 72911
+after filtering: 17807
+before filtering: 7187
+after filtering: 1255
+before filtering: 7660
+after filtering: 1455
+before filtering: 6855
+after filtering: 1189
+[18211, 18733, 17807]
+[1255, 1455, 1189]
+original df length: 1255
+df length after join: 1255
+[[1.         0.02629025]
+ [0.02629025 1.        ]]
+original df length: 1455
+df length after join: 1455
+[[1.         0.01616648]
+ [0.01616648 1.        ]]
+original df length: 1189
+df length after join: 1189
+[[1.         0.00293275]
+ [0.00293275 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(18211, 0.02597331283290319), (18733, 0.026690866385522875), (17807, 0.024540910877744706)]
+[(1255, 0.8350597609561753), (1455, 0.797938144329897), (1189, 0.8284272497897393)]
+MACS2 raw: 18211 peaks, 2.60% overlap with deduplicated peaks
+MACS2 raw: 18733 peaks, 2.67% overlap with deduplicated peaks
+MACS2 raw: 17807 peaks, 2.45% overlap with deduplicated peaks
+MACS2 deduplicated: 1255 peaks, 83.51% overlap with raw peaks
+MACS2 deduplicated: 1455 peaks, 79.79% overlap with raw peaks
+MACS2 deduplicated: 1189 peaks, 82.84% overlap with raw peaks
+[(18211, 18733, 12555), (18211, 17807, 12302), (18733, 17807, 11839)]
+[(1255, 1455, 816), (1255, 1189, 726), (1455, 1189, 777)]
+['100' '101' '011' '010' '000' '001' '111' '110']
+['100' '101' '001' '000' '010' '011' '111' '110']
+0
+1
+before filtering: 69896
+after filtering: 18031
+before filtering: 69663
+after filtering: 17262
+before filtering: 68828
+after filtering: 17758
+before filtering: 6274
+after filtering: 904
+before filtering: 5805
+after filtering: 826
+before filtering: 6796
+after filtering: 1018
+[18031, 17262, 17758]
+[904, 826, 1018]
+original df length: 904
+df length after join: 904
+[[1.         0.01497217]
+ [0.01497217 1.        ]]
+original df length: 826
+df length after join: 826
+[[ 1.         -0.00118171]
+ [-0.00118171  1.        ]]
+original df length: 1018
+df length after join: 1018
+[[1.         0.01444374]
+ [0.01444374 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(18031, 0.022239476457212578), (17262, 0.02015988877302746), (17758, 0.02427075121072193)]
+[(904, 0.7477876106194691), (826, 0.6888619854721549), (1018, 0.7838899803536346)]
+MACS2 raw: 18031 peaks, 2.22% overlap with deduplicated peaks
+MACS2 raw: 17262 peaks, 2.02% overlap with deduplicated peaks
+MACS2 raw: 17758 peaks, 2.43% overlap with deduplicated peaks
+MACS2 deduplicated: 904 peaks, 74.78% overlap with raw peaks
+MACS2 deduplicated: 826 peaks, 68.89% overlap with raw peaks
+MACS2 deduplicated: 1018 peaks, 78.39% overlap with raw peaks
+[(18031, 17262, 13272), (18031, 17758, 13214), (17262, 17758, 13123)]
+[(904, 826, 586), (904, 1018, 634), (826, 1018, 597)]
+['001' '110' '111' '101' '100' '000' '010' '011']
+['001' '101' '100' '000' '110' '111' '011' '010']
+0
+1
+before filtering: 105346
+after filtering: 31357
+before filtering: 110351
+after filtering: 35371
+before filtering: 106540
+after filtering: 30969
+before filtering: 17578
+after filtering: 5038
+before filtering: 20122
+after filtering: 5835
+before filtering: 12010
+after filtering: 3093
+[31357, 35371, 30969]
+[5038, 5835, 3093]
+original df length: 5038
+df length after join: 5039
+[[1.        0.2136926]
+ [0.2136926 1.       ]]
+original df length: 5835
+df length after join: 5837
+[[1.         0.12601111]
+ [0.12601111 1.        ]]
+original df length: 3093
+df length after join: 3095
+[[1.         0.10058732]
+ [0.10058732 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(31357, 0.040469432662563386), (35371, 0.040230697464024204), (30969, 0.018018018018018018)]
+[(5038, 0.7989281460897182), (5835, 0.7204798628963154), (3093, 0.7222761073391529)]
+MACS2 raw: 31357 peaks, 4.05% overlap with deduplicated peaks
+MACS2 raw: 35371 peaks, 4.02% overlap with deduplicated peaks
+MACS2 raw: 30969 peaks, 1.80% overlap with deduplicated peaks
+MACS2 deduplicated: 5038 peaks, 79.89% overlap with raw peaks
+MACS2 deduplicated: 5835 peaks, 72.05% overlap with raw peaks
+MACS2 deduplicated: 3093 peaks, 72.23% overlap with raw peaks
+[(31357, 35371, 19940), (31357, 30969, 20034), (35371, 30969, 20684)]
+[(5038, 5835, 2286), (5038, 3093, 1477), (5835, 3093, 1574)]
+['001' '011' '000' '100' '010' '101' '111' '110']
+['101' '001' '000' '010' '100' '110' '011' '111']
+0
+0
+before filtering: 7786
+after filtering: 3087
+before filtering: 5682
+after filtering: 2469
+before filtering: 7367
+after filtering: 2918
+before filtering: 3744
+after filtering: 2437
+before filtering: 3374
+after filtering: 2253
+before filtering: 4213
+after filtering: 2215
+[3087, 2469, 2918]
+[2437, 2253, 2215]
+original df length: 2437
+df length after join: 2437
+[[1.         0.39825421]
+ [0.39825421 1.        ]]
+original df length: 2253
+df length after join: 2253
+[[1.         0.40784856]
+ [0.40784856 1.        ]]
+original df length: 2215
+df length after join: 2215
+[[1.         0.39207111]
+ [0.39207111 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(3087, 0.35374149659863946), (2469, 0.4025921425678412), (2918, 0.3708019191226868)]
+[(2437, 0.6573656134591711), (2253, 0.6160674656014203), (2215, 0.6388261851015802)]
+MACS2 raw: 3087 peaks, 35.37% overlap with deduplicated peaks
+MACS2 raw: 2469 peaks, 40.26% overlap with deduplicated peaks
+MACS2 raw: 2918 peaks, 37.08% overlap with deduplicated peaks
+MACS2 deduplicated: 2437 peaks, 65.74% overlap with raw peaks
+MACS2 deduplicated: 2253 peaks, 61.61% overlap with raw peaks
+MACS2 deduplicated: 2215 peaks, 63.88% overlap with raw peaks
+[(3087, 2469, 2092), (3087, 2918, 2330), (2469, 2918, 2117)]
+[(2437, 2253, 1409), (2437, 2215, 1393), (2253, 2215, 1351)]
+['100' '000' '101' '010' '001' '011' '111' '110']
+['001' '000' '100' '010' '110' '011' '111' '101']
+2
+0
+before filtering: 72060
+after filtering: 19696
+before filtering: 71491
+after filtering: 20187
+before filtering: 73647
+after filtering: 19598
+before filtering: 8864
+after filtering: 1975
+before filtering: 9445
+after filtering: 2441
+before filtering: 12246
+after filtering: 2682
+[19696, 20187, 19598]
+[1975, 2441, 2682]
+original df length: 1975
+df length after join: 1977
+[[1.         0.67982492]
+ [0.67982492 1.        ]]
+original df length: 2441
+df length after join: 2444
+[[1.        0.6759718]
+ [0.6759718 1.       ]]
+original df length: 2682
+df length after join: 2706
+[[1.         0.67797806]
+ [0.67797806 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(19696, 0.0659017059301381), (20187, 0.07247238321692179), (19598, 0.0716399632615573)]
+[(1975, 0.7929113924050633), (2441, 0.7279803359278983), (2682, 0.5503355704697986)]
+MACS2 raw: 19696 peaks, 6.59% overlap with deduplicated peaks
+MACS2 raw: 20187 peaks, 7.25% overlap with deduplicated peaks
+MACS2 raw: 19598 peaks, 7.16% overlap with deduplicated peaks
+MACS2 deduplicated: 1975 peaks, 79.29% overlap with raw peaks
+MACS2 deduplicated: 2441 peaks, 72.80% overlap with raw peaks
+MACS2 deduplicated: 2682 peaks, 55.03% overlap with raw peaks
+[(19696, 20187, 14722), (19696, 19598, 15119), (20187, 19598, 15230)]
+[(1975, 2441, 1674), (1975, 2682, 1697), (2441, 2682, 1900)]
+['100' '000' '001' '011' '111' '010' '110' '101']
+['100' '101' '111' '001' '000' '011' '010' '110']
+0
+0
+before filtering: 101058
+after filtering: 25937
+before filtering: 98260
+after filtering: 25250
+before filtering: 85703
+after filtering: 21063
+before filtering: 11859
+after filtering: 5094
+before filtering: 12556
+after filtering: 4995
+before filtering: 13918
+after filtering: 4258
+[25937, 25250, 21063]
+[5094, 4995, 4258]
+original df length: 5094
+df length after join: 5199
+[[1.         0.14520623]
+ [0.14520623 1.        ]]
+original df length: 4995
+df length after join: 5080
+[[1.         0.15034184]
+ [0.15034184 1.        ]]
+original df length: 4258
+df length after join: 4333
+[[1.         0.17883788]
+ [0.17883788 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(25937, 0.03466090912595905), (25250, 0.03675247524752475), (21063, 0.048093813796705125)]
+[(5094, 0.1668629760502552), (4995, 0.1915915915915916), (4258, 0.2247534053546266)]
+MACS2 raw: 25937 peaks, 3.47% overlap with deduplicated peaks
+MACS2 raw: 25250 peaks, 3.68% overlap with deduplicated peaks
+MACS2 raw: 21063 peaks, 4.81% overlap with deduplicated peaks
+MACS2 deduplicated: 5094 peaks, 16.69% overlap with raw peaks
+MACS2 deduplicated: 4995 peaks, 19.16% overlap with raw peaks
+MACS2 deduplicated: 4258 peaks, 22.48% overlap with raw peaks
+[(25937, 25250, 12087), (25937, 21063, 11950), (25250, 21063, 12036)]
+[(5094, 4995, 3522), (5094, 4258, 2861), (4995, 4258, 3023)]
+['010' '000' '100' '001' '101' '111' '110' '011']
+['001' '011' '000' '100' '010' '111' '110' '101']
+0
+0
+before filtering: 41677
+after filtering: 22954
+before filtering: 40660
+after filtering: 21872
+before filtering: 41242
+after filtering: 22722
+before filtering: 21798
+after filtering: 8785
+before filtering: 23397
+after filtering: 7843
+before filtering: 32193
+after filtering: 11630
+[22954, 21872, 22722]
+[8785, 7843, 11630]
+original df length: 8785
+df length after join: 8793
+[[1.         0.50297834]
+ [0.50297834 1.        ]]
+original df length: 7843
+df length after join: 7848
+[[1.         0.46220966]
+ [0.46220966 1.        ]]
+original df length: 11630
+df length after join: 11713
+[[1.         0.49662671]
+ [0.49662671 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(22954, 0.12599111266010282), (21872, 0.11242684711046086), (22722, 0.3078074113194261)]
+[(8785, 0.9762094479225953), (7843, 0.9727145225041438), (11630, 0.9769561478933791)]
+MACS2 raw: 22954 peaks, 12.60% overlap with deduplicated peaks
+MACS2 raw: 21872 peaks, 11.24% overlap with deduplicated peaks
+MACS2 raw: 22722 peaks, 30.78% overlap with deduplicated peaks
+MACS2 deduplicated: 8785 peaks, 97.62% overlap with raw peaks
+MACS2 deduplicated: 7843 peaks, 97.27% overlap with raw peaks
+MACS2 deduplicated: 11630 peaks, 97.70% overlap with raw peaks
+[(22954, 21872, 16451), (22954, 22722, 16364), (21872, 22722, 15685)]
+[(8785, 7843, 6193), (8785, 11630, 7948), (7843, 11630, 7276)]
+['001' '000' '100' '010' '110' '111' '011' '101']
+['001' '101' '111' '110' '010' '000' '100' '011']
+0
+0
+RUNNING SPECIES:  Nmel
+RUNNING SPECIES:  Apur
+RUNNING SPECIES:  Avir
+RUNNING SPECIES:  Aaur
+RUNNING SPECIES:  Lvie
+RUNNING SPECIES:  Bimp
+RUNNING SPECIES:  BimpMET
+RUNNING SPECIES:  BimpDMSO
+RUNNING SPECIES:  Hlig
+RUNNING SPECIES:  Hqua
+RUNNING SPECIES:  Lzep
+RUNNING SPECIES:  Lbal
+RUNNING SPECIES:  Amel

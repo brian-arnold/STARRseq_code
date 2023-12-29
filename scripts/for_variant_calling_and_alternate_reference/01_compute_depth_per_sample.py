@@ -11,7 +11,8 @@ from collections import defaultdict
 def main():
 
   var_call_dir = "/Genomics/kocherlab/bjarnold/STARRseq/code/snakemake_snparcher/results"
-  species = ['Nmel', 'Aaur', 'Apur', 'Avir']
+  # species = ['Nmel', 'Aaur', 'Apur', 'Avir', Amel]
+  species = ['Bimp']
 
   for s in species:
     vcf = f'{var_call_dir}/{s}/final_raw.vcf.gz'

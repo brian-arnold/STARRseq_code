@@ -11,8 +11,8 @@ from collections import defaultdict
 def main():
 
   var_call_dir = "/Genomics/kocherlab/bjarnold/STARRseq/code/snakemake_snparcher/results"
-  species = ['Nmel', 'Aaur', 'Apur', 'Avir']
-  # species = ['Nmel']
+  # species = ['Nmel', 'Aaur', 'Apur', 'Avir', 'Amel']
+  species = ['Bimp']
   out_dir = "/Genomics/kocherlab/bjarnold/STARRseq/data/VCFs/alternate_reference/00_filtered"
   minDP = 4
 

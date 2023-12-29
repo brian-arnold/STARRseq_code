@@ -4,15 +4,8 @@ VCFtools - 0.1.16
 
 Parameters as interpreted:
 	--gzvcf /Genomics/kocherlab/bjarnold/STARRseq/code/snakemake_snparcher/results/Bimp/final_raw.vcf.gz
-	--max-alleles 2
-	--max-missing-count 1
-	--min-alleles 2
-	--minDP 4
-	--recode
-	--stdout
-	--indv Bimp_RNA_F1
-	--indv Bimp_RNA_F2
-	--indv Bimp_RNA_F3
+	--depth
+	--out Bimp
 
 Using zlib version: 1.2.13
 Warning: Expected at least 2 parts in FORMAT entry: ID=PGT,Number=1,Type=String,Description="Physical phasing haplotype information, describing how the alternate alleles are phased in relation to one another; will always be heterozygous and is not intended to describe called alleles">
@@ -27,8 +20,7 @@ Warning: Expected at least 2 parts in INFO entry: ID=MLEAC,Number=A,Type=Integer
 Warning: Expected at least 2 parts in INFO entry: ID=MLEAC,Number=A,Type=Integer,Description="Maximum likelihood expectation (MLE) for the allele counts (not necessarily the same as the AC), for each ALT allele, in the same order as listed">
 Warning: Expected at least 2 parts in INFO entry: ID=MLEAF,Number=A,Type=Float,Description="Maximum likelihood expectation (MLE) for the allele frequency (not necessarily the same as the AF), for each ALT allele, in the same order as listed">
 Warning: Expected at least 2 parts in INFO entry: ID=MLEAF,Number=A,Type=Float,Description="Maximum likelihood expectation (MLE) for the allele frequency (not necessarily the same as the AF), for each ALT allele, in the same order as listed">
-Keeping individuals in 'keep' list
-After filtering, kept 3 out of 6 Individuals
-Outputting VCF file...
-After filtering, kept 1211845 out of a possible 1927851 Sites
-Run Time = 31.00 seconds
+After filtering, kept 6 out of 6 Individuals
+Outputting Mean Depth by Individual
+After filtering, kept 1927851 out of a possible 1927851 Sites
+Run Time = 10.00 seconds

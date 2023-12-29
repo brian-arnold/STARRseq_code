@@ -19,7 +19,7 @@
 # TO-DO: Lalb, Sinv
 
 
-SPECIES=Lalb
+SPECIES=Dmel
 
 CONFIGFILE=${PWD}/config_files/config_${SPECIES}.yml
 RUNDIR=${PWD}

@@ -1,0 +1,9 @@
+SAMPLES
+['Lalb-VEN-F2-input', 'Lalb-WIM-F3-RNA', 'Lalb-RIM-F1-input', 'Lalb-TOM-F1-input', 'Lalb-VEN-F1-input', 'Lalb-ANO-F2-input', 'Lalb-ANO-F2-RNA', 'Lalb-RIM-F3-RNA', 'Lalb-WIM-F2-input', 'Lalb-WIM-F2-RNA', 'Lalb-TOM-F2-RNA', 'Lalb-TOM-F3-RNA', 'Lalb-RIM-F2-RNA', 'Lalb-VEN-F1-RNA', 'Lalb-TOM-F3-input', 'Lalb-RIM-F3-input', 'Lalb-ANO-F1-RNA', 'Lalb-WIM-F1-input', 'Lalb-ANO-F3-RNA', 'Lalb-AIL-F3-input', 'Lalb-RIM-F2-input', 'Lalb-WIM-F1-RNA', 'Lalb-VEN-F3-RNA', 'Lalb-AIL-F2-RNA', 'Lalb-AIL-F3-RNA', 'Lalb-VEN-F2-RNA', 'Lalb-AIL-F1-RNA', 'Lalb-RIM-F1-RNA', 'Lalb-WIM-F3-input', 'Lalb-AIL-F1-input', 'Lalb-TOM-F2-input', 'Lalb-AIL-F2-input', 'Lalb-VEN-F3-input', 'Lalb-ANO-F1-input', 'Lalb-ANO-F3-input', 'Lalb-TOM-F1-RNA']
+POPLS
+('Lalb-TOM', 'Lalb-VEN', 'Lalb-AIL', 'Lalb-ANO', 'Lalb-WIM', 'Lalb-VEN', 'Lalb-RIM', 'Lalb-VEN', 'Lalb-AIL', 'Lalb-ANO', 'Lalb-TOM', 'Lalb-TOM', 'Lalb-WIM', 'Lalb-RIM', 'Lalb-WIM', 'Lalb-RIM', 'Lalb-AIL', 'Lalb-ANO')
+FLASKS
+('F3', 'F2', 'F1', 'F1', 'F3', 'F1', 'F3', 'F3', 'F3', 'F3', 'F2', 'F1', 'F2', 'F2', 'F1', 'F1', 'F2', 'F2')
+READS
+1
+3

@@ -1,0 +1,6 @@
+SAMPLES
+['Lbal-F1-input', 'Lbal-F3-input', 'Lbal-F2-RNA', 'Lbal-F2-input', 'Lbal-F3-RNA', 'Lbal-F1-RNA']
+POPLS
+('Lbal', 'Lbal', 'Lbal')
+FLASKS
+('F2', 'F1', 'F3')

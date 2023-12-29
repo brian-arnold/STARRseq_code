@@ -1,6 +1,0 @@
-SAMPLES
-['Apur-F1-RNA', 'Apur-F3-input', 'Apur-F2-input', 'Apur-F2-RNA', 'Apur-F3-RNA', 'Apur-F1-input']
-POPLS
-('Apur', 'Apur', 'Apur')
-FLASKS
-('F2', 'F1', 'F3')

@@ -1,0 +1,2 @@
+species raw dedup 
+Aaur 5026 413 

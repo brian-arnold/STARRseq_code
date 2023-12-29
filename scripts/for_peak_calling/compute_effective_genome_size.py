@@ -25,17 +25,19 @@ def main():
   '/Genomics/kocherlab/lab/data/GenomeReleases/official_release_v2.1.1/HQUA/HQUA_genome_v2.1.0.fasta.gz',
   '/Genomics/kocherlab/bjarnold/STARRseq/data/genomes/AMEL/GCF_003254395.2_Amel_HAv3.1_genomic.fna.gz',
   '/Genomics/kocherlab/bjarnold/STARRseq/data/genomes/BIMP/BIMP_genome_vNP3.fna.gz',
-  '/Genomics/kocherlab/bjarnold/STARRseq/data/genomes/SINV/GCF_016802725.1_UNIL_Sinv_3.0_genomic.fna.gz'
+  '/Genomics/kocherlab/bjarnold/STARRseq/data/genomes/SINV/GCF_016802725.1_UNIL_Sinv_3.0_genomic.fna.gz',
+  '/Genomics/kocherlab/bjarnold/STARRseq/data/genomes/DMEL/GCF_000001215.4_Release_6_plus_ISO1_MT_genomic.fna'
   ]
 
   for g in genomes:
-    print(g)
-    cmd = ['zcat', g, '|', 'grep', '-v', '"^>"', '|', 'tr', '-cd', '"ACGTacgt"', '|', 'wc', '-c']
-    os.system(" ".join(cmd))
-    print("#### including N's ####")
-    cmd = ['zcat', g, '|', 'grep', '-v', '"^>"', '|', 'tr', '-cd', '"ACGTNacgtn"', '|', 'wc', '-c']
-    os.system(" ".join(cmd))
-    print("\n")
+    if 'DMEL' in g:
+      print(g)
+      cmd = ['zcat', g, '|', 'grep', '-v', '"^>"', '|', 'tr', '-cd', '"ACGTacgt"', '|', 'wc', '-c']
+      os.system(" ".join(cmd))
+      print("#### including N's ####")
+      cmd = ['zcat', g, '|', 'grep', '-v', '"^>"', '|', 'tr', '-cd', '"ACGTNacgtn"', '|', 'wc', '-c']
+      os.system(" ".join(cmd))
+      print("\n")
 
     # result = subprocess.run(cmd, capture_output=True, text=False)
     # print(result)

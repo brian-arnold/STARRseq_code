@@ -19,6 +19,8 @@ source /Genomics/argo/users/bjarnold/miniforge3/etc/profile.d/conda.sh
 # python3 03_filter_vcfs_within_sample_allele_frequency.py Apur
 # python3 03_filter_vcfs_within_sample_allele_frequency.py Avir
 # python3 03_filter_vcfs_within_sample_allele_frequency.py Nmel
+# python3 03_filter_vcfs_within_sample_allele_frequency.py Amel
+# python3 03_filter_vcfs_within_sample_allele_frequency.py Bimp
 
 conda activate bioinformatics
 python3 04_make_alternate_reference.py

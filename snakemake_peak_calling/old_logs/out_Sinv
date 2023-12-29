@@ -1,0 +1,9 @@
+SAMPLES
+['Sinv-LIT-F1-input', 'Sinv-BIG-F3-input', 'Sinv-BIG-F1-RNA', 'Sinv-BIG-F2-RNA', 'Sinv-BIG-F1-input', 'Sinv-LIT-F2-RNA', 'Sinv-LIT-F2-input', 'Sinv-LIT-F3-RNA', 'Sinv-LIT-F3-input', 'Sinv-LIT-F1-RNA', 'Sinv-BIG-F2-input', 'Sinv-BIG-F3-RNA']
+POPLS
+('Sinv-LIT', 'Sinv-BIG', 'Sinv-LIT', 'Sinv-BIG', 'Sinv-LIT', 'Sinv-BIG')
+FLASKS
+('F3', 'F3', 'F2', 'F2', 'F1', 'F1')
+READS
+1
+3

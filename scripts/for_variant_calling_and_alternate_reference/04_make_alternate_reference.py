@@ -15,7 +15,8 @@ def main():
   vcf_dir = "/Genomics/kocherlab/bjarnold/STARRseq/data/VCFs/alternate_reference/01_filtered_within_sample_allele_frequency"
   new_fasta_dir = "/Genomics/kocherlab/bjarnold/STARRseq/data/alternate_references"
 
-  for species in ['Nmel','Aaur','Apur','Avir']:
+  # for species in ['Nmel','Aaur','Apur','Avir', 'Amel']:
+  for species in ['Bimp']:
     vcf = f'{vcf_dir}/{species}.vcf.gz'
     new_fasta = f'{new_fasta_dir}/{species}.fasta'
 

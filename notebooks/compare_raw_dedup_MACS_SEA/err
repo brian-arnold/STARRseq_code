@@ -1,0 +1,1752 @@
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+Traceback (most recent call last):
+  File "00_raw_deduplicated_compare_MACS_peaks.py", line 428, in <module>
+    macs_dedup_trips_subsamp_df = macs_dedup_trips_df.sample(n=number_of_seqs_to_subsample).reset_index(drop=True) 
+  File "/Genomics/argo/users/bjarnold/miniforge3/envs/pyranges/lib/python3.8/site-packages/pandas/core/generic.py", line 5858, in sample
+    sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+  File "/Genomics/argo/users/bjarnold/miniforge3/envs/pyranges/lib/python3.8/site-packages/pandas/core/sample.py", line 151, in sample
+    return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+  File "mtrand.pyx", line 965, in numpy.random.mtrand.RandomState.choice
+ValueError: Cannot take a larger sample than population when 'replace=False'
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+Traceback (most recent call last):
+  File "00_raw_deduplicated_compare_MACS_peaks.py", line 428, in <module>
+    macs_dedup_trips_subsamp_df = macs_dedup_trips_df.sample(n=number_of_seqs_to_subsample).reset_index(drop=True) 
+  File "/Genomics/argo/users/bjarnold/miniforge3/envs/pyranges/lib/python3.8/site-packages/pandas/core/generic.py", line 5858, in sample
+    sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+  File "/Genomics/argo/users/bjarnold/miniforge3/envs/pyranges/lib/python3.8/site-packages/pandas/core/sample.py", line 151, in sample
+    return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+  File "mtrand.pyx", line 965, in numpy.random.mtrand.RandomState.choice
+ValueError: Cannot take a larger sample than population when 'replace=False'
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+Traceback (most recent call last):
+  File "00_raw_deduplicated_compare_MACS_peaks.py", line 428, in <module>
+    macs_dedup_trips_subsamp_df = macs_dedup_trips_df.sample(n=number_of_seqs_to_subsample).reset_index(drop=True) 
+  File "/Genomics/argo/users/bjarnold/miniforge3/envs/pyranges/lib/python3.8/site-packages/pandas/core/generic.py", line 5858, in sample
+    sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+  File "/Genomics/argo/users/bjarnold/miniforge3/envs/pyranges/lib/python3.8/site-packages/pandas/core/sample.py", line 151, in sample
+    return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+  File "mtrand.pyx", line 965, in numpy.random.mtrand.RandomState.choice
+ValueError: Cannot take a larger sample than population when 'replace=False'
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+Traceback (most recent call last):
+  File "00_raw_deduplicated_compare_MACS_peaks.py", line 428, in <module>
+    macs_dedup_trips_subsamp_df = macs_dedup_trips_df.sample(n=number_of_seqs_to_subsample).reset_index(drop=True) 
+  File "/Genomics/argo/users/bjarnold/miniforge3/envs/pyranges/lib/python3.8/site-packages/pandas/core/generic.py", line 5858, in sample
+    sampled_indices = sample.sample(obj_len, size, replace, weights, rs)
+  File "/Genomics/argo/users/bjarnold/miniforge3/envs/pyranges/lib/python3.8/site-packages/pandas/core/sample.py", line 151, in sample
+    return random_state.choice(obj_len, size=size, replace=replace, p=weights).astype(
+  File "mtrand.pyx", line 965, in numpy.random.mtrand.RandomState.choice
+ValueError: Cannot take a larger sample than population when 'replace=False'
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:273: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df['method'] = method
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:293: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'signalValue_{i}'] = tmp_join['signalValue']
+00_raw_deduplicated_compare_MACS_peaks.py:294: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  trips_df[f'peak_coord_{i}'] = tmp_join['peak_coord']
+00_raw_deduplicated_compare_MACS_peaks.py:333: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_signalValue'] = macs_raw_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:334: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_signalValue'] = macs_dedup_trips_df[[f'signalValue_{i}' for i in range(3)]].mean(axis=1)
+00_raw_deduplicated_compare_MACS_peaks.py:337: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['mean_peak_coord'] = macs_raw_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:338: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['mean_peak_coord'] = macs_dedup_trips_df[[f'peak_coord_{i}' for i in range(3)]].mean(axis=1).astype(int)
+00_raw_deduplicated_compare_MACS_peaks.py:348: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_Start'] = macs_raw_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:349: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_raw_trips_df['peak_End'] = macs_raw_trips_df['mean_peak_coord'] + int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:351: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_Start'] = macs_dedup_trips_df['mean_peak_coord'] - int(interval_size/2)
+00_raw_deduplicated_compare_MACS_peaks.py:352: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  macs_dedup_trips_df['peak_End'] = macs_dedup_trips_df['mean_peak_coord'] + int(interval_size/2)

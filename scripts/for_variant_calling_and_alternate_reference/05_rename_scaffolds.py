@@ -11,7 +11,8 @@ from collections import defaultdict
 def main():
 
   ref_dir = "/Genomics/kocherlab/bjarnold/STARRseq/data/alternate_references"
-  species = ['Nmel','Aaur','Apur','Avir']
+  # species = ['Nmel','Aaur','Apur','Avir', 'Amel']
+  species = ['Bimp']
 
   for s in species:
     new_fasta = []
