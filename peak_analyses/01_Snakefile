@@ -1,0 +1,77 @@
+MIN_BIOREP_SUPP=3
+FOLD_DIFF=2
+NUM_REPS=100
+
+
+# DB='/Genomics/kocherlab/bjarnold/STARRseq/data/motif_databases/JASPAR/JASPAR2022_CORE_insects_non-redundant_v2.meme'
+# OUT_DIR=f'/Genomics/kocherlab/bjarnold/STARRseq/data/meme_suite/sea_output/JASPAR2022_CORE_insects_non-redundant_v2/{SPECIES}'
+DB='/Genomics/kocherlab/bjarnold/STARRseq/data/motif_databases/FLY/fly_factor_survey.meme'
+MEME_SUITE_DIR="/Genomics/argo/users/bjarnold/meme/bin"
+
+# UNCOMMENT FOR NON-DMEL SPECIES
+# SPECIES = ['Nmel', 'Lbal', 'Hqua', 'Hlig', 'Amel', 'Avir', 'Aaur', 'Apur', 'Bimp', 'BimpMET', 'BimpDMSO', 'Lvie', 'Lzep']
+SPECIES = ['Amel_prop0.001', 'Amel_prop0.01', 'Amel_prop0.05', 'Amel_prop0.1', 'Amel_prop0.2', 'Amel_prop0.4', 'Amel_prop0.6', 'Amel_prop0.8']
+DATA_DIR=f'/Genomics/kocherlab/bjarnold/STARRseq/data/meme_suite/min_biorep_support_{MIN_BIOREP_SUPP}/qval_0_folddiff_{FOLD_DIFF}/fastas'
+OUT_DIR=f'/Genomics/kocherlab/bjarnold/STARRseq/data/meme_suite/min_biorep_support_{MIN_BIOREP_SUPP}/qval_0_folddiff_{FOLD_DIFF}/sea_output'
+
+# UNCOMMENT FOR NON-DMEL SPECIES
+# SPECIES = ['Dmel']
+# DATA_DIR=f'/Genomics/kocherlab/bjarnold/STARRseq/data/meme_suite/Dmel/qval_0_folddiff_{FOLD_DIFF}/fastas'
+# OUT_DIR=f'/Genomics/kocherlab/bjarnold/STARRseq/data/meme_suite/Dmel/qval_0_folddiff_{FOLD_DIFF}/sea_output'
+
+
+rule all:
+    input:
+        # expand(OUT_DIR + "/dedup/rep{i}/sea.tsv", i=list(range(NUM_REPS))),
+        # expand(OUT_DIR + "/raw/rep{i}/sea.tsv", i=list(range(NUM_REPS))),
+        # expand(OUT_DIR + "/random/rep{i}/sea.tsv", i=list(range(NUM_REPS)))
+        expand(OUT_DIR + "/{s}/dedup/rep{i}/sea.tsv", i=list(range(NUM_REPS)), s=SPECIES),
+        expand(OUT_DIR + "/{s}/raw/rep{i}/sea.tsv", i=list(range(NUM_REPS)), s=SPECIES),
+        expand(OUT_DIR + "/{s}/random/rep{i}/sea.tsv", i=list(range(NUM_REPS)), s=SPECIES)
+
+rule raw:
+    input:
+        fasta = DATA_DIR + "/{s}/MACS2_triplet_peaks_raw_rep{i}.fa",
+        db = DB
+    output:
+        sea_tsv = OUT_DIR + "/{s}/raw/rep{i}/sea.tsv",
+        sea_html = OUT_DIR + "/{s}/raw/rep{i}/sea.html",
+        seq_log = OUT_DIR + "/{s}/raw/rep{i}/sequences.tsv"
+    params:
+        sea = f"{MEME_SUITE_DIR}/sea",
+        # out_dir = lambda wc: OUT_DIR + "/raw/rep" + wc.i
+        out_dir = lambda wc: OUT_DIR + "/" + wc.s + "/raw/rep" + wc.i
+    shell:
+        "{params.sea} --p {input.fasta} --m {input.db} --oc {params.out_dir}"
+
+
+rule dedup:
+    input:
+        fasta = DATA_DIR + "/{s}/MACS2_triplet_peaks_dedup_rep{i}.fa",
+        db = DB
+    output:
+        sea_tsv = OUT_DIR + "/{s}/dedup/rep{i}/sea.tsv",
+        sea_html = OUT_DIR + "/{s}/dedup/rep{i}/sea.html",
+        seq_log = OUT_DIR + "/{s}/dedup/rep{i}/sequences.tsv"
+    params:
+        sea = f"{MEME_SUITE_DIR}/sea",
+        # out_dir = lambda wc: OUT_DIR + "/dedup/rep" + wc.i
+        out_dir = lambda wc: OUT_DIR + "/" + wc.s + "/dedup/rep" + wc.i
+    shell:
+        "{params.sea} --p {input.fasta} --m {input.db} --oc {params.out_dir}"
+
+
+rule random:
+    input:
+        fasta = DATA_DIR + "/{s}/MACS2_triplet_peaks_random_rep{i}.fa",
+        db = DB
+    output:
+        sea_tsv = OUT_DIR + "/{s}/random/rep{i}/sea.tsv",
+        sea_html = OUT_DIR + "/{s}/random/rep{i}/sea.html",
+        seq_log = OUT_DIR + "/{s}/random/rep{i}/sequences.tsv"
+    params:
+        sea = f"{MEME_SUITE_DIR}/sea",
+        # out_dir = lambda wc: OUT_DIR + "/random/rep" + wc.i
+        out_dir = lambda wc: OUT_DIR + "/" + wc.s + "/random/rep" + wc.i
+    shell:
+        "{params.sea} --p {input.fasta} --m {input.db} --oc {params.out_dir}"

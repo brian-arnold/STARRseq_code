@@ -19,9 +19,9 @@
 # TO-DO: Lalb, Sinv
 
 
-SPECIES=Dmel
+SPECIES=Lvie_prop0.1
 
-CONFIGFILE=${PWD}/config_files/config_${SPECIES}.yml
+CONFIGFILE=${PWD}/config_files/Lvie_subsampling/config_${SPECIES}.yml
 RUNDIR=${PWD}
 RESULTSDIR=/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output
 DIR=${RESULTSDIR}/${SPECIES}
@@ -31,7 +31,8 @@ cd ${DIR}
 source /Genomics/argo/users/bjarnold/miniforge3/etc/profile.d/conda.sh
 conda activate snakemake
 # for --singularity-args, list all parent directories containing subdirectories that have data or files the snakemake workflow needs to access
-snakemake --snakefile /Genomics/kocherlab/bjarnold/STARRseq/code/snakemake_peak_calling/Snakefile \
+snakemake  --directory ${DIR} \
+--snakefile /Genomics/kocherlab/bjarnold/STARRseq/code/snakemake_peak_calling/Snakefile \
 --configfile ${CONFIGFILE} \
 -p --use-singularity \
 --singularity-args "--bind /Genomics/kocherlab/bjarnold --bind /Genomics/kocherlab/lab/data/GenomeReleases/official_release_v2.1.1 --bind /Genomics/kocherlab/lab/data/GenomeReleases/official_release_v3.1" \

@@ -1,6 +1,11 @@
 snakemake_snparcher/
+snakemake_peak_calling/.snakemake/
 notebooks/__pycache__/
 snakemake_peak_calling/err*
 snakemake_peak_calling/out*
-notebooks/compare_raw_dedup_MACS_SEA/.snakemake/
+notebooks/.snakemake/
 scripts/deeptools/*
+scripts/for_motif_analysis/fimo/
+peak_analyses/__pycache__/
+peak_analyses/Dmel/__pycache__/
+peak_analyses/.snakemake/

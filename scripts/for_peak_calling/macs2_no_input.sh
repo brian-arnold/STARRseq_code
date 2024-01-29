@@ -10,7 +10,21 @@
 
 source /Genomics/argo/users/bjarnold/miniforge3/etc/profile.d/conda.sh
 
-# python3 compute_effective_genome_size.py
+conda activate macs2
 
-conda activate bioinformatics
-python3 randomly_sample_fastq.py
+LIBRARY=Amel
+BIOREP=F3
+BASEDIR=/Genomics/kocherlab/bjarnold/STARRseq/data/peak_calling_snakemake_output/${LIBRARY}
+
+INPUT_RNA=${BASEDIR}/BAMs_sorted/Amel-${BIOREP}-RNA_csorted_dedup.bam
+NAME=/Genomics/kocherlab/bjarnold/STARRseq/data/MACS2_no_input/${LIBRARY}-${BIOREP}
+GSIZE=223937270
+
+macs2 callpeak \
+-t ${INPUT_RNA} \
+-f BAMPE \
+-g ${GSIZE} \
+-n ${NAME} \
+--bdg \
+-q 1 \
+--min-length 100

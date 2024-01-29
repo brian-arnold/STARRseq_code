@@ -1,0 +1,1 @@
+Some notebooks in this folder that involve peak calling use both MACS2 and Genrich, but we later decided against using Genrich because it detected very few peaks in the deduplicated data.

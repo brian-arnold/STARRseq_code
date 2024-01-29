@@ -1,0 +1,2 @@
+species raw dedup 
+Amel_prop0.4 26038 15846 

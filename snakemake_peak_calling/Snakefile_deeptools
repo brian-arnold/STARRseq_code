@@ -1,0 +1,110 @@
+# snakefiles are "marked up" python code
+
+# 1) import any extra scripts or libraries
+# this loads the config yaml and generates a dictionary, config
+#configfile: 'config.yaml'
+# I like to set this as a separate variable because I use it a lot
+paths = config['paths']
+# set working directory from config 
+workdir: paths['working_dir']
+
+# 2) find all input files:
+wc = glob_wildcards(paths['raw_fastq'])
+samples = {sample for sample in wc.sample if 'unmatched' not in sample}
+samples = list(samples)
+print("SAMPLES")
+print(samples)
+
+# since peak callers use both the RNA and the DNA control file ("input"), we need to
+# isolate labels to give the correct file pair to the peak callers 
+paths['rna'] = paths['sorted_bam'].replace("{sample}", "{popl}-{flask}-RNA")
+paths['dna'] = paths['sorted_bam'].replace("{sample}", "{popl}-{flask}-input")
+
+paths['rna_dedup'] = paths['dedup_bam'].replace("{sample}", "{popl}-{flask}-RNA")
+paths['dna_dedup'] = paths['dedup_bam'].replace("{sample}", "{popl}-{flask}-input")
+
+paths['rna_nsort'] = paths['name_sorted_bam'].replace("{sample}", "{popl}-{flask}-RNA")
+paths['dna_nsort'] = paths['name_sorted_bam'].replace("{sample}", "{popl}-{flask}-input")
+
+wc = glob_wildcards(paths['raw_fastq'].replace("{sample}", "{popl}-{flask}-RNA"))
+poplflaskrep = {(popl, fl) for popl, fl in zip(wc.popl, wc.flask)}
+popls, flasks = zip(*poplflaskrep)
+
+print("POPLS")
+print(popls)
+print("FLASKS")
+print(flasks)
+
+# all forward and reverse reads are labelled 1 and 3, respectively, except for Amel
+if 'Amel' in popls:
+    read_f, read_r = 1,4
+else:
+    read_f, read_r = 1,3
+print("READS")
+print(read_f)
+print(read_r)
+
+# 3) build final output
+
+localrules:
+    all,
+
+# 4) create rule "all" for default (final) outputs
+rule all:
+    input:              
+        # deeptools
+        'deeptools/coverage.png',
+        'deeptools/coverage_dedup.png',
+
+
+# 5) build rules following pipeline with input functions above as needed
+
+# parital format of wildcards
+def pformat(string, **args):
+    return expand(string, **args, allow_missing=True)
+
+
+rule deeptools:
+    input:
+        expand(paths['sorted_bam'], sample=samples)
+
+    output:
+        cov='deeptools/coverage.png',
+        # sum='deeptools/multiBamSummary.npz',
+        # cor='deeptools/corr_plot.png',
+        # pca='deeptools/pca.png',
+        # pca2='deeptools/pca_rowCenter.png'
+
+    singularity: config['containers']['deeptools']
+
+    threads: 20
+
+    resources:
+        mem=8000,  # MB
+        time=560,  # minutes
+
+    shell:
+        'plotCoverage -b {input} --plotFile {output.cov} --skipZeros -p {threads} --extendReads \n'
+        # 'multiBamSummary bins --bamfiles {input} -o {output.sum} -p {threads} --extendReads \n'
+        # 'plotCorrelation --corData {output.sum} --corMethod spearman --whatToPlot heatmap -o {output.cor} --skipZeros \n'
+        # 'plotPCA --corData {output.sum} -o {output.pca} \n'
+        # 'plotPCA --corData {output.sum} -o {output.pca2} --rowCenter'
+
+rule deeptools_dedup:
+    input:
+        expand(paths['dedup_bam'], sample=samples)
+
+    output:
+        cov='deeptools/coverage_dedup.png',
+
+
+    singularity: config['containers']['deeptools']
+
+    threads: 20
+
+    resources:
+        mem=8000,  # MB
+        time=560,  # minutes
+
+    shell:
+        'plotCoverage -b {input} --plotFile {output.cov} --skipZeros -p {threads} --extendReads \n'

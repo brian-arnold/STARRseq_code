@@ -1,0 +1,2756 @@
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 103313
+after filtering: 103313
+before filtering: 101930
+after filtering: 101930
+before filtering: 104845
+after filtering: 104845
+before filtering: 9645
+after filtering: 9645
+before filtering: 13153
+after filtering: 13153
+before filtering: 12217
+after filtering: 12217
+[103313, 101930, 104845]
+[9645, 13153, 12217]
+original df length: 9645
+df length after join: 9649
+[[1.        0.6160841]
+ [0.6160841 1.       ]]
+original df length: 13153
+df length after join: 13157
+[[1.         0.59618008]
+ [0.59618008 1.        ]]
+original df length: 12217
+df length after join: 12220
+[[1.         0.61343318]
+ [0.61343318 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(103313, 0.024237027286014345), (101930, 0.03743745707838713), (104845, 0.03430778768658496)]
+[(9645, 0.9838258164852255), (13153, 0.9825895233026686), (12217, 0.9797004174510927)]
+MACS2 raw: 103313 peaks, 2.42% overlap with deduplicated peaks
+MACS2 raw: 101930 peaks, 3.74% overlap with deduplicated peaks
+MACS2 raw: 104845 peaks, 3.43% overlap with deduplicated peaks
+MACS2 deduplicated: 9645 peaks, 98.38% overlap with raw peaks
+MACS2 deduplicated: 13153 peaks, 98.26% overlap with raw peaks
+MACS2 deduplicated: 12217 peaks, 97.97% overlap with raw peaks
+[(103313, 101930, 35510), (103313, 104845, 35235), (101930, 104845, 35311)]
+[(9645, 13153, 4976), (9645, 12217, 4722), (13153, 12217, 5188)]
+['010' '110' '000' '100' '011' '001' '111' '101']
+['100' '110' '111' '101' '001' '000' '010' '011']
+30931 4247
+30931 4247
+MACS raw before removing bookends: 30931
+0
+MACS raw after removing bookends: 30931
+MACS dedup before removing bookends: 4247
+0
+MACS dedup after removing bookends: 4247
+macs_raw_overhang_indices overhangs:  5
+macs_dedup_overhang_indices overhangs:  3
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 103313
+after filtering: 34129
+before filtering: 101930
+after filtering: 31722
+before filtering: 104845
+after filtering: 36205
+before filtering: 9645
+after filtering: 9146
+before filtering: 13153
+after filtering: 10606
+before filtering: 12217
+after filtering: 9877
+[34129, 31722, 36205]
+[9146, 10606, 9877]
+original df length: 9146
+df length after join: 9147
+[[1.         0.62438398]
+ [0.62438398 1.        ]]
+original df length: 10606
+df length after join: 10606
+[[1.         0.61311275]
+ [0.61311275 1.        ]]
+original df length: 9877
+df length after join: 9877
+[[1.        0.6265373]
+ [0.6265373 1.       ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(34129, 0.05989041577544024), (31722, 0.09271168274383708), (36205, 0.07835934263223311)]
+[(9146, 0.9034550623223268), (10606, 0.8828964736941354), (9877, 0.8987546825959299)]
+MACS2 raw: 34129 peaks, 5.99% overlap with deduplicated peaks
+MACS2 raw: 31722 peaks, 9.27% overlap with deduplicated peaks
+MACS2 raw: 36205 peaks, 7.84% overlap with deduplicated peaks
+MACS2 deduplicated: 9146 peaks, 90.35% overlap with raw peaks
+MACS2 deduplicated: 10606 peaks, 88.29% overlap with raw peaks
+MACS2 deduplicated: 9877 peaks, 89.88% overlap with raw peaks
+[(34129, 31722, 11677), (34129, 36205, 11732), (31722, 36205, 11545)]
+[(9146, 10606, 4542), (9146, 9877, 4330), (10606, 9877, 4500)]
+['010' '110' '000' '001' '011' '111' '100' '101']
+['100' '110' '111' '101' '001' '000' '010' '011']
+10070 3776
+10070 3776
+MACS raw before removing bookends: 10070
+0
+MACS raw after removing bookends: 10070
+MACS dedup before removing bookends: 3776
+0
+MACS dedup after removing bookends: 3776
+macs_raw_overhang_indices overhangs:  2
+macs_dedup_overhang_indices overhangs:  1
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 103313
+after filtering: 103313
+before filtering: 101930
+after filtering: 101930
+before filtering: 104845
+after filtering: 104845
+before filtering: 9645
+after filtering: 9645
+before filtering: 13153
+after filtering: 13153
+before filtering: 12217
+after filtering: 12217
+[103313, 101930, 104845]
+[9645, 13153, 12217]
+original df length: 9645
+df length after join: 9649
+[[1.        0.6160841]
+ [0.6160841 1.       ]]
+original df length: 13153
+df length after join: 13157
+[[1.         0.59618008]
+ [0.59618008 1.        ]]
+original df length: 12217
+df length after join: 12220
+[[1.         0.61343318]
+ [0.61343318 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(103313, 0.024237027286014345), (101930, 0.03743745707838713), (104845, 0.03430778768658496)]
+[(9645, 0.9838258164852255), (13153, 0.9825895233026686), (12217, 0.9797004174510927)]
+MACS2 raw: 103313 peaks, 2.42% overlap with deduplicated peaks
+MACS2 raw: 101930 peaks, 3.74% overlap with deduplicated peaks
+MACS2 raw: 104845 peaks, 3.43% overlap with deduplicated peaks
+MACS2 deduplicated: 9645 peaks, 98.38% overlap with raw peaks
+MACS2 deduplicated: 13153 peaks, 98.26% overlap with raw peaks
+MACS2 deduplicated: 12217 peaks, 97.97% overlap with raw peaks
+[(103313, 101930, 35510), (103313, 104845, 35235), (101930, 104845, 35311)]
+[(9645, 13153, 4976), (9645, 12217, 4722), (13153, 12217, 5188)]
+['010' '110' '000' '100' '011' '001' '111' '101']
+['100' '110' '111' '101' '001' '000' '010' '011']
+128778 9343
+128778 9343
+MACS raw before removing bookends: 128778
+33223
+MACS raw after removing bookends: 95555
+MACS dedup before removing bookends: 9343
+1658
+MACS dedup after removing bookends: 7685
+macs_raw_overhang_indices overhangs:  6
+macs_dedup_overhang_indices overhangs:  3
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 103313
+after filtering: 34129
+before filtering: 101930
+after filtering: 31722
+before filtering: 104845
+after filtering: 36205
+before filtering: 9645
+after filtering: 9146
+before filtering: 13153
+after filtering: 10606
+before filtering: 12217
+after filtering: 9877
+[34129, 31722, 36205]
+[9146, 10606, 9877]
+original df length: 9146
+df length after join: 9147
+[[1.         0.62438398]
+ [0.62438398 1.        ]]
+original df length: 10606
+df length after join: 10606
+[[1.         0.61311275]
+ [0.61311275 1.        ]]
+original df length: 9877
+df length after join: 9877
+[[1.        0.6265373]
+ [0.6265373 1.       ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(34129, 0.05989041577544024), (31722, 0.09271168274383708), (36205, 0.07835934263223311)]
+[(9146, 0.9034550623223268), (10606, 0.8828964736941354), (9877, 0.8987546825959299)]
+MACS2 raw: 34129 peaks, 5.99% overlap with deduplicated peaks
+MACS2 raw: 31722 peaks, 9.27% overlap with deduplicated peaks
+MACS2 raw: 36205 peaks, 7.84% overlap with deduplicated peaks
+MACS2 deduplicated: 9146 peaks, 90.35% overlap with raw peaks
+MACS2 deduplicated: 10606 peaks, 88.29% overlap with raw peaks
+MACS2 deduplicated: 9877 peaks, 89.88% overlap with raw peaks
+[(34129, 31722, 11677), (34129, 36205, 11732), (31722, 36205, 11545)]
+[(9146, 10606, 4542), (9146, 9877, 4330), (10606, 9877, 4500)]
+['010' '110' '000' '001' '011' '111' '100' '101']
+['100' '110' '111' '101' '001' '000' '010' '011']
+36976 8231
+36976 8231
+MACS raw before removing bookends: 36976
+10355
+MACS raw after removing bookends: 26621
+MACS dedup before removing bookends: 8231
+1433
+MACS dedup after removing bookends: 6798
+macs_raw_overhang_indices overhangs:  2
+macs_dedup_overhang_indices overhangs:  1
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 60285
+after filtering: 60285
+before filtering: 57610
+after filtering: 57610
+before filtering: 53509
+after filtering: 53509
+before filtering: 10142
+after filtering: 10142
+before filtering: 10283
+after filtering: 10283
+before filtering: 9574
+after filtering: 9574
+[60285, 57610, 53509]
+[10142, 10283, 9574]
+original df length: 10142
+df length after join: 10656
+[[1.        0.3836272]
+ [0.3836272 1.       ]]
+original df length: 10283
+df length after join: 10699
+[[1.         0.38407124]
+ [0.38407124 1.        ]]
+original df length: 9574
+df length after join: 9828
+[[1.         0.43598002]
+ [0.43598002 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(60285, 0.07126150783777059), (57610, 0.07250477347682693), (53509, 0.07118428675549908)]
+[(10142, 0.743738907513311), (10283, 0.7600894680540699), (9574, 0.8005013578441613)]
+MACS2 raw: 60285 peaks, 7.13% overlap with deduplicated peaks
+MACS2 raw: 57610 peaks, 7.25% overlap with deduplicated peaks
+MACS2 raw: 53509 peaks, 7.12% overlap with deduplicated peaks
+MACS2 deduplicated: 10142 peaks, 74.37% overlap with raw peaks
+MACS2 deduplicated: 10283 peaks, 76.01% overlap with raw peaks
+MACS2 deduplicated: 9574 peaks, 80.05% overlap with raw peaks
+[(60285, 57610, 26089), (60285, 53509, 24421), (57610, 53509, 24680)]
+[(10142, 10283, 6656), (10142, 9574, 6055), (10283, 9574, 6249)]
+['001' '000' '100' '110' '010' '101' '111' '011']
+['001' '011' '010' '000' '100' '101' '110' '111']
+23816 6158
+23816 6158
+MACS raw before removing bookends: 23816
+0
+MACS raw after removing bookends: 23816
+MACS dedup before removing bookends: 6158
+0
+MACS dedup after removing bookends: 6158
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 60285
+after filtering: 18511
+before filtering: 57610
+after filtering: 17170
+before filtering: 53509
+after filtering: 15653
+before filtering: 10142
+after filtering: 2989
+before filtering: 10283
+after filtering: 2665
+before filtering: 9574
+after filtering: 2685
+[18511, 17170, 15653]
+[2989, 2665, 2685]
+original df length: 2989
+df length after join: 3040
+[[1.         0.24601487]
+ [0.24601487 1.        ]]
+original df length: 2665
+df length after join: 2717
+[[1.         0.22377948]
+ [0.22377948 1.        ]]
+original df length: 2685
+df length after join: 2719
+[[1.         0.26742922]
+ [0.26742922 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(18511, 0.07455026740856788), (17170, 0.07897495631916132), (15653, 0.09193125918354308)]
+[(2989, 0.7266644362663098), (2665, 0.751969981238274), (2685, 0.8361266294227188)]
+MACS2 raw: 18511 peaks, 7.46% overlap with deduplicated peaks
+MACS2 raw: 17170 peaks, 7.90% overlap with deduplicated peaks
+MACS2 raw: 15653 peaks, 9.19% overlap with deduplicated peaks
+MACS2 deduplicated: 2989 peaks, 72.67% overlap with raw peaks
+MACS2 deduplicated: 2665 peaks, 75.20% overlap with raw peaks
+MACS2 deduplicated: 2685 peaks, 83.61% overlap with raw peaks
+[(18511, 17170, 9394), (18511, 15653, 8996), (17170, 15653, 9071)]
+[(2989, 2665, 2036), (2989, 2685, 1968), (2665, 2685, 1879)]
+['010' '000' '101' '111' '001' '100' '110' '011']
+['100' '000' '101' '111' '001' '010' '110' '011']
+8412 1771
+8412 1771
+MACS raw before removing bookends: 8412
+0
+MACS raw after removing bookends: 8412
+MACS dedup before removing bookends: 1771
+0
+MACS dedup after removing bookends: 1771
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 60285
+after filtering: 60285
+before filtering: 57610
+after filtering: 57610
+before filtering: 53509
+after filtering: 53509
+before filtering: 10142
+after filtering: 10142
+before filtering: 10283
+after filtering: 10283
+before filtering: 9574
+after filtering: 9574
+[60285, 57610, 53509]
+[10142, 10283, 9574]
+original df length: 10142
+df length after join: 10656
+[[1.        0.3836272]
+ [0.3836272 1.       ]]
+original df length: 10283
+df length after join: 10699
+[[1.         0.38407124]
+ [0.38407124 1.        ]]
+original df length: 9574
+df length after join: 9828
+[[1.         0.43598002]
+ [0.43598002 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(60285, 0.07126150783777059), (57610, 0.07250477347682693), (53509, 0.07118428675549908)]
+[(10142, 0.743738907513311), (10283, 0.7600894680540699), (9574, 0.8005013578441613)]
+MACS2 raw: 60285 peaks, 7.13% overlap with deduplicated peaks
+MACS2 raw: 57610 peaks, 7.25% overlap with deduplicated peaks
+MACS2 raw: 53509 peaks, 7.12% overlap with deduplicated peaks
+MACS2 deduplicated: 10142 peaks, 74.37% overlap with raw peaks
+MACS2 deduplicated: 10283 peaks, 76.01% overlap with raw peaks
+MACS2 deduplicated: 9574 peaks, 80.05% overlap with raw peaks
+[(60285, 57610, 26089), (60285, 53509, 24421), (57610, 53509, 24680)]
+[(10142, 10283, 6656), (10142, 9574, 6055), (10283, 9574, 6249)]
+['001' '000' '100' '110' '010' '101' '111' '011']
+['001' '011' '010' '000' '100' '101' '110' '111']
+60300 11383
+60300 11383
+MACS raw before removing bookends: 60300
+15548
+MACS raw after removing bookends: 44752
+MACS dedup before removing bookends: 11383
+2202
+MACS dedup after removing bookends: 9181
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 60285
+after filtering: 18511
+before filtering: 57610
+after filtering: 17170
+before filtering: 53509
+after filtering: 15653
+before filtering: 10142
+after filtering: 2989
+before filtering: 10283
+after filtering: 2665
+before filtering: 9574
+after filtering: 2685
+[18511, 17170, 15653]
+[2989, 2665, 2685]
+original df length: 2989
+df length after join: 3040
+[[1.         0.24601487]
+ [0.24601487 1.        ]]
+original df length: 2665
+df length after join: 2717
+[[1.         0.22377948]
+ [0.22377948 1.        ]]
+original df length: 2685
+df length after join: 2719
+[[1.         0.26742922]
+ [0.26742922 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(18511, 0.07455026740856788), (17170, 0.07897495631916132), (15653, 0.09193125918354308)]
+[(2989, 0.7266644362663098), (2665, 0.751969981238274), (2685, 0.8361266294227188)]
+MACS2 raw: 18511 peaks, 7.46% overlap with deduplicated peaks
+MACS2 raw: 17170 peaks, 7.90% overlap with deduplicated peaks
+MACS2 raw: 15653 peaks, 9.19% overlap with deduplicated peaks
+MACS2 deduplicated: 2989 peaks, 72.67% overlap with raw peaks
+MACS2 deduplicated: 2665 peaks, 75.20% overlap with raw peaks
+MACS2 deduplicated: 2685 peaks, 83.61% overlap with raw peaks
+[(18511, 17170, 9394), (18511, 15653, 8996), (17170, 15653, 9071)]
+[(2989, 2665, 2036), (2989, 2685, 1968), (2665, 2685, 1879)]
+['010' '000' '101' '111' '001' '100' '110' '011']
+['100' '000' '101' '111' '001' '010' '110' '011']
+17370 3076
+17370 3076
+MACS raw before removing bookends: 17370
+4240
+MACS raw after removing bookends: 13130
+MACS dedup before removing bookends: 3076
+427
+MACS dedup after removing bookends: 2649
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 140041
+after filtering: 140041
+before filtering: 152051
+after filtering: 152051
+before filtering: 146202
+after filtering: 146202
+before filtering: 15954
+after filtering: 15954
+before filtering: 22717
+after filtering: 22717
+before filtering: 23660
+after filtering: 23660
+[140041, 152051, 146202]
+[15954, 22717, 23660]
+original df length: 15954
+df length after join: 16040
+[[1.         0.27947356]
+ [0.27947356 1.        ]]
+original df length: 22717
+df length after join: 22927
+[[1.        0.2871988]
+ [0.2871988 1.       ]]
+original df length: 23660
+df length after join: 23916
+[[1.         0.24985162]
+ [0.24985162 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(140041, 0.037210531201576684), (152051, 0.04491913897310771), (146202, 0.05145620442948797)]
+[(15954, 0.6195938322677699), (22717, 0.5244530527798565), (23660, 0.4928994082840237)]
+MACS2 raw: 140041 peaks, 3.72% overlap with deduplicated peaks
+MACS2 raw: 152051 peaks, 4.49% overlap with deduplicated peaks
+MACS2 raw: 146202 peaks, 5.15% overlap with deduplicated peaks
+MACS2 deduplicated: 15954 peaks, 61.96% overlap with raw peaks
+MACS2 deduplicated: 22717 peaks, 52.45% overlap with raw peaks
+MACS2 deduplicated: 23660 peaks, 49.29% overlap with raw peaks
+[(140041, 152051, 64020), (140041, 146202, 63655), (152051, 146202, 63277)]
+[(15954, 22717, 8875), (15954, 23660, 9295), (22717, 23660, 10987)]
+['100' '101' '001' '000' '010' '110' '011' '111']
+['001' '000' '010' '011' '110' '100' '111' '101']
+59379 7697
+59379 7697
+MACS raw before removing bookends: 59379
+0
+MACS raw after removing bookends: 59379
+MACS dedup before removing bookends: 7697
+0
+MACS dedup after removing bookends: 7697
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 140041
+after filtering: 42663
+before filtering: 152051
+after filtering: 47421
+before filtering: 146202
+after filtering: 42082
+before filtering: 15954
+after filtering: 5989
+before filtering: 22717
+after filtering: 8053
+before filtering: 23660
+after filtering: 7746
+[42663, 47421, 42082]
+[5989, 8053, 7746]
+original df length: 5989
+df length after join: 6025
+[[1.         0.16385903]
+ [0.16385903 1.        ]]
+original df length: 8053
+df length after join: 8129
+[[1.         0.18758915]
+ [0.18758915 1.        ]]
+original df length: 7746
+df length after join: 7813
+[[1.        0.1514705]
+ [0.1514705 1.       ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(42663, 0.02519747790825774), (47421, 0.028637101705995233), (42082, 0.026068152654341523)]
+[(5989, 0.5887460343963934), (8053, 0.5088786787532597), (7746, 0.4398399173767106)]
+MACS2 raw: 42663 peaks, 2.52% overlap with deduplicated peaks
+MACS2 raw: 47421 peaks, 2.86% overlap with deduplicated peaks
+MACS2 raw: 42082 peaks, 2.61% overlap with deduplicated peaks
+MACS2 deduplicated: 5989 peaks, 58.87% overlap with raw peaks
+MACS2 deduplicated: 8053 peaks, 50.89% overlap with raw peaks
+MACS2 deduplicated: 7746 peaks, 43.98% overlap with raw peaks
+[(42663, 47421, 22067), (42663, 42082, 21385), (47421, 42082, 21410)]
+[(5989, 8053, 2900), (5989, 7746, 2808), (8053, 7746, 3098)]
+['100' '101' '111' '110' '000' '010' '001' '011']
+['100' '000' '001' '011' '101' '111' '110' '010']
+19772 2212
+19772 2212
+MACS raw before removing bookends: 19772
+0
+MACS raw after removing bookends: 19772
+MACS dedup before removing bookends: 2212
+0
+MACS dedup after removing bookends: 2212
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 140041
+after filtering: 140041
+before filtering: 152051
+after filtering: 152051
+before filtering: 146202
+after filtering: 146202
+before filtering: 15954
+after filtering: 15954
+before filtering: 22717
+after filtering: 22717
+before filtering: 23660
+after filtering: 23660
+[140041, 152051, 146202]
+[15954, 22717, 23660]
+original df length: 15954
+df length after join: 16040
+[[1.         0.27947356]
+ [0.27947356 1.        ]]
+original df length: 22717
+df length after join: 22927
+[[1.        0.2871988]
+ [0.2871988 1.       ]]
+original df length: 23660
+df length after join: 23916
+[[1.         0.24985162]
+ [0.24985162 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(140041, 0.037210531201576684), (152051, 0.04491913897310771), (146202, 0.05145620442948797)]
+[(15954, 0.6195938322677699), (22717, 0.5244530527798565), (23660, 0.4928994082840237)]
+MACS2 raw: 140041 peaks, 3.72% overlap with deduplicated peaks
+MACS2 raw: 152051 peaks, 4.49% overlap with deduplicated peaks
+MACS2 raw: 146202 peaks, 5.15% overlap with deduplicated peaks
+MACS2 deduplicated: 15954 peaks, 61.96% overlap with raw peaks
+MACS2 deduplicated: 22717 peaks, 52.45% overlap with raw peaks
+MACS2 deduplicated: 23660 peaks, 49.29% overlap with raw peaks
+[(140041, 152051, 64020), (140041, 146202, 63655), (152051, 146202, 63277)]
+[(15954, 22717, 8875), (15954, 23660, 9295), (22717, 23660, 10987)]
+['100' '101' '001' '000' '010' '110' '011' '111']
+['001' '000' '010' '011' '110' '100' '111' '101']
+178781 20412
+178781 20412
+MACS raw before removing bookends: 178781
+48324
+MACS raw after removing bookends: 130457
+MACS dedup before removing bookends: 20412
+3422
+MACS dedup after removing bookends: 16990
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 140041
+after filtering: 42663
+before filtering: 152051
+after filtering: 47421
+before filtering: 146202
+after filtering: 42082
+before filtering: 15954
+after filtering: 5989
+before filtering: 22717
+after filtering: 8053
+before filtering: 23660
+after filtering: 7746
+[42663, 47421, 42082]
+[5989, 8053, 7746]
+original df length: 5989
+df length after join: 6025
+[[1.         0.16385903]
+ [0.16385903 1.        ]]
+original df length: 8053
+df length after join: 8129
+[[1.         0.18758915]
+ [0.18758915 1.        ]]
+original df length: 7746
+df length after join: 7813
+[[1.        0.1514705]
+ [0.1514705 1.       ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(42663, 0.02519747790825774), (47421, 0.028637101705995233), (42082, 0.026068152654341523)]
+[(5989, 0.5887460343963934), (8053, 0.5088786787532597), (7746, 0.4398399173767106)]
+MACS2 raw: 42663 peaks, 2.52% overlap with deduplicated peaks
+MACS2 raw: 47421 peaks, 2.86% overlap with deduplicated peaks
+MACS2 raw: 42082 peaks, 2.61% overlap with deduplicated peaks
+MACS2 deduplicated: 5989 peaks, 58.87% overlap with raw peaks
+MACS2 deduplicated: 8053 peaks, 50.89% overlap with raw peaks
+MACS2 deduplicated: 7746 peaks, 43.98% overlap with raw peaks
+[(42663, 47421, 22067), (42663, 42082, 21385), (47421, 42082, 21410)]
+[(5989, 8053, 2900), (5989, 7746, 2808), (8053, 7746, 3098)]
+['100' '101' '111' '110' '000' '010' '001' '011']
+['100' '000' '001' '011' '101' '111' '110' '010']
+52035 6011
+52035 6011
+MACS raw before removing bookends: 52035
+15540
+MACS raw after removing bookends: 36495
+MACS dedup before removing bookends: 6011
+900
+MACS dedup after removing bookends: 5111
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 47505
+after filtering: 47505
+before filtering: 38363
+after filtering: 38363
+before filtering: 35177
+after filtering: 35177
+before filtering: 3941
+after filtering: 3941
+before filtering: 3500
+after filtering: 3500
+before filtering: 3224
+after filtering: 3224
+[47505, 38363, 35177]
+[3941, 3500, 3224]
+original df length: 3941
+df length after join: 4223
+[[1.         0.11827624]
+ [0.11827624 1.        ]]
+original df length: 3500
+df length after join: 3594
+[[1.         0.21137627]
+ [0.21137627 1.        ]]
+original df length: 3224
+df length after join: 3309
+[[1.         0.24180455]
+ [0.24180455 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(47505, 0.04570045258393853), (38363, 0.05651278575710972), (35177, 0.058390425562157094)]
+[(3941, 0.49251459020553157), (3500, 0.7088571428571429), (3224, 0.7397642679900744)]
+MACS2 raw: 47505 peaks, 4.57% overlap with deduplicated peaks
+MACS2 raw: 38363 peaks, 5.65% overlap with deduplicated peaks
+MACS2 raw: 35177 peaks, 5.84% overlap with deduplicated peaks
+MACS2 deduplicated: 3941 peaks, 49.25% overlap with raw peaks
+MACS2 deduplicated: 3500 peaks, 70.89% overlap with raw peaks
+MACS2 deduplicated: 3224 peaks, 73.98% overlap with raw peaks
+[(47505, 38363, 17638), (47505, 35177, 16064), (38363, 35177, 16146)]
+[(3941, 3500, 2145), (3941, 3224, 1939), (3500, 3224, 2483)]
+['001' '101' '111' '100' '000' '011' '010' '110']
+['001' '101' '111' '110' '100' '000' '011' '010']
+15373 2515
+15373 2515
+MACS raw before removing bookends: 15373
+0
+MACS raw after removing bookends: 15373
+MACS dedup before removing bookends: 2515
+0
+MACS dedup after removing bookends: 2515
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 47505
+after filtering: 13827
+before filtering: 38363
+after filtering: 11482
+before filtering: 35177
+after filtering: 10253
+before filtering: 3941
+after filtering: 1320
+before filtering: 3500
+after filtering: 697
+before filtering: 3224
+after filtering: 696
+[13827, 11482, 10253]
+[1320, 697, 696]
+original df length: 1320
+df length after join: 1334
+[[1.         0.12586042]
+ [0.12586042 1.        ]]
+original df length: 697
+df length after join: 700
+[[1.         0.14521147]
+ [0.14521147 1.        ]]
+original df length: 696
+df length after join: 698
+[[1.         0.13511247]
+ [0.13511247 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(13827, 0.022419903088160845), (11482, 0.02560529524473088), (10253, 0.03130790988003511)]
+[(1320, 0.2446969696969697), (697, 0.4949784791965567), (696, 0.5589080459770115)]
+MACS2 raw: 13827 peaks, 2.24% overlap with deduplicated peaks
+MACS2 raw: 11482 peaks, 2.56% overlap with deduplicated peaks
+MACS2 raw: 10253 peaks, 3.13% overlap with deduplicated peaks
+MACS2 deduplicated: 1320 peaks, 24.47% overlap with raw peaks
+MACS2 deduplicated: 697 peaks, 49.50% overlap with raw peaks
+MACS2 deduplicated: 696 peaks, 55.89% overlap with raw peaks
+[(13827, 11482, 5849), (13827, 10253, 5505), (11482, 10253, 5559)]
+[(1320, 697, 449), (1320, 696, 401), (697, 696, 442)]
+['100' '101' '111' '011' '001' '000' '110' '010']
+['100' '000' '110' '111' '101' '001' '011' '010']
+5026 413
+5026 413
+MACS raw before removing bookends: 5026
+0
+MACS raw after removing bookends: 5026
+MACS dedup before removing bookends: 413
+0
+MACS dedup after removing bookends: 413
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 47505
+after filtering: 47505
+before filtering: 38363
+after filtering: 38363
+before filtering: 35177
+after filtering: 35177
+before filtering: 3941
+after filtering: 3941
+before filtering: 3500
+after filtering: 3500
+before filtering: 3224
+after filtering: 3224
+[47505, 38363, 35177]
+[3941, 3500, 3224]
+original df length: 3941
+df length after join: 4223
+[[1.         0.11827624]
+ [0.11827624 1.        ]]
+original df length: 3500
+df length after join: 3594
+[[1.         0.21137627]
+ [0.21137627 1.        ]]
+original df length: 3224
+df length after join: 3309
+[[1.         0.24180455]
+ [0.24180455 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(47505, 0.04570045258393853), (38363, 0.05651278575710972), (35177, 0.058390425562157094)]
+[(3941, 0.49251459020553157), (3500, 0.7088571428571429), (3224, 0.7397642679900744)]
+MACS2 raw: 47505 peaks, 4.57% overlap with deduplicated peaks
+MACS2 raw: 38363 peaks, 5.65% overlap with deduplicated peaks
+MACS2 raw: 35177 peaks, 5.84% overlap with deduplicated peaks
+MACS2 deduplicated: 3941 peaks, 49.25% overlap with raw peaks
+MACS2 deduplicated: 3500 peaks, 70.89% overlap with raw peaks
+MACS2 deduplicated: 3224 peaks, 73.98% overlap with raw peaks
+[(47505, 38363, 17638), (47505, 35177, 16064), (38363, 35177, 16146)]
+[(3941, 3500, 2145), (3941, 3224, 1939), (3500, 3224, 2483)]
+['001' '101' '111' '100' '000' '011' '010' '110']
+['001' '101' '111' '110' '100' '000' '011' '010']
+36838 4690
+36838 4690
+MACS raw before removing bookends: 36838
+7738
+MACS raw after removing bookends: 29100
+MACS dedup before removing bookends: 4690
+1135
+MACS dedup after removing bookends: 3555
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 47505
+after filtering: 13827
+before filtering: 38363
+after filtering: 11482
+before filtering: 35177
+after filtering: 10253
+before filtering: 3941
+after filtering: 1320
+before filtering: 3500
+after filtering: 697
+before filtering: 3224
+after filtering: 696
+[13827, 11482, 10253]
+[1320, 697, 696]
+original df length: 1320
+df length after join: 1334
+[[1.         0.12586042]
+ [0.12586042 1.        ]]
+original df length: 697
+df length after join: 700
+[[1.         0.14521147]
+ [0.14521147 1.        ]]
+original df length: 696
+df length after join: 698
+[[1.         0.13511247]
+ [0.13511247 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(13827, 0.022419903088160845), (11482, 0.02560529524473088), (10253, 0.03130790988003511)]
+[(1320, 0.2446969696969697), (697, 0.4949784791965567), (696, 0.5589080459770115)]
+MACS2 raw: 13827 peaks, 2.24% overlap with deduplicated peaks
+MACS2 raw: 11482 peaks, 2.56% overlap with deduplicated peaks
+MACS2 raw: 10253 peaks, 3.13% overlap with deduplicated peaks
+MACS2 deduplicated: 1320 peaks, 24.47% overlap with raw peaks
+MACS2 deduplicated: 697 peaks, 49.50% overlap with raw peaks
+MACS2 deduplicated: 696 peaks, 55.89% overlap with raw peaks
+[(13827, 11482, 5849), (13827, 10253, 5505), (11482, 10253, 5559)]
+[(1320, 697, 449), (1320, 696, 401), (697, 696, 442)]
+['100' '101' '111' '011' '001' '000' '110' '010']
+['100' '000' '110' '111' '101' '001' '011' '010']
+10126 911
+10126 911
+MACS raw before removing bookends: 10126
+1888
+MACS raw after removing bookends: 8238
+MACS dedup before removing bookends: 911
+156
+MACS dedup after removing bookends: 755
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 97840
+after filtering: 97840
+before filtering: 97868
+after filtering: 97868
+before filtering: 97362
+after filtering: 97362
+before filtering: 27943
+after filtering: 27943
+before filtering: 27668
+after filtering: 27668
+before filtering: 26263
+after filtering: 26263
+[97840, 97868, 97362]
+[27943, 27668, 26263]
+original df length: 27943
+df length after join: 28103
+[[1.         0.26033066]
+ [0.26033066 1.        ]]
+original df length: 27668
+df length after join: 27760
+[[1.         0.31676518]
+ [0.31676518 1.        ]]
+original df length: 26263
+df length after join: 26341
+[[1.         0.26766299]
+ [0.26766299 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(97840, 0.08414758789860997), (97868, 0.08288715412596559), (97362, 0.07697048129660443)]
+[(27943, 0.9224850588698422), (27668, 0.9482073153101055), (26263, 0.9428473517876861)]
+MACS2 raw: 97840 peaks, 8.41% overlap with deduplicated peaks
+MACS2 raw: 97868 peaks, 8.29% overlap with deduplicated peaks
+MACS2 raw: 97362 peaks, 7.70% overlap with deduplicated peaks
+MACS2 deduplicated: 27943 peaks, 92.25% overlap with raw peaks
+MACS2 deduplicated: 27668 peaks, 94.82% overlap with raw peaks
+MACS2 deduplicated: 26263 peaks, 94.28% overlap with raw peaks
+[(97840, 97868, 60514), (97840, 97362, 60633), (97868, 97362, 61062)]
+[(27943, 27668, 14976), (27943, 26263, 14457), (27668, 26263, 14642)]
+['010' '011' '001' '000' '100' '101' '111' '110']
+['011' '111' '101' '001' '000' '010' '110' '100']
+63760 13467
+63760 13467
+MACS raw before removing bookends: 63760
+0
+MACS raw after removing bookends: 63760
+MACS dedup before removing bookends: 13467
+0
+MACS dedup after removing bookends: 13467
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 97840
+after filtering: 23306
+before filtering: 97868
+after filtering: 23720
+before filtering: 97362
+after filtering: 23022
+before filtering: 27943
+after filtering: 2261
+before filtering: 27668
+after filtering: 2268
+before filtering: 26263
+after filtering: 2031
+[23306, 23720, 23022]
+[2261, 2268, 2031]
+original df length: 2261
+df length after join: 2278
+[[1.         0.03687005]
+ [0.03687005 1.        ]]
+original df length: 2268
+df length after join: 2273
+[[1.         0.10341297]
+ [0.10341297 1.        ]]
+original df length: 2031
+df length after join: 2035
+[[1.         0.04136351]
+ [0.04136351 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(23306, 0.047112331588432164), (23720, 0.048482293423271504), (23022, 0.043567022847710885)]
+[(2261, 0.8690844758956214), (2268, 0.9329805996472663), (2031, 0.9084194977843427)]
+MACS2 raw: 23306 peaks, 4.71% overlap with deduplicated peaks
+MACS2 raw: 23720 peaks, 4.85% overlap with deduplicated peaks
+MACS2 raw: 23022 peaks, 4.36% overlap with deduplicated peaks
+MACS2 deduplicated: 2261 peaks, 86.91% overlap with raw peaks
+MACS2 deduplicated: 2268 peaks, 93.30% overlap with raw peaks
+MACS2 deduplicated: 2031 peaks, 90.84% overlap with raw peaks
+[(23306, 23720, 16570), (23306, 23022, 16424), (23720, 23022, 16713)]
+[(2261, 2268, 1336), (2261, 2031, 1296), (2268, 2031, 1320)]
+['001' '011' '111' '110' '000' '010' '100' '101']
+['011' '111' '101' '001' '000' '010' '110' '100']
+16263 1124
+16263 1124
+MACS raw before removing bookends: 16263
+0
+MACS raw after removing bookends: 16263
+MACS dedup before removing bookends: 1124
+0
+MACS dedup after removing bookends: 1124
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 97840
+after filtering: 97840
+before filtering: 97868
+after filtering: 97868
+before filtering: 97362
+after filtering: 97362
+before filtering: 27943
+after filtering: 27943
+before filtering: 27668
+after filtering: 27668
+before filtering: 26263
+after filtering: 26263
+[97840, 97868, 97362]
+[27943, 27668, 26263]
+original df length: 27943
+df length after join: 28103
+[[1.         0.26033066]
+ [0.26033066 1.        ]]
+original df length: 27668
+df length after join: 27760
+[[1.         0.31676518]
+ [0.31676518 1.        ]]
+original df length: 26263
+df length after join: 26341
+[[1.         0.26766299]
+ [0.26766299 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(97840, 0.08414758789860997), (97868, 0.08288715412596559), (97362, 0.07697048129660443)]
+[(27943, 0.9224850588698422), (27668, 0.9482073153101055), (26263, 0.9428473517876861)]
+MACS2 raw: 97840 peaks, 8.41% overlap with deduplicated peaks
+MACS2 raw: 97868 peaks, 8.29% overlap with deduplicated peaks
+MACS2 raw: 97362 peaks, 7.70% overlap with deduplicated peaks
+MACS2 deduplicated: 27943 peaks, 92.25% overlap with raw peaks
+MACS2 deduplicated: 27668 peaks, 94.82% overlap with raw peaks
+MACS2 deduplicated: 26263 peaks, 94.28% overlap with raw peaks
+[(97840, 97868, 60514), (97840, 97362, 60633), (97868, 97362, 61062)]
+[(27943, 27668, 14976), (27943, 26263, 14457), (27668, 26263, 14642)]
+['010' '011' '001' '000' '100' '101' '111' '110']
+['011' '111' '101' '001' '000' '010' '110' '100']
+147073 29433
+147073 29433
+MACS raw before removing bookends: 147073
+47881
+MACS raw after removing bookends: 99192
+MACS dedup before removing bookends: 29433
+5941
+MACS dedup after removing bookends: 23492
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 97840
+after filtering: 23306
+before filtering: 97868
+after filtering: 23720
+before filtering: 97362
+after filtering: 23022
+before filtering: 27943
+after filtering: 2261
+before filtering: 27668
+after filtering: 2268
+before filtering: 26263
+after filtering: 2031
+[23306, 23720, 23022]
+[2261, 2268, 2031]
+original df length: 2261
+df length after join: 2278
+[[1.         0.03687005]
+ [0.03687005 1.        ]]
+original df length: 2268
+df length after join: 2273
+[[1.         0.10341297]
+ [0.10341297 1.        ]]
+original df length: 2031
+df length after join: 2035
+[[1.         0.04136351]
+ [0.04136351 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(23306, 0.047112331588432164), (23720, 0.048482293423271504), (23022, 0.043567022847710885)]
+[(2261, 0.8690844758956214), (2268, 0.9329805996472663), (2031, 0.9084194977843427)]
+MACS2 raw: 23306 peaks, 4.71% overlap with deduplicated peaks
+MACS2 raw: 23720 peaks, 4.85% overlap with deduplicated peaks
+MACS2 raw: 23022 peaks, 4.36% overlap with deduplicated peaks
+MACS2 deduplicated: 2261 peaks, 86.91% overlap with raw peaks
+MACS2 deduplicated: 2268 peaks, 93.30% overlap with raw peaks
+MACS2 deduplicated: 2031 peaks, 90.84% overlap with raw peaks
+[(23306, 23720, 16570), (23306, 23022, 16424), (23720, 23022, 16713)]
+[(2261, 2268, 1336), (2261, 2031, 1296), (2268, 2031, 1320)]
+['001' '011' '111' '110' '000' '010' '100' '101']
+['011' '111' '101' '001' '000' '010' '110' '100']
+33864 2258
+33864 2258
+MACS raw before removing bookends: 33864
+10880
+MACS raw after removing bookends: 22984
+MACS dedup before removing bookends: 2258
+344
+MACS dedup after removing bookends: 1914
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 74898
+after filtering: 74898
+before filtering: 71494
+after filtering: 71494
+before filtering: 80437
+after filtering: 80437
+before filtering: 6492
+after filtering: 6492
+before filtering: 5431
+after filtering: 5431
+before filtering: 13459
+after filtering: 13459
+[74898, 71494, 80437]
+[6492, 5431, 13459]
+original df length: 6492
+df length after join: 6511
+[[1.         0.14873843]
+ [0.14873843 1.        ]]
+original df length: 5431
+df length after join: 5454
+[[1.         0.15955462]
+ [0.15955462 1.        ]]
+original df length: 13459
+df length after join: 13484
+[[1.         0.29961602]
+ [0.29961602 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(74898, 0.03458036262650538), (71494, 0.03422664839007469), (80437, 0.050909407362283526)]
+[(6492, 0.9447011706715958), (5431, 0.943288528816056), (13459, 0.965376328107586)]
+MACS2 raw: 74898 peaks, 3.46% overlap with deduplicated peaks
+MACS2 raw: 71494 peaks, 3.42% overlap with deduplicated peaks
+MACS2 raw: 80437 peaks, 5.09% overlap with deduplicated peaks
+MACS2 deduplicated: 6492 peaks, 94.47% overlap with raw peaks
+MACS2 deduplicated: 5431 peaks, 94.33% overlap with raw peaks
+MACS2 deduplicated: 13459 peaks, 96.54% overlap with raw peaks
+[(74898, 71494, 43045), (74898, 80437, 43603), (71494, 80437, 43555)]
+[(6492, 5431, 3782), (6492, 13459, 4836), (5431, 13459, 4150)]
+['001' '011' '111' '110' '010' '000' '100' '101']
+['100' '000' '001' '101' '111' '110' '011' '010']
+43594 3588
+43594 3588
+MACS raw before removing bookends: 43594
+0
+MACS raw after removing bookends: 43594
+MACS dedup before removing bookends: 3588
+0
+MACS dedup after removing bookends: 3588
+macs_raw_overhang_indices overhangs:  16
+macs_dedup_overhang_indices overhangs:  19
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 74898
+after filtering: 17359
+before filtering: 71494
+after filtering: 16001
+before filtering: 80437
+after filtering: 23183
+before filtering: 6492
+after filtering: 1102
+before filtering: 5431
+after filtering: 840
+before filtering: 13459
+after filtering: 4411
+[17359, 16001, 23183]
+[1102, 840, 4411]
+original df length: 1102
+df length after join: 1102
+[[1.         0.01612914]
+ [0.01612914 1.        ]]
+original df length: 840
+df length after join: 840
+[[1.         0.01747708]
+ [0.01747708 1.        ]]
+original df length: 4411
+df length after join: 4413
+[[1.         0.15394705]
+ [0.15394705 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(17359, 0.02644161530042053), (16001, 0.02387350790575589), (23183, 0.060043997756977094)]
+[(1102, 0.7168784029038112), (840, 0.7047619047619048), (4411, 0.8748583087735208)]
+MACS2 raw: 17359 peaks, 2.64% overlap with deduplicated peaks
+MACS2 raw: 16001 peaks, 2.39% overlap with deduplicated peaks
+MACS2 raw: 23183 peaks, 6.00% overlap with deduplicated peaks
+MACS2 deduplicated: 1102 peaks, 71.69% overlap with raw peaks
+MACS2 deduplicated: 840 peaks, 70.48% overlap with raw peaks
+MACS2 deduplicated: 4411 peaks, 87.49% overlap with raw peaks
+[(17359, 16001, 11140), (17359, 23183, 11851), (16001, 23183, 11511)]
+[(1102, 840, 604), (1102, 4411, 882), (840, 4411, 679)]
+['100' '111' '101' '001' '010' '011' '000' '110']
+['001' '100' '101' '000' '011' '111' '110' '010']
+10842 558
+10842 558
+MACS raw before removing bookends: 10842
+0
+MACS raw after removing bookends: 10842
+MACS dedup before removing bookends: 558
+0
+MACS dedup after removing bookends: 558
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  2
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 74898
+after filtering: 74898
+before filtering: 71494
+after filtering: 71494
+before filtering: 80437
+after filtering: 80437
+before filtering: 6492
+after filtering: 6492
+before filtering: 5431
+after filtering: 5431
+before filtering: 13459
+after filtering: 13459
+[74898, 71494, 80437]
+[6492, 5431, 13459]
+original df length: 6492
+df length after join: 6511
+[[1.         0.14873843]
+ [0.14873843 1.        ]]
+original df length: 5431
+df length after join: 5454
+[[1.         0.15955462]
+ [0.15955462 1.        ]]
+original df length: 13459
+df length after join: 13484
+[[1.         0.29961602]
+ [0.29961602 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(74898, 0.03458036262650538), (71494, 0.03422664839007469), (80437, 0.050909407362283526)]
+[(6492, 0.9447011706715958), (5431, 0.943288528816056), (13459, 0.965376328107586)]
+MACS2 raw: 74898 peaks, 3.46% overlap with deduplicated peaks
+MACS2 raw: 71494 peaks, 3.42% overlap with deduplicated peaks
+MACS2 raw: 80437 peaks, 5.09% overlap with deduplicated peaks
+MACS2 deduplicated: 6492 peaks, 94.47% overlap with raw peaks
+MACS2 deduplicated: 5431 peaks, 94.33% overlap with raw peaks
+MACS2 deduplicated: 13459 peaks, 96.54% overlap with raw peaks
+[(74898, 71494, 43045), (74898, 80437, 43603), (71494, 80437, 43555)]
+[(6492, 5431, 3782), (6492, 13459, 4836), (5431, 13459, 4150)]
+['001' '011' '111' '110' '010' '000' '100' '101']
+['100' '000' '001' '101' '111' '110' '011' '010']
+103568 6701
+103568 6701
+MACS raw before removing bookends: 103568
+31038
+MACS raw after removing bookends: 72530
+MACS dedup before removing bookends: 6701
+696
+MACS dedup after removing bookends: 6005
+macs_raw_overhang_indices overhangs:  20
+macs_dedup_overhang_indices overhangs:  23
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 74898
+after filtering: 17359
+before filtering: 71494
+after filtering: 16001
+before filtering: 80437
+after filtering: 23183
+before filtering: 6492
+after filtering: 1102
+before filtering: 5431
+after filtering: 840
+before filtering: 13459
+after filtering: 4411
+[17359, 16001, 23183]
+[1102, 840, 4411]
+original df length: 1102
+df length after join: 1102
+[[1.         0.01612914]
+ [0.01612914 1.        ]]
+original df length: 840
+df length after join: 840
+[[1.         0.01747708]
+ [0.01747708 1.        ]]
+original df length: 4411
+df length after join: 4413
+[[1.         0.15394705]
+ [0.15394705 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(17359, 0.02644161530042053), (16001, 0.02387350790575589), (23183, 0.060043997756977094)]
+[(1102, 0.7168784029038112), (840, 0.7047619047619048), (4411, 0.8748583087735208)]
+MACS2 raw: 17359 peaks, 2.64% overlap with deduplicated peaks
+MACS2 raw: 16001 peaks, 2.39% overlap with deduplicated peaks
+MACS2 raw: 23183 peaks, 6.00% overlap with deduplicated peaks
+MACS2 deduplicated: 1102 peaks, 71.69% overlap with raw peaks
+MACS2 deduplicated: 840 peaks, 70.48% overlap with raw peaks
+MACS2 deduplicated: 4411 peaks, 87.49% overlap with raw peaks
+[(17359, 16001, 11140), (17359, 23183, 11851), (16001, 23183, 11511)]
+[(1102, 840, 604), (1102, 4411, 882), (840, 4411, 679)]
+['100' '111' '101' '001' '010' '011' '000' '110']
+['001' '100' '101' '000' '011' '111' '110' '010']
+23940 1137
+23940 1137
+MACS raw before removing bookends: 23940
+7079
+MACS raw after removing bookends: 16861
+MACS dedup before removing bookends: 1137
+66
+MACS dedup after removing bookends: 1071
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  3
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 70087
+after filtering: 70087
+before filtering: 74577
+after filtering: 74577
+before filtering: 72911
+after filtering: 72911
+before filtering: 7187
+after filtering: 7187
+before filtering: 7660
+after filtering: 7660
+before filtering: 6855
+after filtering: 6855
+[70087, 74577, 72911]
+[7187, 7660, 6855]
+original df length: 7187
+df length after join: 7207
+[[1.         0.20180067]
+ [0.20180067 1.        ]]
+original df length: 7660
+df length after join: 7674
+[[1.         0.18538683]
+ [0.18538683 1.        ]]
+original df length: 6855
+df length after join: 6874
+[[1.         0.20191209]
+ [0.20191209 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(70087, 0.03619786836360523), (74577, 0.03538624508896845), (72911, 0.033822057028431926)]
+[(7187, 0.9571448448587728), (7660, 0.9506527415143603), (6855, 0.9579868708971554)]
+MACS2 raw: 70087 peaks, 3.62% overlap with deduplicated peaks
+MACS2 raw: 74577 peaks, 3.54% overlap with deduplicated peaks
+MACS2 raw: 72911 peaks, 3.38% overlap with deduplicated peaks
+MACS2 deduplicated: 7187 peaks, 95.71% overlap with raw peaks
+MACS2 deduplicated: 7660 peaks, 95.07% overlap with raw peaks
+MACS2 deduplicated: 6855 peaks, 95.80% overlap with raw peaks
+[(70087, 74577, 42450), (70087, 72911, 41993), (74577, 72911, 41552)]
+[(7187, 7660, 4668), (7187, 6855, 4330), (7660, 6855, 4481)]
+['010' '110' '111' '011' '001' '000' '101' '100']
+['010' '000' '001' '101' '111' '011' '100' '110']
+42196 3960
+42196 3960
+MACS raw before removing bookends: 42196
+0
+MACS raw after removing bookends: 42196
+MACS dedup before removing bookends: 3960
+0
+MACS dedup after removing bookends: 3960
+macs_raw_overhang_indices overhangs:  12
+macs_dedup_overhang_indices overhangs:  21
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 70087
+after filtering: 18211
+before filtering: 74577
+after filtering: 18733
+before filtering: 72911
+after filtering: 17807
+before filtering: 7187
+after filtering: 1255
+before filtering: 7660
+after filtering: 1455
+before filtering: 6855
+after filtering: 1189
+[18211, 18733, 17807]
+[1255, 1455, 1189]
+original df length: 1255
+df length after join: 1255
+[[1.         0.02629025]
+ [0.02629025 1.        ]]
+original df length: 1455
+df length after join: 1455
+[[1.         0.01616648]
+ [0.01616648 1.        ]]
+original df length: 1189
+df length after join: 1189
+[[1.         0.00293275]
+ [0.00293275 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(18211, 0.02597331283290319), (18733, 0.026690866385522875), (17807, 0.024540910877744706)]
+[(1255, 0.8350597609561753), (1455, 0.797938144329897), (1189, 0.8284272497897393)]
+MACS2 raw: 18211 peaks, 2.60% overlap with deduplicated peaks
+MACS2 raw: 18733 peaks, 2.67% overlap with deduplicated peaks
+MACS2 raw: 17807 peaks, 2.45% overlap with deduplicated peaks
+MACS2 deduplicated: 1255 peaks, 83.51% overlap with raw peaks
+MACS2 deduplicated: 1455 peaks, 79.79% overlap with raw peaks
+MACS2 deduplicated: 1189 peaks, 82.84% overlap with raw peaks
+[(18211, 18733, 12555), (18211, 17807, 12302), (18733, 17807, 11839)]
+[(1255, 1455, 816), (1255, 1189, 726), (1455, 1189, 777)]
+['100' '101' '011' '010' '000' '001' '111' '110']
+['100' '101' '001' '000' '010' '011' '111' '110']
+11716 621
+11716 621
+MACS raw before removing bookends: 11716
+0
+MACS raw after removing bookends: 11716
+MACS dedup before removing bookends: 621
+0
+MACS dedup after removing bookends: 621
+macs_raw_overhang_indices overhangs:  1
+macs_dedup_overhang_indices overhangs:  3
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 70087
+after filtering: 70087
+before filtering: 74577
+after filtering: 74577
+before filtering: 72911
+after filtering: 72911
+before filtering: 7187
+after filtering: 7187
+before filtering: 7660
+after filtering: 7660
+before filtering: 6855
+after filtering: 6855
+[70087, 74577, 72911]
+[7187, 7660, 6855]
+original df length: 7187
+df length after join: 7207
+[[1.         0.20180067]
+ [0.20180067 1.        ]]
+original df length: 7660
+df length after join: 7674
+[[1.         0.18538683]
+ [0.18538683 1.        ]]
+original df length: 6855
+df length after join: 6874
+[[1.         0.20191209]
+ [0.20191209 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(70087, 0.03619786836360523), (74577, 0.03538624508896845), (72911, 0.033822057028431926)]
+[(7187, 0.9571448448587728), (7660, 0.9506527415143603), (6855, 0.9579868708971554)]
+MACS2 raw: 70087 peaks, 3.62% overlap with deduplicated peaks
+MACS2 raw: 74577 peaks, 3.54% overlap with deduplicated peaks
+MACS2 raw: 72911 peaks, 3.38% overlap with deduplicated peaks
+MACS2 deduplicated: 7187 peaks, 95.71% overlap with raw peaks
+MACS2 deduplicated: 7660 peaks, 95.07% overlap with raw peaks
+MACS2 deduplicated: 6855 peaks, 95.80% overlap with raw peaks
+[(70087, 74577, 42450), (70087, 72911, 41993), (74577, 72911, 41552)]
+[(7187, 7660, 4668), (7187, 6855, 4330), (7660, 6855, 4481)]
+['010' '110' '111' '011' '001' '000' '101' '100']
+['010' '000' '001' '101' '111' '011' '100' '110']
+96504 6741
+96504 6741
+MACS raw before removing bookends: 96504
+27959
+MACS raw after removing bookends: 68545
+MACS dedup before removing bookends: 6741
+641
+MACS dedup after removing bookends: 6100
+macs_raw_overhang_indices overhangs:  17
+macs_dedup_overhang_indices overhangs:  24
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 70087
+after filtering: 18211
+before filtering: 74577
+after filtering: 18733
+before filtering: 72911
+after filtering: 17807
+before filtering: 7187
+after filtering: 1255
+before filtering: 7660
+after filtering: 1455
+before filtering: 6855
+after filtering: 1189
+[18211, 18733, 17807]
+[1255, 1455, 1189]
+original df length: 1255
+df length after join: 1255
+[[1.         0.02629025]
+ [0.02629025 1.        ]]
+original df length: 1455
+df length after join: 1455
+[[1.         0.01616648]
+ [0.01616648 1.        ]]
+original df length: 1189
+df length after join: 1189
+[[1.         0.00293275]
+ [0.00293275 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(18211, 0.02597331283290319), (18733, 0.026690866385522875), (17807, 0.024540910877744706)]
+[(1255, 0.8350597609561753), (1455, 0.797938144329897), (1189, 0.8284272497897393)]
+MACS2 raw: 18211 peaks, 2.60% overlap with deduplicated peaks
+MACS2 raw: 18733 peaks, 2.67% overlap with deduplicated peaks
+MACS2 raw: 17807 peaks, 2.45% overlap with deduplicated peaks
+MACS2 deduplicated: 1255 peaks, 83.51% overlap with raw peaks
+MACS2 deduplicated: 1455 peaks, 79.79% overlap with raw peaks
+MACS2 deduplicated: 1189 peaks, 82.84% overlap with raw peaks
+[(18211, 18733, 12555), (18211, 17807, 12302), (18733, 17807, 11839)]
+[(1255, 1455, 816), (1255, 1189, 726), (1455, 1189, 777)]
+['100' '101' '011' '010' '000' '001' '111' '110']
+['100' '101' '001' '000' '010' '011' '111' '110']
+24007 1173
+24007 1173
+MACS raw before removing bookends: 24007
+6949
+MACS raw after removing bookends: 17058
+MACS dedup before removing bookends: 1173
+63
+MACS dedup after removing bookends: 1110
+macs_raw_overhang_indices overhangs:  1
+macs_dedup_overhang_indices overhangs:  3
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 69896
+after filtering: 69896
+before filtering: 69663
+after filtering: 69663
+before filtering: 68828
+after filtering: 68828
+before filtering: 6274
+after filtering: 6274
+before filtering: 5805
+after filtering: 5805
+before filtering: 6796
+after filtering: 6796
+[69896, 69663, 68828]
+[6274, 5805, 6796]
+original df length: 6274
+df length after join: 6297
+[[1.         0.14672968]
+ [0.14672968 1.        ]]
+original df length: 5805
+df length after join: 5825
+[[1.         0.15578832]
+ [0.15578832 1.        ]]
+original df length: 6796
+df length after join: 6823
+[[1.         0.16905833]
+ [0.16905833 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(69896, 0.036540002289115255), (69663, 0.0351693151314184), (68828, 0.038371011797524265)]
+[(6274, 0.9274784826267134), (5805, 0.9198966408268734), (6796, 0.9371689228958211)]
+MACS2 raw: 69896 peaks, 3.65% overlap with deduplicated peaks
+MACS2 raw: 69663 peaks, 3.52% overlap with deduplicated peaks
+MACS2 raw: 68828 peaks, 3.84% overlap with deduplicated peaks
+MACS2 deduplicated: 6274 peaks, 92.75% overlap with raw peaks
+MACS2 deduplicated: 5805 peaks, 91.99% overlap with raw peaks
+MACS2 deduplicated: 6796 peaks, 93.72% overlap with raw peaks
+[(69896, 69663, 45281), (69896, 68828, 43940), (69663, 68828, 44418)]
+[(6274, 5805, 4047), (6274, 6796, 4380), (5805, 6796, 4203)]
+['011' '111' '110' '010' '000' '001' '101' '100']
+['100' '000' '101' '111' '010' '011' '110' '001']
+45416 3756
+45416 3756
+MACS raw before removing bookends: 45416
+0
+MACS raw after removing bookends: 45416
+MACS dedup before removing bookends: 3756
+0
+MACS dedup after removing bookends: 3756
+macs_raw_overhang_indices overhangs:  12
+macs_dedup_overhang_indices overhangs:  22
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 69896
+after filtering: 18031
+before filtering: 69663
+after filtering: 17262
+before filtering: 68828
+after filtering: 17758
+before filtering: 6274
+after filtering: 904
+before filtering: 5805
+after filtering: 826
+before filtering: 6796
+after filtering: 1018
+[18031, 17262, 17758]
+[904, 826, 1018]
+original df length: 904
+df length after join: 904
+[[1.         0.01497217]
+ [0.01497217 1.        ]]
+original df length: 826
+df length after join: 826
+[[ 1.         -0.00118171]
+ [-0.00118171  1.        ]]
+original df length: 1018
+df length after join: 1018
+[[1.         0.01444374]
+ [0.01444374 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(18031, 0.022239476457212578), (17262, 0.02015988877302746), (17758, 0.02427075121072193)]
+[(904, 0.7477876106194691), (826, 0.6888619854721549), (1018, 0.7838899803536346)]
+MACS2 raw: 18031 peaks, 2.22% overlap with deduplicated peaks
+MACS2 raw: 17262 peaks, 2.02% overlap with deduplicated peaks
+MACS2 raw: 17758 peaks, 2.43% overlap with deduplicated peaks
+MACS2 deduplicated: 904 peaks, 74.78% overlap with raw peaks
+MACS2 deduplicated: 826 peaks, 68.89% overlap with raw peaks
+MACS2 deduplicated: 1018 peaks, 78.39% overlap with raw peaks
+[(18031, 17262, 13272), (18031, 17758, 13214), (17262, 17758, 13123)]
+[(904, 826, 586), (904, 1018, 634), (826, 1018, 597)]
+['001' '110' '111' '101' '100' '000' '010' '011']
+['001' '101' '100' '000' '110' '111' '011' '010']
+12818 509
+12818 509
+MACS raw before removing bookends: 12818
+0
+MACS raw after removing bookends: 12818
+MACS dedup before removing bookends: 509
+0
+MACS dedup after removing bookends: 509
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  2
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 69896
+after filtering: 69896
+before filtering: 69663
+after filtering: 69663
+before filtering: 68828
+after filtering: 68828
+before filtering: 6274
+after filtering: 6274
+before filtering: 5805
+after filtering: 5805
+before filtering: 6796
+after filtering: 6796
+[69896, 69663, 68828]
+[6274, 5805, 6796]
+original df length: 6274
+df length after join: 6297
+[[1.         0.14672968]
+ [0.14672968 1.        ]]
+original df length: 5805
+df length after join: 5825
+[[1.         0.15578832]
+ [0.15578832 1.        ]]
+original df length: 6796
+df length after join: 6823
+[[1.         0.16905833]
+ [0.16905833 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(69896, 0.036540002289115255), (69663, 0.0351693151314184), (68828, 0.038371011797524265)]
+[(6274, 0.9274784826267134), (5805, 0.9198966408268734), (6796, 0.9371689228958211)]
+MACS2 raw: 69896 peaks, 3.65% overlap with deduplicated peaks
+MACS2 raw: 69663 peaks, 3.52% overlap with deduplicated peaks
+MACS2 raw: 68828 peaks, 3.84% overlap with deduplicated peaks
+MACS2 deduplicated: 6274 peaks, 92.75% overlap with raw peaks
+MACS2 deduplicated: 5805 peaks, 91.99% overlap with raw peaks
+MACS2 deduplicated: 6796 peaks, 93.72% overlap with raw peaks
+[(69896, 69663, 45281), (69896, 68828, 43940), (69663, 68828, 44418)]
+[(6274, 5805, 4047), (6274, 6796, 4380), (5805, 6796, 4203)]
+['011' '111' '110' '010' '000' '001' '101' '100']
+['100' '000' '101' '111' '010' '011' '110' '001']
+93009 6052
+93009 6052
+MACS raw before removing bookends: 93009
+26047
+MACS raw after removing bookends: 66962
+MACS dedup before removing bookends: 6052
+549
+MACS dedup after removing bookends: 5503
+macs_raw_overhang_indices overhangs:  16
+macs_dedup_overhang_indices overhangs:  26
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 69896
+after filtering: 18031
+before filtering: 69663
+after filtering: 17262
+before filtering: 68828
+after filtering: 17758
+before filtering: 6274
+after filtering: 904
+before filtering: 5805
+after filtering: 826
+before filtering: 6796
+after filtering: 1018
+[18031, 17262, 17758]
+[904, 826, 1018]
+original df length: 904
+df length after join: 904
+[[1.         0.01497217]
+ [0.01497217 1.        ]]
+original df length: 826
+df length after join: 826
+[[ 1.         -0.00118171]
+ [-0.00118171  1.        ]]
+original df length: 1018
+df length after join: 1018
+[[1.         0.01444374]
+ [0.01444374 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(18031, 0.022239476457212578), (17262, 0.02015988877302746), (17758, 0.02427075121072193)]
+[(904, 0.7477876106194691), (826, 0.6888619854721549), (1018, 0.7838899803536346)]
+MACS2 raw: 18031 peaks, 2.22% overlap with deduplicated peaks
+MACS2 raw: 17262 peaks, 2.02% overlap with deduplicated peaks
+MACS2 raw: 17758 peaks, 2.43% overlap with deduplicated peaks
+MACS2 deduplicated: 904 peaks, 74.78% overlap with raw peaks
+MACS2 deduplicated: 826 peaks, 68.89% overlap with raw peaks
+MACS2 deduplicated: 1018 peaks, 78.39% overlap with raw peaks
+[(18031, 17262, 13272), (18031, 17758, 13214), (17262, 17758, 13123)]
+[(904, 826, 586), (904, 1018, 634), (826, 1018, 597)]
+['001' '110' '111' '101' '100' '000' '010' '011']
+['001' '101' '100' '000' '110' '111' '011' '010']
+23791 848
+23791 848
+MACS raw before removing bookends: 23791
+6520
+MACS raw after removing bookends: 17271
+MACS dedup before removing bookends: 848
+39
+MACS dedup after removing bookends: 809
+macs_raw_overhang_indices overhangs:  1
+macs_dedup_overhang_indices overhangs:  3
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 105346
+after filtering: 105346
+before filtering: 110351
+after filtering: 110351
+before filtering: 106540
+after filtering: 106540
+before filtering: 17578
+after filtering: 17578
+before filtering: 20122
+after filtering: 20122
+before filtering: 12010
+after filtering: 12010
+[105346, 110351, 106540]
+[17578, 20122, 12010]
+original df length: 17578
+df length after join: 17608
+[[1.         0.27975353]
+ [0.27975353 1.        ]]
+original df length: 20122
+df length after join: 20186
+[[1.         0.18047431]
+ [0.18047431 1.        ]]
+original df length: 12010
+df length after join: 12043
+[[1.         0.18411517]
+ [0.18411517 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(105346, 0.03829286351641258), (110351, 0.04242825166967223), (106540, 0.021860334146799325)]
+[(17578, 0.9029468653999317), (20122, 0.8695954676473512), (12010, 0.8643630308076603)]
+MACS2 raw: 105346 peaks, 3.83% overlap with deduplicated peaks
+MACS2 raw: 110351 peaks, 4.24% overlap with deduplicated peaks
+MACS2 raw: 106540 peaks, 2.19% overlap with deduplicated peaks
+MACS2 deduplicated: 17578 peaks, 90.29% overlap with raw peaks
+MACS2 deduplicated: 20122 peaks, 86.96% overlap with raw peaks
+MACS2 deduplicated: 12010 peaks, 86.44% overlap with raw peaks
+[(105346, 110351, 62282), (105346, 106540, 63941), (110351, 106540, 64480)]
+[(17578, 20122, 8613), (17578, 12010, 5723), (20122, 12010, 5968)]
+['010' '000' '100' '110' '111' '101' '001' '011']
+['010' '000' '001' '101' '111' '110' '100' '011']
+64484 5573
+64484 5573
+MACS raw before removing bookends: 64484
+0
+MACS raw after removing bookends: 64484
+MACS dedup before removing bookends: 5573
+0
+MACS dedup after removing bookends: 5573
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 105346
+after filtering: 31357
+before filtering: 110351
+after filtering: 35371
+before filtering: 106540
+after filtering: 30969
+before filtering: 17578
+after filtering: 5038
+before filtering: 20122
+after filtering: 5835
+before filtering: 12010
+after filtering: 3093
+[31357, 35371, 30969]
+[5038, 5835, 3093]
+original df length: 5038
+df length after join: 5039
+[[1.        0.2136926]
+ [0.2136926 1.       ]]
+original df length: 5835
+df length after join: 5837
+[[1.         0.12601111]
+ [0.12601111 1.        ]]
+original df length: 3093
+df length after join: 3095
+[[1.         0.10058732]
+ [0.10058732 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(31357, 0.040469432662563386), (35371, 0.040230697464024204), (30969, 0.018018018018018018)]
+[(5038, 0.7989281460897182), (5835, 0.7204798628963154), (3093, 0.7222761073391529)]
+MACS2 raw: 31357 peaks, 4.05% overlap with deduplicated peaks
+MACS2 raw: 35371 peaks, 4.02% overlap with deduplicated peaks
+MACS2 raw: 30969 peaks, 1.80% overlap with deduplicated peaks
+MACS2 deduplicated: 5038 peaks, 79.89% overlap with raw peaks
+MACS2 deduplicated: 5835 peaks, 72.05% overlap with raw peaks
+MACS2 deduplicated: 3093 peaks, 72.23% overlap with raw peaks
+[(31357, 35371, 19940), (31357, 30969, 20034), (35371, 30969, 20684)]
+[(5038, 5835, 2286), (5038, 3093, 1477), (5835, 3093, 1574)]
+['001' '011' '000' '100' '010' '101' '111' '110']
+['101' '001' '000' '010' '100' '110' '011' '111']
+19013 1271
+19013 1271
+MACS raw before removing bookends: 19013
+0
+MACS raw after removing bookends: 19013
+MACS dedup before removing bookends: 1271
+0
+MACS dedup after removing bookends: 1271
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 105346
+after filtering: 105346
+before filtering: 110351
+after filtering: 110351
+before filtering: 106540
+after filtering: 106540
+before filtering: 17578
+after filtering: 17578
+before filtering: 20122
+after filtering: 20122
+before filtering: 12010
+after filtering: 12010
+[105346, 110351, 106540]
+[17578, 20122, 12010]
+original df length: 17578
+df length after join: 17608
+[[1.         0.27975353]
+ [0.27975353 1.        ]]
+original df length: 20122
+df length after join: 20186
+[[1.         0.18047431]
+ [0.18047431 1.        ]]
+original df length: 12010
+df length after join: 12043
+[[1.         0.18411517]
+ [0.18411517 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(105346, 0.03829286351641258), (110351, 0.04242825166967223), (106540, 0.021860334146799325)]
+[(17578, 0.9029468653999317), (20122, 0.8695954676473512), (12010, 0.8643630308076603)]
+MACS2 raw: 105346 peaks, 3.83% overlap with deduplicated peaks
+MACS2 raw: 110351 peaks, 4.24% overlap with deduplicated peaks
+MACS2 raw: 106540 peaks, 2.19% overlap with deduplicated peaks
+MACS2 deduplicated: 17578 peaks, 90.29% overlap with raw peaks
+MACS2 deduplicated: 20122 peaks, 86.96% overlap with raw peaks
+MACS2 deduplicated: 12010 peaks, 86.44% overlap with raw peaks
+[(105346, 110351, 62282), (105346, 106540, 63941), (110351, 106540, 64480)]
+[(17578, 20122, 8613), (17578, 12010, 5723), (20122, 12010, 5968)]
+['010' '000' '100' '110' '111' '101' '001' '011']
+['010' '000' '001' '101' '111' '110' '100' '011']
+156864 15157
+156864 15157
+MACS raw before removing bookends: 156864
+49070
+MACS raw after removing bookends: 107794
+MACS dedup before removing bookends: 15157
+2485
+MACS dedup after removing bookends: 12672
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 105346
+after filtering: 31357
+before filtering: 110351
+after filtering: 35371
+before filtering: 106540
+after filtering: 30969
+before filtering: 17578
+after filtering: 5038
+before filtering: 20122
+after filtering: 5835
+before filtering: 12010
+after filtering: 3093
+[31357, 35371, 30969]
+[5038, 5835, 3093]
+original df length: 5038
+df length after join: 5039
+[[1.        0.2136926]
+ [0.2136926 1.       ]]
+original df length: 5835
+df length after join: 5837
+[[1.         0.12601111]
+ [0.12601111 1.        ]]
+original df length: 3093
+df length after join: 3095
+[[1.         0.10058732]
+ [0.10058732 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(31357, 0.040469432662563386), (35371, 0.040230697464024204), (30969, 0.018018018018018018)]
+[(5038, 0.7989281460897182), (5835, 0.7204798628963154), (3093, 0.7222761073391529)]
+MACS2 raw: 31357 peaks, 4.05% overlap with deduplicated peaks
+MACS2 raw: 35371 peaks, 4.02% overlap with deduplicated peaks
+MACS2 raw: 30969 peaks, 1.80% overlap with deduplicated peaks
+MACS2 deduplicated: 5038 peaks, 79.89% overlap with raw peaks
+MACS2 deduplicated: 5835 peaks, 72.05% overlap with raw peaks
+MACS2 deduplicated: 3093 peaks, 72.23% overlap with raw peaks
+[(31357, 35371, 19940), (31357, 30969, 20034), (35371, 30969, 20684)]
+[(5038, 5835, 2286), (5038, 3093, 1477), (5835, 3093, 1574)]
+['001' '011' '000' '100' '010' '101' '111' '110']
+['101' '001' '000' '010' '100' '110' '011' '111']
+43217 3811
+43217 3811
+MACS raw before removing bookends: 43217
+13137
+MACS raw after removing bookends: 30080
+MACS dedup before removing bookends: 3811
+483
+MACS dedup after removing bookends: 3328
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 7786
+after filtering: 7786
+before filtering: 5682
+after filtering: 5682
+before filtering: 7367
+after filtering: 7367
+before filtering: 3744
+after filtering: 3744
+before filtering: 3374
+after filtering: 3374
+before filtering: 4213
+after filtering: 4213
+[7786, 5682, 7367]
+[3744, 3374, 4213]
+original df length: 3744
+df length after join: 3745
+[[1.         0.48434625]
+ [0.48434625 1.        ]]
+original df length: 3374
+df length after join: 3377
+[[1.         0.48421361]
+ [0.48421361 1.        ]]
+original df length: 4213
+df length after join: 4217
+[[1.         0.48057243]
+ [0.48057243 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(7786, 0.2653480606216286), (5682, 0.3259415698697642), (7367, 0.3097597393783087)]
+[(3744, 0.7719017094017094), (3374, 0.7282157676348547), (4213, 0.7220507951578448)]
+MACS2 raw: 7786 peaks, 26.53% overlap with deduplicated peaks
+MACS2 raw: 5682 peaks, 32.59% overlap with deduplicated peaks
+MACS2 raw: 7367 peaks, 30.98% overlap with deduplicated peaks
+MACS2 deduplicated: 3744 peaks, 77.19% overlap with raw peaks
+MACS2 deduplicated: 3374 peaks, 72.82% overlap with raw peaks
+MACS2 deduplicated: 4213 peaks, 72.21% overlap with raw peaks
+[(7786, 5682, 4109), (7786, 7367, 4846), (5682, 7367, 4299)]
+[(3744, 3374, 2097), (3744, 4213, 2332), (3374, 4213, 2280)]
+['100' '110' '000' '101' '111' '010' '001' '011']
+['100' '000' '010' '001' '110' '111' '101' '011']
+3962 1910
+3962 1910
+MACS raw before removing bookends: 3962
+0
+MACS raw after removing bookends: 3962
+MACS dedup before removing bookends: 1910
+0
+MACS dedup after removing bookends: 1910
+macs_raw_overhang_indices overhangs:  7
+macs_dedup_overhang_indices overhangs:  4
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 7786
+after filtering: 3087
+before filtering: 5682
+after filtering: 2469
+before filtering: 7367
+after filtering: 2918
+before filtering: 3744
+after filtering: 2437
+before filtering: 3374
+after filtering: 2253
+before filtering: 4213
+after filtering: 2215
+[3087, 2469, 2918]
+[2437, 2253, 2215]
+original df length: 2437
+df length after join: 2437
+[[1.         0.39825421]
+ [0.39825421 1.        ]]
+original df length: 2253
+df length after join: 2253
+[[1.         0.40784856]
+ [0.40784856 1.        ]]
+original df length: 2215
+df length after join: 2215
+[[1.         0.39207111]
+ [0.39207111 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(3087, 0.35374149659863946), (2469, 0.4025921425678412), (2918, 0.3708019191226868)]
+[(2437, 0.6573656134591711), (2253, 0.6160674656014203), (2215, 0.6388261851015802)]
+MACS2 raw: 3087 peaks, 35.37% overlap with deduplicated peaks
+MACS2 raw: 2469 peaks, 40.26% overlap with deduplicated peaks
+MACS2 raw: 2918 peaks, 37.08% overlap with deduplicated peaks
+MACS2 deduplicated: 2437 peaks, 65.74% overlap with raw peaks
+MACS2 deduplicated: 2253 peaks, 61.61% overlap with raw peaks
+MACS2 deduplicated: 2215 peaks, 63.88% overlap with raw peaks
+[(3087, 2469, 2092), (3087, 2918, 2330), (2469, 2918, 2117)]
+[(2437, 2253, 1409), (2437, 2215, 1393), (2253, 2215, 1351)]
+['100' '000' '101' '010' '001' '011' '111' '110']
+['001' '000' '100' '010' '110' '011' '111' '101']
+1955 1151
+1955 1151
+MACS raw before removing bookends: 1955
+0
+MACS raw after removing bookends: 1955
+MACS dedup before removing bookends: 1151
+0
+MACS dedup after removing bookends: 1151
+macs_raw_overhang_indices overhangs:  6
+macs_dedup_overhang_indices overhangs:  2
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 7786
+after filtering: 7786
+before filtering: 5682
+after filtering: 5682
+before filtering: 7367
+after filtering: 7367
+before filtering: 3744
+after filtering: 3744
+before filtering: 3374
+after filtering: 3374
+before filtering: 4213
+after filtering: 4213
+[7786, 5682, 7367]
+[3744, 3374, 4213]
+original df length: 3744
+df length after join: 3745
+[[1.         0.48434625]
+ [0.48434625 1.        ]]
+original df length: 3374
+df length after join: 3377
+[[1.         0.48421361]
+ [0.48421361 1.        ]]
+original df length: 4213
+df length after join: 4217
+[[1.         0.48057243]
+ [0.48057243 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(7786, 0.2653480606216286), (5682, 0.3259415698697642), (7367, 0.3097597393783087)]
+[(3744, 0.7719017094017094), (3374, 0.7282157676348547), (4213, 0.7220507951578448)]
+MACS2 raw: 7786 peaks, 26.53% overlap with deduplicated peaks
+MACS2 raw: 5682 peaks, 32.59% overlap with deduplicated peaks
+MACS2 raw: 7367 peaks, 30.98% overlap with deduplicated peaks
+MACS2 deduplicated: 3744 peaks, 77.19% overlap with raw peaks
+MACS2 deduplicated: 3374 peaks, 72.82% overlap with raw peaks
+MACS2 deduplicated: 4213 peaks, 72.21% overlap with raw peaks
+[(7786, 5682, 4109), (7786, 7367, 4846), (5682, 7367, 4299)]
+[(3744, 3374, 2097), (3744, 4213, 2332), (3374, 4213, 2280)]
+['100' '110' '000' '101' '111' '010' '001' '011']
+['100' '000' '010' '001' '110' '111' '101' '011']
+6919 3436
+6919 3436
+MACS raw before removing bookends: 6919
+877
+MACS raw after removing bookends: 6042
+MACS dedup before removing bookends: 3436
+326
+MACS dedup after removing bookends: 3110
+macs_raw_overhang_indices overhangs:  9
+macs_dedup_overhang_indices overhangs:  4
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 7786
+after filtering: 3087
+before filtering: 5682
+after filtering: 2469
+before filtering: 7367
+after filtering: 2918
+before filtering: 3744
+after filtering: 2437
+before filtering: 3374
+after filtering: 2253
+before filtering: 4213
+after filtering: 2215
+[3087, 2469, 2918]
+[2437, 2253, 2215]
+original df length: 2437
+df length after join: 2437
+[[1.         0.39825421]
+ [0.39825421 1.        ]]
+original df length: 2253
+df length after join: 2253
+[[1.         0.40784856]
+ [0.40784856 1.        ]]
+original df length: 2215
+df length after join: 2215
+[[1.         0.39207111]
+ [0.39207111 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(3087, 0.35374149659863946), (2469, 0.4025921425678412), (2918, 0.3708019191226868)]
+[(2437, 0.6573656134591711), (2253, 0.6160674656014203), (2215, 0.6388261851015802)]
+MACS2 raw: 3087 peaks, 35.37% overlap with deduplicated peaks
+MACS2 raw: 2469 peaks, 40.26% overlap with deduplicated peaks
+MACS2 raw: 2918 peaks, 37.08% overlap with deduplicated peaks
+MACS2 deduplicated: 2437 peaks, 65.74% overlap with raw peaks
+MACS2 deduplicated: 2253 peaks, 61.61% overlap with raw peaks
+MACS2 deduplicated: 2215 peaks, 63.88% overlap with raw peaks
+[(3087, 2469, 2092), (3087, 2918, 2330), (2469, 2918, 2117)]
+[(2437, 2253, 1409), (2437, 2215, 1393), (2253, 2215, 1351)]
+['100' '000' '101' '010' '001' '011' '111' '110']
+['001' '000' '100' '010' '110' '011' '111' '101']
+2901 2137
+2901 2137
+MACS raw before removing bookends: 2901
+245
+MACS raw after removing bookends: 2656
+MACS dedup before removing bookends: 2137
+166
+MACS dedup after removing bookends: 1971
+macs_raw_overhang_indices overhangs:  7
+macs_dedup_overhang_indices overhangs:  2
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 72060
+after filtering: 72060
+before filtering: 71491
+after filtering: 71491
+before filtering: 73647
+after filtering: 73647
+before filtering: 8864
+after filtering: 8864
+before filtering: 9445
+after filtering: 9445
+before filtering: 12246
+after filtering: 12246
+[72060, 71491, 73647]
+[8864, 9445, 12246]
+original df length: 8864
+df length after join: 8889
+[[1.         0.58849866]
+ [0.58849866 1.        ]]
+original df length: 9445
+df length after join: 9478
+[[1.         0.61467541]
+ [0.61467541 1.        ]]
+original df length: 12246
+df length after join: 12443
+[[1.         0.56290745]
+ [0.56290745 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(72060, 0.06316958090480156), (71491, 0.06730917178386091), (73647, 0.08421252732629979)]
+[(8864, 0.7867779783393501), (9445, 0.7858125992588672), (12246, 0.6056671566225706)]
+MACS2 raw: 72060 peaks, 6.32% overlap with deduplicated peaks
+MACS2 raw: 71491 peaks, 6.73% overlap with deduplicated peaks
+MACS2 raw: 73647 peaks, 8.42% overlap with deduplicated peaks
+MACS2 deduplicated: 8864 peaks, 78.68% overlap with raw peaks
+MACS2 deduplicated: 9445 peaks, 78.58% overlap with raw peaks
+MACS2 deduplicated: 12246 peaks, 60.57% overlap with raw peaks
+[(72060, 71491, 44772), (72060, 73647, 48300), (71491, 73647, 47413)]
+[(8864, 9445, 5971), (8864, 12246, 6962), (9445, 12246, 7118)]
+['001' '011' '111' '010' '000' '100' '101' '110']
+['100' '101' '110' '111' '011' '010' '000' '001']
+46405 5932
+46405 5932
+MACS raw before removing bookends: 46405
+0
+MACS raw after removing bookends: 46405
+MACS dedup before removing bookends: 5932
+0
+MACS dedup after removing bookends: 5932
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 72060
+after filtering: 19696
+before filtering: 71491
+after filtering: 20187
+before filtering: 73647
+after filtering: 19598
+before filtering: 8864
+after filtering: 1975
+before filtering: 9445
+after filtering: 2441
+before filtering: 12246
+after filtering: 2682
+[19696, 20187, 19598]
+[1975, 2441, 2682]
+original df length: 1975
+df length after join: 1977
+[[1.         0.67982492]
+ [0.67982492 1.        ]]
+original df length: 2441
+df length after join: 2444
+[[1.        0.6759718]
+ [0.6759718 1.       ]]
+original df length: 2682
+df length after join: 2706
+[[1.         0.67797806]
+ [0.67797806 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(19696, 0.0659017059301381), (20187, 0.07247238321692179), (19598, 0.0716399632615573)]
+[(1975, 0.7929113924050633), (2441, 0.7279803359278983), (2682, 0.5503355704697986)]
+MACS2 raw: 19696 peaks, 6.59% overlap with deduplicated peaks
+MACS2 raw: 20187 peaks, 7.25% overlap with deduplicated peaks
+MACS2 raw: 19598 peaks, 7.16% overlap with deduplicated peaks
+MACS2 deduplicated: 1975 peaks, 79.29% overlap with raw peaks
+MACS2 deduplicated: 2441 peaks, 72.80% overlap with raw peaks
+MACS2 deduplicated: 2682 peaks, 55.03% overlap with raw peaks
+[(19696, 20187, 14722), (19696, 19598, 15119), (20187, 19598, 15230)]
+[(1975, 2441, 1674), (1975, 2682, 1697), (2441, 2682, 1900)]
+['100' '000' '001' '011' '111' '010' '110' '101']
+['100' '101' '111' '001' '000' '011' '010' '110']
+14293 1576
+14293 1576
+MACS raw before removing bookends: 14293
+0
+MACS raw after removing bookends: 14293
+MACS dedup before removing bookends: 1576
+0
+MACS dedup after removing bookends: 1576
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 72060
+after filtering: 72060
+before filtering: 71491
+after filtering: 71491
+before filtering: 73647
+after filtering: 73647
+before filtering: 8864
+after filtering: 8864
+before filtering: 9445
+after filtering: 9445
+before filtering: 12246
+after filtering: 12246
+[72060, 71491, 73647]
+[8864, 9445, 12246]
+original df length: 8864
+df length after join: 8889
+[[1.         0.58849866]
+ [0.58849866 1.        ]]
+original df length: 9445
+df length after join: 9478
+[[1.         0.61467541]
+ [0.61467541 1.        ]]
+original df length: 12246
+df length after join: 12443
+[[1.         0.56290745]
+ [0.56290745 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(72060, 0.06316958090480156), (71491, 0.06730917178386091), (73647, 0.08421252732629979)]
+[(8864, 0.7867779783393501), (9445, 0.7858125992588672), (12246, 0.6056671566225706)]
+MACS2 raw: 72060 peaks, 6.32% overlap with deduplicated peaks
+MACS2 raw: 71491 peaks, 6.73% overlap with deduplicated peaks
+MACS2 raw: 73647 peaks, 8.42% overlap with deduplicated peaks
+MACS2 deduplicated: 8864 peaks, 78.68% overlap with raw peaks
+MACS2 deduplicated: 9445 peaks, 78.58% overlap with raw peaks
+MACS2 deduplicated: 12246 peaks, 60.57% overlap with raw peaks
+[(72060, 71491, 44772), (72060, 73647, 48300), (71491, 73647, 47413)]
+[(8864, 9445, 5971), (8864, 12246, 6962), (9445, 12246, 7118)]
+['001' '011' '111' '010' '000' '100' '101' '110']
+['100' '101' '110' '111' '011' '010' '000' '001']
+97439 12237
+97439 12237
+MACS raw before removing bookends: 97439
+28038
+MACS raw after removing bookends: 69401
+MACS dedup before removing bookends: 12237
+2751
+MACS dedup after removing bookends: 9486
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 72060
+after filtering: 19696
+before filtering: 71491
+after filtering: 20187
+before filtering: 73647
+after filtering: 19598
+before filtering: 8864
+after filtering: 1975
+before filtering: 9445
+after filtering: 2441
+before filtering: 12246
+after filtering: 2682
+[19696, 20187, 19598]
+[1975, 2441, 2682]
+original df length: 1975
+df length after join: 1977
+[[1.         0.67982492]
+ [0.67982492 1.        ]]
+original df length: 2441
+df length after join: 2444
+[[1.        0.6759718]
+ [0.6759718 1.       ]]
+original df length: 2682
+df length after join: 2706
+[[1.         0.67797806]
+ [0.67797806 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(19696, 0.0659017059301381), (20187, 0.07247238321692179), (19598, 0.0716399632615573)]
+[(1975, 0.7929113924050633), (2441, 0.7279803359278983), (2682, 0.5503355704697986)]
+MACS2 raw: 19696 peaks, 6.59% overlap with deduplicated peaks
+MACS2 raw: 20187 peaks, 7.25% overlap with deduplicated peaks
+MACS2 raw: 19598 peaks, 7.16% overlap with deduplicated peaks
+MACS2 deduplicated: 1975 peaks, 79.29% overlap with raw peaks
+MACS2 deduplicated: 2441 peaks, 72.80% overlap with raw peaks
+MACS2 deduplicated: 2682 peaks, 55.03% overlap with raw peaks
+[(19696, 20187, 14722), (19696, 19598, 15119), (20187, 19598, 15230)]
+[(1975, 2441, 1674), (1975, 2682, 1697), (2441, 2682, 1900)]
+['100' '000' '001' '011' '111' '010' '110' '101']
+['100' '101' '111' '001' '000' '011' '010' '110']
+26245 2693
+26245 2693
+MACS raw before removing bookends: 26245
+6999
+MACS raw after removing bookends: 19246
+MACS dedup before removing bookends: 2693
+492
+MACS dedup after removing bookends: 2201
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 101058
+after filtering: 101058
+before filtering: 98260
+after filtering: 98260
+before filtering: 85703
+after filtering: 85703
+before filtering: 11859
+after filtering: 11859
+before filtering: 12556
+after filtering: 12556
+before filtering: 13918
+after filtering: 13918
+[101058, 98260, 85703]
+[11859, 12556, 13918]
+original df length: 11859
+df length after join: 13316
+[[1.        0.0860397]
+ [0.0860397 1.       ]]
+original df length: 12556
+df length after join: 13822
+[[1.        0.1002311]
+ [0.1002311 1.       ]]
+original df length: 13918
+df length after join: 14906
+[[1.         0.11083318]
+ [0.11083318 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(101058, 0.05458251697045261), (98260, 0.05678811316914309), (85703, 0.06397675693966372)]
+[(11859, 0.34943924445568764), (12556, 0.3787830519273654), (13918, 0.3986923408535709)]
+MACS2 raw: 101058 peaks, 5.46% overlap with deduplicated peaks
+MACS2 raw: 98260 peaks, 5.68% overlap with deduplicated peaks
+MACS2 raw: 85703 peaks, 6.40% overlap with deduplicated peaks
+MACS2 deduplicated: 11859 peaks, 34.94% overlap with raw peaks
+MACS2 deduplicated: 12556 peaks, 37.88% overlap with raw peaks
+MACS2 deduplicated: 13918 peaks, 39.87% overlap with raw peaks
+[(101058, 98260, 40955), (101058, 85703, 38280), (98260, 85703, 38511)]
+[(11859, 12556, 8783), (11859, 13918, 8357), (12556, 13918, 9143)]
+['100' '000' '001' '010' '011' '110' '111' '101']
+['001' '011' '111' '101' '100' '000' '110' '010']
+39693 10541
+39693 10541
+MACS raw before removing bookends: 39693
+0
+MACS raw after removing bookends: 39693
+MACS dedup before removing bookends: 10541
+0
+MACS dedup after removing bookends: 10541
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 101058
+after filtering: 25937
+before filtering: 98260
+after filtering: 25250
+before filtering: 85703
+after filtering: 21063
+before filtering: 11859
+after filtering: 5094
+before filtering: 12556
+after filtering: 4995
+before filtering: 13918
+after filtering: 4258
+[25937, 25250, 21063]
+[5094, 4995, 4258]
+original df length: 5094
+df length after join: 5199
+[[1.         0.14520623]
+ [0.14520623 1.        ]]
+original df length: 4995
+df length after join: 5080
+[[1.         0.15034184]
+ [0.15034184 1.        ]]
+original df length: 4258
+df length after join: 4333
+[[1.         0.17883788]
+ [0.17883788 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(25937, 0.03466090912595905), (25250, 0.03675247524752475), (21063, 0.048093813796705125)]
+[(5094, 0.1668629760502552), (4995, 0.1915915915915916), (4258, 0.2247534053546266)]
+MACS2 raw: 25937 peaks, 3.47% overlap with deduplicated peaks
+MACS2 raw: 25250 peaks, 3.68% overlap with deduplicated peaks
+MACS2 raw: 21063 peaks, 4.81% overlap with deduplicated peaks
+MACS2 deduplicated: 5094 peaks, 16.69% overlap with raw peaks
+MACS2 deduplicated: 4995 peaks, 19.16% overlap with raw peaks
+MACS2 deduplicated: 4258 peaks, 22.48% overlap with raw peaks
+[(25937, 25250, 12087), (25937, 21063, 11950), (25250, 21063, 12036)]
+[(5094, 4995, 3522), (5094, 4258, 2861), (4995, 4258, 3023)]
+['010' '000' '100' '001' '101' '111' '110' '011']
+['001' '011' '000' '100' '010' '111' '110' '101']
+11567 3281
+11567 3281
+MACS raw before removing bookends: 11567
+0
+MACS raw after removing bookends: 11567
+MACS dedup before removing bookends: 3281
+0
+MACS dedup after removing bookends: 3281
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 101058
+after filtering: 101058
+before filtering: 98260
+after filtering: 98260
+before filtering: 85703
+after filtering: 85703
+before filtering: 11859
+after filtering: 11859
+before filtering: 12556
+after filtering: 12556
+before filtering: 13918
+after filtering: 13918
+[101058, 98260, 85703]
+[11859, 12556, 13918]
+original df length: 11859
+df length after join: 13316
+[[1.        0.0860397]
+ [0.0860397 1.       ]]
+original df length: 12556
+df length after join: 13822
+[[1.        0.1002311]
+ [0.1002311 1.       ]]
+original df length: 13918
+df length after join: 14906
+[[1.         0.11083318]
+ [0.11083318 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(101058, 0.05458251697045261), (98260, 0.05678811316914309), (85703, 0.06397675693966372)]
+[(11859, 0.34943924445568764), (12556, 0.3787830519273654), (13918, 0.3986923408535709)]
+MACS2 raw: 101058 peaks, 5.46% overlap with deduplicated peaks
+MACS2 raw: 98260 peaks, 5.68% overlap with deduplicated peaks
+MACS2 raw: 85703 peaks, 6.40% overlap with deduplicated peaks
+MACS2 deduplicated: 11859 peaks, 34.94% overlap with raw peaks
+MACS2 deduplicated: 12556 peaks, 37.88% overlap with raw peaks
+MACS2 deduplicated: 13918 peaks, 39.87% overlap with raw peaks
+[(101058, 98260, 40955), (101058, 85703, 38280), (98260, 85703, 38511)]
+[(11859, 12556, 8783), (11859, 13918, 8357), (12556, 13918, 9143)]
+['100' '000' '001' '010' '011' '110' '111' '101']
+['001' '011' '111' '101' '100' '000' '110' '010']
+122924 20732
+122924 20732
+MACS raw before removing bookends: 122924
+36156
+MACS raw after removing bookends: 86768
+MACS dedup before removing bookends: 20732
+6894
+MACS dedup after removing bookends: 13838
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 101058
+after filtering: 25937
+before filtering: 98260
+after filtering: 25250
+before filtering: 85703
+after filtering: 21063
+before filtering: 11859
+after filtering: 5094
+before filtering: 12556
+after filtering: 4995
+before filtering: 13918
+after filtering: 4258
+[25937, 25250, 21063]
+[5094, 4995, 4258]
+original df length: 5094
+df length after join: 5199
+[[1.         0.14520623]
+ [0.14520623 1.        ]]
+original df length: 4995
+df length after join: 5080
+[[1.         0.15034184]
+ [0.15034184 1.        ]]
+original df length: 4258
+df length after join: 4333
+[[1.         0.17883788]
+ [0.17883788 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(25937, 0.03466090912595905), (25250, 0.03675247524752475), (21063, 0.048093813796705125)]
+[(5094, 0.1668629760502552), (4995, 0.1915915915915916), (4258, 0.2247534053546266)]
+MACS2 raw: 25937 peaks, 3.47% overlap with deduplicated peaks
+MACS2 raw: 25250 peaks, 3.68% overlap with deduplicated peaks
+MACS2 raw: 21063 peaks, 4.81% overlap with deduplicated peaks
+MACS2 deduplicated: 5094 peaks, 16.69% overlap with raw peaks
+MACS2 deduplicated: 4995 peaks, 19.16% overlap with raw peaks
+MACS2 deduplicated: 4258 peaks, 22.48% overlap with raw peaks
+[(25937, 25250, 12087), (25937, 21063, 11950), (25250, 21063, 12036)]
+[(5094, 4995, 3522), (5094, 4258, 2861), (4995, 4258, 3023)]
+['010' '000' '100' '001' '101' '111' '110' '011']
+['001' '011' '000' '100' '010' '111' '110' '101']
+29940 7197
+29940 7197
+MACS raw before removing bookends: 29940
+9610
+MACS raw after removing bookends: 20330
+MACS dedup before removing bookends: 7197
+2052
+MACS dedup after removing bookends: 5145
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 41677
+after filtering: 41677
+before filtering: 40660
+after filtering: 40660
+before filtering: 41242
+after filtering: 41242
+before filtering: 21798
+after filtering: 21798
+before filtering: 23397
+after filtering: 23397
+before filtering: 32193
+after filtering: 32193
+[41677, 40660, 41242]
+[21798, 23397, 32193]
+original df length: 21798
+df length after join: 21841
+[[1.         0.44366425]
+ [0.44366425 1.        ]]
+original df length: 23397
+df length after join: 23448
+[[1.         0.40253498]
+ [0.40253498 1.        ]]
+original df length: 32193
+df length after join: 32398
+[[1.         0.46555854]
+ [0.46555854 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(41677, 0.11627516375938768), (40660, 0.11805213969503198), (41242, 0.38164977450172155)]
+[(21798, 0.981420313790256), (23397, 0.9818780185493867), (32193, 0.9653030161836424)]
+MACS2 raw: 41677 peaks, 11.63% overlap with deduplicated peaks
+MACS2 raw: 40660 peaks, 11.81% overlap with deduplicated peaks
+MACS2 raw: 41242 peaks, 38.16% overlap with deduplicated peaks
+MACS2 deduplicated: 21798 peaks, 98.14% overlap with raw peaks
+MACS2 deduplicated: 23397 peaks, 98.19% overlap with raw peaks
+MACS2 deduplicated: 32193 peaks, 96.53% overlap with raw peaks
+[(41677, 40660, 28944), (41677, 41242, 27998), (40660, 41242, 27267)]
+[(21798, 23397, 15412), (21798, 32193, 20012), (23397, 32193, 21474)]
+['001' '101' '111' '000' '011' '100' '110' '010']
+['100' '101' '000' '001' '111' '110' '010' '011']
+34032 17036
+34032 17036
+MACS raw before removing bookends: 34032
+0
+MACS raw after removing bookends: 34032
+MACS dedup before removing bookends: 17036
+0
+MACS dedup after removing bookends: 17036
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 41677
+after filtering: 22954
+before filtering: 40660
+after filtering: 21872
+before filtering: 41242
+after filtering: 22722
+before filtering: 21798
+after filtering: 8785
+before filtering: 23397
+after filtering: 7843
+before filtering: 32193
+after filtering: 11630
+[22954, 21872, 22722]
+[8785, 7843, 11630]
+original df length: 8785
+df length after join: 8793
+[[1.         0.50297834]
+ [0.50297834 1.        ]]
+original df length: 7843
+df length after join: 7848
+[[1.         0.46220966]
+ [0.46220966 1.        ]]
+original df length: 11630
+df length after join: 11713
+[[1.         0.49662671]
+ [0.49662671 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(22954, 0.12599111266010282), (21872, 0.11242684711046086), (22722, 0.3078074113194261)]
+[(8785, 0.9762094479225953), (7843, 0.9727145225041438), (11630, 0.9769561478933791)]
+MACS2 raw: 22954 peaks, 12.60% overlap with deduplicated peaks
+MACS2 raw: 21872 peaks, 11.24% overlap with deduplicated peaks
+MACS2 raw: 22722 peaks, 30.78% overlap with deduplicated peaks
+MACS2 deduplicated: 8785 peaks, 97.62% overlap with raw peaks
+MACS2 deduplicated: 7843 peaks, 97.27% overlap with raw peaks
+MACS2 deduplicated: 11630 peaks, 97.70% overlap with raw peaks
+[(22954, 21872, 16451), (22954, 22722, 16364), (21872, 22722, 15685)]
+[(8785, 7843, 6193), (8785, 11630, 7948), (7843, 11630, 7276)]
+['001' '000' '100' '010' '110' '111' '011' '101']
+['001' '101' '111' '110' '010' '000' '100' '011']
+18597 6297
+18597 6297
+MACS raw before removing bookends: 18597
+0
+MACS raw after removing bookends: 18597
+MACS dedup before removing bookends: 6297
+0
+MACS dedup after removing bookends: 6297
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 41677
+after filtering: 41677
+before filtering: 40660
+after filtering: 40660
+before filtering: 41242
+after filtering: 41242
+before filtering: 21798
+after filtering: 21798
+before filtering: 23397
+after filtering: 23397
+before filtering: 32193
+after filtering: 32193
+[41677, 40660, 41242]
+[21798, 23397, 32193]
+original df length: 21798
+df length after join: 21841
+[[1.         0.44366425]
+ [0.44366425 1.        ]]
+original df length: 23397
+df length after join: 23448
+[[1.         0.40253498]
+ [0.40253498 1.        ]]
+original df length: 32193
+df length after join: 32398
+[[1.         0.46555854]
+ [0.46555854 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(41677, 0.11627516375938768), (40660, 0.11805213969503198), (41242, 0.38164977450172155)]
+[(21798, 0.981420313790256), (23397, 0.9818780185493867), (32193, 0.9653030161836424)]
+MACS2 raw: 41677 peaks, 11.63% overlap with deduplicated peaks
+MACS2 raw: 40660 peaks, 11.81% overlap with deduplicated peaks
+MACS2 raw: 41242 peaks, 38.16% overlap with deduplicated peaks
+MACS2 deduplicated: 21798 peaks, 98.14% overlap with raw peaks
+MACS2 deduplicated: 23397 peaks, 98.19% overlap with raw peaks
+MACS2 deduplicated: 32193 peaks, 96.53% overlap with raw peaks
+[(41677, 40660, 28944), (41677, 41242, 27998), (40660, 41242, 27267)]
+[(21798, 23397, 15412), (21798, 32193, 20012), (23397, 32193, 21474)]
+['001' '101' '111' '000' '011' '100' '110' '010']
+['100' '101' '000' '001' '111' '110' '010' '011']
+85697 41375
+85697 41375
+MACS raw before removing bookends: 85697
+38390
+MACS raw after removing bookends: 47307
+MACS dedup before removing bookends: 41375
+14970
+MACS dedup after removing bookends: 26405
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  1
+These will be the number of bases on either side of the peak summit to grab sequences from:
+interval_size_lower: 124
+interval_size_upper: 125
+before filtering: 41677
+after filtering: 22954
+before filtering: 40660
+after filtering: 21872
+before filtering: 41242
+after filtering: 22722
+before filtering: 21798
+after filtering: 8785
+before filtering: 23397
+after filtering: 7843
+before filtering: 32193
+after filtering: 11630
+[22954, 21872, 22722]
+[8785, 7843, 11630]
+original df length: 8785
+df length after join: 8793
+[[1.         0.50297834]
+ [0.50297834 1.        ]]
+original df length: 7843
+df length after join: 7848
+[[1.         0.46220966]
+ [0.46220966 1.        ]]
+original df length: 11630
+df length after join: 11713
+[[1.         0.49662671]
+ [0.49662671 1.        ]]
+warning: code currently doesn't account for when multiple overlaps occur for a single peak
+[(22954, 0.12599111266010282), (21872, 0.11242684711046086), (22722, 0.3078074113194261)]
+[(8785, 0.9762094479225953), (7843, 0.9727145225041438), (11630, 0.9769561478933791)]
+MACS2 raw: 22954 peaks, 12.60% overlap with deduplicated peaks
+MACS2 raw: 21872 peaks, 11.24% overlap with deduplicated peaks
+MACS2 raw: 22722 peaks, 30.78% overlap with deduplicated peaks
+MACS2 deduplicated: 8785 peaks, 97.62% overlap with raw peaks
+MACS2 deduplicated: 7843 peaks, 97.27% overlap with raw peaks
+MACS2 deduplicated: 11630 peaks, 97.70% overlap with raw peaks
+[(22954, 21872, 16451), (22954, 22722, 16364), (21872, 22722, 15685)]
+[(8785, 7843, 6193), (8785, 11630, 7948), (7843, 11630, 7276)]
+['001' '000' '100' '010' '110' '111' '011' '101']
+['001' '101' '111' '110' '010' '000' '100' '011']
+47062 14094
+47062 14094
+MACS raw before removing bookends: 47062
+21226
+MACS raw after removing bookends: 25836
+MACS dedup before removing bookends: 14094
+4681
+MACS dedup after removing bookends: 9413
+macs_raw_overhang_indices overhangs:  0
+macs_dedup_overhang_indices overhangs:  0
+RUNNING SPECIES:  Nmel MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  Nmel MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  Nmel MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  Nmel MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  Apur MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  Apur MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  Apur MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  Apur MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  Avir MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  Avir MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  Avir MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  Avir MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  Aaur MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  Aaur MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  Aaur MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  Aaur MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  Lvie MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  Lvie MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  Lvie MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  Lvie MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  Bimp MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  Bimp MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  Bimp MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  Bimp MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  BimpMET MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  BimpMET MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  BimpMET MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  BimpMET MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  BimpDMSO MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  BimpDMSO MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  BimpDMSO MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  BimpDMSO MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  Hlig MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  Hlig MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  Hlig MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  Hlig MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  Hqua MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  Hqua MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  Hqua MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  Hqua MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  Lzep MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  Lzep MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  Lzep MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  Lzep MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  Lbal MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  Lbal MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  Lbal MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  Lbal MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2
+RUNNING SPECIES:  Amel MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  0
+RUNNING SPECIES:  Amel MIN_BIOREP_SUPPORT:  3 FOLD_DIFF:  2
+RUNNING SPECIES:  Amel MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  0
+RUNNING SPECIES:  Amel MIN_BIOREP_SUPPORT:  2 FOLD_DIFF:  2

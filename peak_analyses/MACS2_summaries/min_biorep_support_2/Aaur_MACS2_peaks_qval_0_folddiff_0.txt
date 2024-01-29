@@ -1,0 +1,2 @@
+species raw dedup 
+Aaur 29100 3555 

@@ -1,2 +1,0 @@
-species raw dedup 
-BimpDMSO 12818 509 
